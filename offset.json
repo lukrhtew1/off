@@ -5,15 +5,15 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
 
-  "Il2cppGetHandle": "0xD5A7830",
-  "MainCamera_TypeInfo": "0xD28C688",
+  "Il2cppGetHandle": "0xD598A20",
+  "MainCamera_TypeInfo": "0xD21FAA0",
   "BasePlayer_TypeInfo": "0xCF0FA58",
 
   "MainCamera": {
     "Camera": "0xC0"
   },
 
-  "BaseNetworkable_TypeInfo": "0xD242DF8",
+  "BaseNetworkable_TypeInfo": "0xD21FA48",
   "ClientEntities": "0x10",
 
   "EntityList": "0x10",
