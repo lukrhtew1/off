@@ -1,0 +1,28 @@
+{
+  "DecryptClientEntities": {
+    "xorKey": "0x94F36EF",
+    "shiftLeft": 23,
+    "shiftRight": 9,
+    "addConst": "896037734"
+  },
+
+  "DecryptEntityList": {
+    "shiftLeft": 8,
+    "byteExtractIndex": 3,
+    "subConst": "290628251",
+    "xorKey": "0x80F050EA"
+  },
+
+  "DecryptInventory": {
+    "shiftLeft": 6,
+    "shiftRight": 26,
+    "addConst": "1296802689",
+    "xorKey": "0x6B5B293A"
+  },
+
+  "DecryptClActiveItem": {
+    "addConst1": "2136895804",
+    "rotateLeft": 19,
+    "addConst2": "1080873809"
+  }
+}
