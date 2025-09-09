@@ -41,7 +41,7 @@
   },
 
   "PlayerInventory": {
-    "containerBelt": "0x78",
+    "containerBelt": "0x38",
     "containerWear": "0x60"
   },
 
@@ -54,7 +54,7 @@
   },
 
   "ItemDefinition": {
-    "itemid": "0x30",
+    "itemid": "0x50",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
