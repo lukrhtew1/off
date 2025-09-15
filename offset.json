@@ -14,7 +14,7 @@
   },
 
   "BaseNetworkable_TypeInfo": "0xD1E8200",
-  "ClientEntities": "0x28",
+  "ClientEntities": "0x18",
 
   "EntityList": "0x10",
   "BufferListOffset": "0x20",
