@@ -41,20 +41,20 @@
   },
 
   "PlayerInventory": {
-    "containerBelt": "0x58",
+    "containerBelt": "0x28",
     "containerWear": "0x60"
   },
 
   "Item": {
-    "ItemDefinition": "0x40"
+    "ItemDefinition": "0xB8"
   },
 
   "ItemContainer": {
-    "itemList": "0x38"
+    "itemList": "0x18"
   },
 
   "ItemDefinition": {
-    "itemid": "0x28",
+    "itemid": "0x60",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
