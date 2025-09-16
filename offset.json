@@ -20,15 +20,15 @@
   "BufferListOffset": "0x20",
 
   "BasePlayer": {
-    "playerModel": "0x598",
+    "playerModel": "0x5B0",
     "PlayerFlags": "0x588",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
     "clActiveItem": "0x490",
     "eyes": "0x400",
-    "inventory": "0x528",
-    "_displayName": "0x358",
-    "playerInput": "0x410",
+    "inventory": "0x298",
+    "_displayName": "0x550",
+    "playerInput": "0x4C8",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44"
   },
