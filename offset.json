@@ -5,19 +5,19 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
 
-  "Il2cppGetHandle": "0xD58E700",
-  "MainCamera_TypeInfo": "0xD27C098‬",
+  "Il2cppGetHandle": "0xD554A60",
+  "MainCamera_TypeInfo": "0xD1DB760‬",
   "BasePlayer_TypeInfo": "0xD17C3A0",
 
   "MainCamera": {
     "Camera": "0xC0"
   },
 
-  "BaseNetworkable_TypeInfo": "0xD226F58",
-  "ClientEntities": "0x18",
+  "BaseNetworkable_TypeInfo": "0xD1FD838",
+  "ClientEntities": "0x20",
 
   "EntityList": "0x10",
-  "BufferListOffset": "0x18",
+  "BufferListOffset": "0x20",
 
   "BasePlayer": {
     "playerModel": "0x598",
