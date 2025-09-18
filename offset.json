@@ -23,6 +23,10 @@
     "playerModel": "0x5B0",
     "PlayerFlags": "0x588",
     "prefabName": "0x30",
+
+    "IsVisible": "0x170",
+    "IsAnimatorVisible": "0x171",
+    "IsShadowVisible": "0x172",
     "BodyAngles": "0x44",
     "clActiveItem": "0x490",
     "eyes": "0x400",
