@@ -1,38 +1,49 @@
 {
   "ClientEntities": [
     { "op": "sub", "value": "0x5C16193D" },
-    { "op": "shl_or", "value": "14" },
-    { "op": "shr_or", "value": "18" },
+    { "op": "shl_keep", "value": "14" },
+    { "op": "shr_keep", "value": "18" },
+    { "op": "or" },
     { "op": "sub", "value": "0x6AF6E795" }
-  ],
+  ]
 
   "EntityList": [
     { "op": "add", "value": "-879541231" },
-    { "op": "shl_or", "value": "25" },
-    { "op": "shr_or", "value": "7" },
+    { "op": "shl_keep", "value": "25" },
+    { "op": "shr_keep", "value": "7" },
+    { "op": "or" },
     { "op": "add", "value": "-1602652980" },
-    { "op": "shl_or", "value": "23" },
-    { "op": "shr_or", "value": "9" }
-  ],
+    { "op": "shl_keep", "value": "23" },
+    { "op": "shr_keep", "value": "9" },
+    { "op": "or" }
+  ]
 
   "Inventory": [
-    { "op": "shr", "value": "6" },
-    { "op": "shl", "value": "26" },
+    { "op": "shr_keep", "value": "6" },
+    { "op": "shl_keep", "value": "26" },
+    { "op": "or" },
     { "op": "xor", "value": "-366300394" },
-    { "op": "shl_or", "value": "16" },
-    { "op": "shr_or", "value": "16" }
-  ],
-
+    { "op": "shl_keep", "value": "16" },
+    { "op": "shr_keep", "value": "16" },
+    { "op": "or" }
+  ]
+  
   "ClActiveItem": [
     { "op": "add", "value": "0xFDAA5A0A" },
-    { "op": "rol", "value": "8" },
+    { "op": "shl_keep", "value": "8" },
+    { "op": "shr_keep", "value": "24" },
+    { "op": "or" },
     { "op": "sub", "value": "0x3080809B" }
-  ],
-
+  ]
+  
   "PlayerEyes": [
     { "op": "sub", "value": "1872357706" },
-    { "op": "rol", "value": "11" },
+    { "op": "shl_keep", "value": "11" },
+    { "op": "shr_keep", "value": "21" },
+    { "op": "or" },
     { "op": "xor", "value": "0xF3570F1B" },
-    { "op": "rol", "value": "23" }
+    { "op": "shl_keep", "value": "23" },
+    { "op": "shr_keep", "value": "9" },
+    { "op": "or" }
   ]
 }
