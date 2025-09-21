@@ -19,15 +19,11 @@
   ],
 
   "Inventory": [
-    { "op": "shr_keep", "value": "6" },
-    { "op": "shl_keep", "value": "26" },
-    { "op": "or" },
-    { "op": "xor", "value": "-366300394" },
-    { "op": "shl_keep", "value": "16" },
-    { "op": "shr_keep", "value": "16" },
-    { "op": "or" }
+    { "op": "ror", "value": "6" },
+    { "op": "xor", "value": "0xEA2AB316" },
+    { "op": "rol", "value": "16" }
   ],
-
+  
   "ClActiveItem": [
     { "op": "add", "value": "0xFDAA5A0A" },
     { "op": "shl_keep", "value": "8" },
