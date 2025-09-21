@@ -5,7 +5,7 @@
     { "op": "shr_keep", "value": "18" },
     { "op": "or" },
     { "op": "sub", "value": "0x6AF6E795" }
-  ]
+  ],
 
   "EntityList": [
     { "op": "add", "value": "-879541231" },
@@ -16,7 +16,7 @@
     { "op": "shl_keep", "value": "23" },
     { "op": "shr_keep", "value": "9" },
     { "op": "or" }
-  ]
+  ],
 
   "Inventory": [
     { "op": "shr_keep", "value": "6" },
@@ -26,16 +26,16 @@
     { "op": "shl_keep", "value": "16" },
     { "op": "shr_keep", "value": "16" },
     { "op": "or" }
-  ]
-  
+  ],
+
   "ClActiveItem": [
     { "op": "add", "value": "0xFDAA5A0A" },
     { "op": "shl_keep", "value": "8" },
     { "op": "shr_keep", "value": "24" },
     { "op": "or" },
     { "op": "sub", "value": "0x3080809B" }
-  ]
-  
+  ],
+
   "PlayerEyes": [
     { "op": "sub", "value": "1872357706" },
     { "op": "shl_keep", "value": "11" },
