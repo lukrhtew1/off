@@ -50,17 +50,15 @@
   },
 
   "Item": {
-    "ItemDefinition": "0x80",
-    "heldentity": "0x70",
-    "recoilproperties": "0x350",
-
-    "newrecoilproperties": "0x80",
-    
-    "RecoilYawMin": "0x18",
-    "RecoilYawMax": "0x1C",
-    "RecoilpitchMin": "0x20",
-    "RecoilpitchMax": "0x24"
-  },
+      "ItemDefinition": "0x80",
+      "heldentity": "0x70",
+      "recoilproperties": "0x350",
+      "newrecoilproperties": "0x80",
+      "RecoilYawMin": "0x18",
+      "RecoilYawMax": "0x1C",
+      "RecoilpitchMin": "0x20",
+      "RecoilpitchMax": "0x24"
+  }
 
   "ItemContainer": {
     "itemList": "0x60"
