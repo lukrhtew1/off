@@ -29,9 +29,8 @@
   
   "ClActiveItem": [
       { "op": "add", "value": "0x06B4372C" },
-      { "op": "shl_keep", "value": "28" },
-      { "op": "shr_keep", "value": "4" },
-      { "op": "or" },
+      { "op": "shl", "value": "28" },
+      { "op": "or_keep", "value": "0" },
       { "op": "add", "value": "0x6F15660B" }
   ],
 
