@@ -33,7 +33,6 @@
     { "op": "shr_keep", "value": "0x4" },
     { "op": "or" },
     { "op": "add", "value": "0x6F15660B" },
-    { "op": "xor", "value": "0x0" }
   ],
 
   "PlayerEyes": [
