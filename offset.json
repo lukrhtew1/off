@@ -17,7 +17,7 @@
   "ClientEntities": "0x8",
 
   "EntityList": "0x10",
-  "BufferListOffset": "0x20",
+  "BufferListOffset": "0x10",
 
   "BasePlayer": {
     "playerModel": "0x2E8",
