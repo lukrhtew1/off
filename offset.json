@@ -28,11 +28,11 @@
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
     "BodyAngles": "0x44",
-    "clActiveItem": "0x490",
+    "clActiveItem": "0x4A0",
     "eyes": "0x400",
     "inventory": "0x2E0",
     "_displayName": "0x6A0",
-    "playerInput": "0x288",
+    "playerInput": "0x278",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44"
   },
