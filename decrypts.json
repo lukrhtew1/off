@@ -13,6 +13,7 @@
     { "op": "shr_keep", "value": "0xE" },
     { "op": "shl_keep", "value": "0x12" },
     { "op": "or" },
+    { "op": "sub", "value": "0x62D41598" },
     { "op": "xor", "value": "0xDEC38621" }
   ],
   
