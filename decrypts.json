@@ -18,8 +18,8 @@
   ],
   
   "Inventory": [
-    { "op": "shr_keep", "value": "0xC" },
     { "op": "shl_keep", "value": "0x14" },
+    { "op": "shr_keep", "value": "0xC" },
     { "op": "or" },
     { "op": "xor", "value": "0x2EA173EE" },
     { "op": "shl_keep", "value": "0x18" },
