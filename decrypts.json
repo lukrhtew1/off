@@ -18,9 +18,13 @@
   ],
   
   "Inventory": [
-    { "op": "ror", "value": "6" },
-    { "op": "xor", "value": "0xEA2AB316" },
-    { "op": "rol", "value": "16" }
+    { "op": "shr_keep", "value": "0xC" },
+    { "op": "shl_keep", "value": "0x14" },
+    { "op": "or" },
+    { "op": "xor", "value": "0x2EA173EE" },
+    { "op": "shl_keep", "value": "0x18" },
+    { "op": "shr_keep", "value": "0x8" },
+    { "op": "or" }
   ],
   
   "ClActiveItem": [
