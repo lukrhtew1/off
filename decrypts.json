@@ -29,7 +29,7 @@
   
   "ClActiveItem": [
       { "op": "add", "value": "0x06B4372C" },
-      { "op": "rol", "value": "28" },
+      { "op": "ror", "value": "4" },
       { "op": "add", "value": "0x6F15660B" }
   ],
 
