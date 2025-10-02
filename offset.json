@@ -16,8 +16,8 @@
   "BaseNetworkable_TypeInfo": "0xD3FCE30",
   "ClientEntities": "0x8",
 
-  "EntityList": "0x10",
-  "BufferListOffset": "0x28",
+  "EntityList": "0x28",
+  "BufferListOffset": "0x18",
 
   "BasePlayer": {
     "playerModel": "0x2E8",
