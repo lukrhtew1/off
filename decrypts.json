@@ -28,11 +28,11 @@
   ],
   
   "ClActiveItem": [
-    { "op": "add", "value": "0xFDAA5A0A" },
-    { "op": "shl_keep", "value": "8" },
-    { "op": "shr_keep", "value": "24" },
+    { "op": "add", "value": "0x06B4372C" },
+    { "op": "shl_keep", "value": "0x1C" },
+    { "op": "shr_keep", "value": "0x4" },
     { "op": "or" },
-    { "op": "sub", "value": "0x3080809B" }
+    { "op": "add", "value": "0x6F15660B" }
   ],
 
   "PlayerEyes": [
