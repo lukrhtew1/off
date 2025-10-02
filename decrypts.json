@@ -23,10 +23,10 @@
     { "op": "or" },
     { "op": "xor", "value": "0x2EA173EE" },
     { "op": "shl_keep", "value": "0x18" },
-    { "op": "shr_keep", "value": "0x8" },
+    { "op": "shr", "value": "0x8" },
     { "op": "or" }
   ],
-  
+
   "ClActiveItem": [
     { "op": "add", "value": "0x06B4372C" },
     { "op": "shl_keep", "value": "0x1C" },
