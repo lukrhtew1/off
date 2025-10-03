@@ -20,7 +20,7 @@
   "BufferListOffset": "0x18",
 
   "BasePlayer": {
-    "playerModel": "0x2E8",
+    "playerModel": "0x5B8",
     "PlayerFlags": "0x598",
     "prefabName": "0x30",
 
@@ -30,9 +30,9 @@
     "BodyAngles": "0x44",
     "clActiveItem": "0x4A0",
     "eyes": "0x400",
-    "inventory": "0x2E0",
-    "_displayName": "0x6A0",
-    "playerInput": "0x278",
+    "inventory": "0x5D8",
+    "_displayName": "0x608",
+    "playerInput": "0x419",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44"
   },
@@ -45,7 +45,7 @@
   },
 
   "PlayerInventory": {
-    "containerBelt": "0x58",
+    "containerBelt": "0x30",
     "containerWear": "0x60"
   },
 
