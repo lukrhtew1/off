@@ -24,7 +24,7 @@
     "PlayerFlags": "0x598",
     "prefabName": "0x30",
 
-    "IsVisible": "0x170",
+    "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
     "BodyAngles": "0x44",
