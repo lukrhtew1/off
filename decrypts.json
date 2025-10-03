@@ -1,19 +1,15 @@
 {
   "ClientEntities": [
-      { "op": "sub", "value": "0x69C0001" },
-      { "op": "rol", "value": "0x10" }, 
+      { "op": "sub", "value": "0x69C0081" },
+      { "op": "rol", "value": "0x10" },
       { "op": "xor", "value": "0xD75B9AC6" },
       { "op": "sub", "value": "0x74776D" }
   ],
   
   "EntityList": [
-      { "op": "shl", "value": "0x5" },
-      { "op": "shr_keep", "value": "0x1B" },
-      { "op": "or" },
+      { "op": "rol", "value": "0x5" },
       { "op": "xor", "value": "0xDEBA6848" },
-      { "op": "shl", "value": "0x15" },
-      { "op": "shr_keep", "value": "0xB" },
-      { "op": "or" }
+      { "op": "rol", "value": "0x15" }
   ],
   
   "Inventory": [
