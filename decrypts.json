@@ -7,13 +7,13 @@
   ],
   
   "EntityList": [
-    { "op": "shl_keep", "value": "0x5" },
-    { "op": "shr_keep", "value": "0x1B" },
-    { "op": "or" },
-    { "op": "xor", "value": "0xDEBA6848" },
-    { "op": "shl_keep", "value": "0x15" },
-    { "op": "shr_keep", "value": "0xB" },
-    { "op": "or" }
+      { "op": "shl", "value": "0x5" },
+      { "op": "shr_keep", "value": "0x1B" },
+      { "op": "or" },
+      { "op": "xor", "value": "0xDEBA6848" },
+      { "op": "shl", "value": "0x15" },
+      { "op": "shr_keep", "value": "0xB" },
+      { "op": "or" }
   ],
   
   "Inventory": [
