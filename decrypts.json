@@ -1,9 +1,9 @@
 {
   "ClientEntities": [
-    { "op": "sub", "value": "0x69C0081" },
+    { "op": "sub", "value": 0x69C0081 },
     { "op": "rol", "value": 16 },
-    { "op": "xor", "value": "0xD75B9AC6" },
-    { "op": "sub", "value": "0x74776D" }
+    { "op": "xor", "value": 0xD75B9AC6 },
+    { "op": "sub", "value": 0x74776D }
   ],
 
   "EntityList": [
