@@ -1,20 +1,15 @@
 {
   "ClientEntities": [
-    { "op": "shl_keep", "value": "0x18" },
-    { "op": "shr_keep", "value": "0x8" },
-    { "op": "or" },
-    { "op": "add", "value": "0x0D162452" },
-    { "op": "shl_keep", "value": "0x15" },
-    { "op": "shr_keep", "value": "0xB" },
-    { "op": "or" }
+    { "op": "sub", "value": "0x069C3C21" },
+    { "op": "rol", "value": "0x10" },
+    { "op": "xor", "value": "0xD75B9AC6" },
+    { "op": "sub", "value": "0x00744E0D" }
   ],
 
   "EntityList": [
-    { "op": "shl_keep", "value": "0x12" },
-    { "op": "shr_keep", "value": "0xE" },
-    { "op": "or" },
-    { "op": "sub", "value": "0x62D41598" },
-    { "op": "xor", "value": "0xDEC38621" }
+    { "op": "rol", "value": "0x5" },
+    { "op": "xor", "value": "0xDEBA6848" },
+    { "op": "rol", "value": "0x15" }
   ],
   
   "Inventory": [
