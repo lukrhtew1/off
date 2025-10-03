@@ -26,16 +26,5 @@
     { "op": "add", "value": "0x06B4372C" },
     { "op": "rol", "value": 28 },
     { "op": "add", "value": "0x6F15660B" }
-  ],
-
-  "PlayerEyes": [
-    { "op": "sub", "value": "1872357706" },
-    { "op": "shl_keep", "value": "11" },
-    { "op": "shr_keep", "value": "21" },
-    { "op": "or" },
-    { "op": "xor", "value": "0xF3570F1B" },
-    { "op": "shl_keep", "value": "23" },
-    { "op": "shr_keep", "value": "9" },
-    { "op": "or" }
   ]
 }
