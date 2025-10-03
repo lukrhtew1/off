@@ -1,11 +1,11 @@
 {
   "ClientEntities": [
-      { "op": "sub", "value": "0x69C0081" },
-      { "op": "rol", "value": "0x10" },
-      { "op": "xor", "value": "0xD75B9AC6" },
-      { "op": "sub", "value": "0x74776D" }
+    { "op": "sub", "value": "0x69C0081" },
+    { "op": "rol", "value": 16 },
+    { "op": "xor", "value": "0xD75B9AC6" },
+    { "op": "sub", "value": "0x74776D" }
   ],
-  
+
   "EntityList": [
       { "op": "rol", "value": "0x5" },
       { "op": "xor", "value": "0xDEBA6848" },
