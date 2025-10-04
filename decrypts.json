@@ -1,21 +1,21 @@
 {
   "ClientEntities": [
-  { "op": "sub", "value": "0x450E6B1C" },
-  { "op": "rol", "value": 25 },
-  { "op": "add", "value": "0x720F0B5C" },
-  { "op": "rol", "value": 16 }
+    { "op": "sub", "value": "0x450E6B1C" },
+    { "op": "rol", "value": 25 },
+    { "op": "add", "value": "0x720F0B5C" },
+    { "op": "rol", "value": 16 }
   ],
-  
+
   "EntityList": [
-  { "op": "rol", "value": 26 },
-  { "op": "xor", "value": "0x1FCB9A98" },
-  { "op": "rol", "value": 29 }
+    { "op": "rol", "value": 26 },
+    { "op": "xor", "value": "0x1FCB9A98" },
+    { "op": "rol", "value": 29 }
   ],
-  
+
   "ActiveItem": [
-  { "op": "rol", "value": 26 },
-  { "op": "xor", "value": "0x591C3CCD" },
-  { "op": "add", "value": "0x38C2F398" },
-  { "op": "xor", "value": "0xF3921CD3" }
+    { "op": "rol", "value": 26 },
+    { "op": "xor", "value": "0x591C3CCD" },
+    { "op": "add", "value": "0x38C2F398" },
+    { "op": "xor", "value": "0xF3921CD3" }
   ]
 }
