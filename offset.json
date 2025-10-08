@@ -45,7 +45,7 @@
   },
 
   "PlayerInventory": {
-    "containerBelt": "0x58",
+    "containerBelt": "0x28",
     "containerWear": "0x60"
   },
 
