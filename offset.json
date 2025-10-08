@@ -45,13 +45,13 @@
   },
 
   "PlayerInventory": {
-    "containerBelt": "0x78",
+    "containerBelt": "0x58",
     "containerWear": "0x60"
   },
 
   "Item": {
-      "ItemDefinition": "0x28",
-      "heldentity": "0x80",
+      "ItemDefinition": "0x98",
+      "heldentity": "0x40",
       "recoilproperties": "0x358",
       "newrecoilproperties": "0x80",
       "RecoilYawMin": "0x18",
@@ -61,11 +61,11 @@
   },
 
   "ItemContainer": {
-    "itemList": "0x70"
+    "itemList": "0x68"
   },
 
   "ItemDefinition": {
-    "itemid": "0xD0",
+    "itemid": "0x20",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
