@@ -65,7 +65,7 @@
   },
 
   "ItemDefinition": {
-    "itemid": "0x20",
+    "itemid": "0xC8",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
