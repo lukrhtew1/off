@@ -5,22 +5,22 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
 
-  "Il2cppGetHandle": "0xD271040",
-  "MainCamera_TypeInfo": "0xCF81F60‬",
+  "Il2cppGetHandle": "0xD3247B0",
+  "MainCamera_TypeInfo": "0xD037438‬",
   "BasePlayer_TypeInfo": "0xD17C3A0",
 
   "MainCamera": {
-    "Camera": "0x58"
+    "Camera": "0x80"
   },
 
-  "BaseNetworkable_TypeInfo": "0xCF8A4B8",
-  "ClientEntities": "0x20",
+  "BaseNetworkable_TypeInfo": "0xD04CA68",
+  "ClientEntities": "0x8",
 
-  "EntityList": "0x10",
+  "EntityList": "0x18",
   "BufferListOffset": "0x10",
 
   "BasePlayer": {
-    "playerModel": "0x280",
+    "playerModel": "0x5A0",
     "PlayerFlags": "0x598",
     "prefabName": "0x30",
 
@@ -30,8 +30,8 @@
     "BodyAngles": "0x44",
     "clActiveItem": "0x4A0",
     "eyes": "0x400",
-    "inventory": "0x5A0",
-    "_displayName": "0x5B0",
+    "inventory": "0x458",
+    "_displayName": "0x3C0",
     "playerInput": "0x600",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44"
@@ -50,8 +50,8 @@
   },
 
   "Item": {
-      "ItemDefinition": "0x38",
-      "heldentity": "0x20",
+      "ItemDefinition": "0x58",
+      "heldentity": "0x40",
       "recoilproperties": "0x358",
       "newrecoilproperties": "0x80",
       "RecoilYawMin": "0x18",
@@ -61,11 +61,11 @@
   },
 
   "ItemContainer": {
-    "itemList": "0x68"
+    "itemList": "0x30"
   },
 
   "ItemDefinition": {
-    "itemid": "0x58",
+    "itemid": "0x20",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
