@@ -32,7 +32,7 @@
     "eyes": "0x400",
     "inventory": "0x458",
     "_displayName": "0x3C0",
-    "playerInput": "0x600",
+    "playerInput": "0x478",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44"
   },
