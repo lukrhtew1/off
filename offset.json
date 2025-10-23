@@ -51,7 +51,7 @@
 
   "Item": {
       "ItemDefinition": "0xD8",
-      "heldentity": "0x88",
+      "heldentity": "0x28",
       "recoilproperties": "0x358",
       "newrecoilproperties": "0x80",
       "RecoilYawMin": "0x18",
