@@ -5,22 +5,22 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
 
-  "Il2cppGetHandle": "0xD3247B0",
-  "MainCamera_TypeInfo": "0xD037438‬",
+  "Il2cppGetHandle": "0xD34FB50",
+  "MainCamera_TypeInfo": "0xD021868‬",
   "BasePlayer_TypeInfo": "0xD17C3A0",
 
   "MainCamera": {
-    "Camera": "0x80"
+    "Camera": "0x40"
   },
 
-  "BaseNetworkable_TypeInfo": "0xD04CA68",
-  "ClientEntities": "0x8",
+  "BaseNetworkable_TypeInfo": "0xD021830",
+  "ClientEntities": "0x28",
 
   "EntityList": "0x10",
   "BufferListOffset": "0x18",
 
   "BasePlayer": {
-    "playerModel": "0x5A0",
+    "playerModel": "0x5C8",
     "PlayerFlags": "0x598",
     "prefabName": "0x30",
 
@@ -31,8 +31,8 @@
     "clActiveItem": "0x4A0",
     "eyes": "0x400",
     "inventory": "0x458",
-    "_displayName": "0x3C0",
-    "playerInput": "0x478",
+    "_displayName": "0x418",
+    "playerInput": "0x5F0",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44"
   },
