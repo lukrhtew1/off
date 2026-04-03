@@ -11,6 +11,10 @@
     "Camera": "0x90"
   },
   "BaseNetworkable_TypeInfo": "0xe454bd0",
+  "ProjectileList": "0xd639de8",
+  "GraphicsFOV": "0xE457BB0",
+  "TODSky_TypeInfo": "0xe44d298",
+  "TODSky_StaticField": "0xB8",
   "ClientEntities": "0x30",
   "EntityList": "0x10",
   "BufferListOffset": "0x10",
@@ -29,7 +33,11 @@
     "_displayName": "0x318",
     "playerInput": "0x570",
     "bodyRotation": "0x34",
-    "bodyAngles": "0x44"
+    "bodyAngles": "0x44",
+    "lifeState": "0x270"
+  },
+  "PlayerModel": {
+    "velocity": "0x21c"
   },
   "PlayerEyes": {
     "viewOffset": "0x40",
@@ -56,6 +64,10 @@
     "osightAimConeScale": "0x3c4",
     "oStancePenalty": "0x3d0",
     "oAimconePenaltyPerShot": "0x3c0"
+  },
+  "HeldEntity": {
+    "magazine": "0x378",
+    "primaryMagazine": "0x380"
   },
   "ItemContainer": {
     "itemList": "0x10"
