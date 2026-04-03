@@ -4,68 +4,64 @@
   "TransformDataOffset": "0x18",
   "BoneList": "0x20",
   "BoneTransform": "0x10",
-
-  "Il2cppGetHandle": "0xD34FB50",
-  "MainCamera_TypeInfo": "0xD021868‬",
+  "Il2cppGetHandle": "0xe7a87d0",
+  "MainCamera_TypeInfo": "0xE463A88",
   "BasePlayer_TypeInfo": "0xD17C3A0",
-
   "MainCamera": {
-    "Camera": "0x40"
+    "Camera": "0x90"
   },
-
-  "BaseNetworkable_TypeInfo": "0xD021830",
-  "ClientEntities": "0x28",
-
+  "BaseNetworkable_TypeInfo": "0xe454bd0",
+  "ClientEntities": "0x30",
   "EntityList": "0x10",
-  "BufferListOffset": "0x18",
-
+  "BufferListOffset": "0x10",
   "BasePlayer": {
-    "playerModel": "0x5C8",
-    "PlayerFlags": "0x598",
+    "playerModel": "0x2c0",
+    "PlayerFlags": "0x630",
     "prefabName": "0x30",
-
+    "BodyAngles": "0x44",
+    "clActiveItem": "0x4e8",
+    "currentTeam": "0x4b8",
+    "eyes": "0x400",
+    "inventory": "0x730",
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "BodyAngles": "0x44",
-    "clActiveItem": "0x4A0",
-    "eyes": "0x400",
-    "inventory": "0x458",
-    "_displayName": "0x418",
-    "playerInput": "0x5F0",
+    "_displayName": "0x318",
+    "playerInput": "0x570",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44"
   },
-
   "PlayerEyes": {
     "viewOffset": "0x40",
     "bodyRotation__BackingField": "0x50",
     "eye_rotation": "0x6C",
     "body_rotation": "0x50"
   },
-
   "PlayerInventory": {
-    "containerBelt": "0x60",
+    "containerBelt": "0x58",
     "containerWear": "0x60"
   },
-
   "Item": {
-      "ItemDefinition": "0xD8",
-      "heldentity": "0x28",
-      "recoilproperties": "0x358",
-      "newrecoilproperties": "0x80",
-      "RecoilYawMin": "0x18",
-      "RecoilYawMax": "0x1C",
-      "RecoilpitchMin": "0x20",
-      "RecoilpitchMax": "0x24"
+    "ItemDefinition": "0x60",
+    "heldentity": "0x50",
+    "recoilproperties": "0x3a8",
+    "newrecoilproperties": "0x80",
+    "RecoilYawMin": "0x18",
+    "RecoilYawMax": "0x1C",
+    "RecoilpitchMin": "0x20",
+    "RecoilpitchMax": "0x24",
+    "oAimconeCurveScale": "0x60",
+    "oAimCone": "0x3b8",
+    "oHipAimCone": "0x3bc",
+    "osightAimConeScale": "0x3c4",
+    "oStancePenalty": "0x3d0",
+    "oAimconePenaltyPerShot": "0x3c0"
   },
-
   "ItemContainer": {
-    "itemList": "0x28"
+    "itemList": "0x10"
   },
-
   "ItemDefinition": {
-    "itemid": "0x78",
+    "itemid": "0x68",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
