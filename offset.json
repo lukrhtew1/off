@@ -65,5 +65,34 @@
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
+  },
+  "Decrypt": {
+    "ClientEntities": {
+      "readOffset": "0x18",
+      "laneCount": 2,
+      "program": [
+        { "op": "add", "imm": "0xf52ddf5e" },
+        { "op": "rol", "imm": 30 },
+        { "op": "sub", "imm": "0x1c883cf3" }
+      ]
+    },
+    "EntityList": {
+      "readOffset": "0x18",
+      "laneCount": 2,
+      "program": [
+        { "op": "add", "imm": "0x1c924bb9" },
+        { "op": "rol", "imm": 27 },
+        { "op": "add", "imm": "0xda3c33c9" },
+        { "op": "rol", "imm": 28 }
+      ]
+    },
+    "ActiveItem": {
+      "laneCount": 2,
+      "program": [
+        { "op": "rol", "imm": 30 },
+        { "op": "add", "imm": 868889664 },
+        { "op": "rol", "imm": 13 }
+      ]
+    }
   }
 }
