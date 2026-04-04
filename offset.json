@@ -13,9 +13,9 @@
   "BaseNetworkable_TypeInfo": "0xE472038",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xE4E2C88",
-  "FovWrapper": "0x1E4",
+  "FovWrapper": "0x350",
   "TODSky_TypeInfo": "0xe480c68",
-  "TODSky_InstancePtr": "0x70",
+  "TODSky_InstancePtr": "0x18",
   "ClientEntities": "0x28",
   "EntityList": "0x10",
   "BufferListOffset": "0x10",
@@ -48,10 +48,12 @@
   },
   "PlayerInventory": {
     "containerBelt": "0x58",
-    "containerWear": "0x78"
+    "containerWear": "0x60"
   },
   "Item": {
     "ItemDefinition": "0x98",
+    "currentHealth": "0x1c",
+    "amount": "0x28",
     "heldentity": "0x68",
     "recoilproperties": "0x3a8",
     "newrecoilproperties": "0x80",
@@ -64,7 +66,8 @@
     "oHipAimCone": "0x3bc",
     "osightAimConeScale": "0x3c4",
     "oStancePenalty": "0x3d0",
-    "oAimconePenaltyPerShot": "0x3c0"
+    "oAimconePenaltyPerShot": "0x3c0",
+    "maxHealth": "0xec"
   },
   "HeldEntity": {
     "magazine": "0x378",
