@@ -15,7 +15,7 @@
   "GraphicsFOV": "0xE4E2C88",
   "FovWrapper": "0x1E4",
   "TODSky_TypeInfo": "0xe480c68",
-  "TODSky_InstancePtr": "0x18",
+  "TODSky_InstancePtr": "0x70",
   "ClientEntities": "0x28",
   "EntityList": "0x10",
   "BufferListOffset": "0x10",
@@ -74,7 +74,7 @@
     "itemList": "0x70"
   },
   "ItemDefinition": {
-    "itemid": "0x8",
+    "itemid": "0xa0",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
