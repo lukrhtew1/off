@@ -52,7 +52,7 @@
   },
   "Item": {
     "ItemDefinition": "0x98",
-    "currentHealth": "0x1c",
+    "condition": "0x1c",
     "amount": "0x28",
     "heldentity": "0x68",
     "recoilproperties": "0x3a8",
@@ -67,7 +67,7 @@
     "osightAimConeScale": "0x3c4",
     "oStancePenalty": "0x3d0",
     "oAimconePenaltyPerShot": "0x3c0",
-    "maxHealth": "0xec"
+    "maxCondition": "0xec"
   },
   "HeldEntity": {
     "magazine": "0x378",
