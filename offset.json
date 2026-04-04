@@ -52,7 +52,7 @@
   },
   "Item": {
     "ItemDefinition": "0x98",
-    "heldentity": "0x38",
+    "heldentity": "0x68",
     "recoilproperties": "0x3a8",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
