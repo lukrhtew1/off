@@ -13,8 +13,9 @@
   "BaseNetworkable_TypeInfo": "0xE472038",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xE4E2C88",
+  "FovWrapper": "0x1E4",
   "TODSky_TypeInfo": "0xe480c68",
-  "TODSky_StaticField": "0xB8",
+  "TODSky_InstancePtr": "0x18",
   "ClientEntities": "0x28",
   "EntityList": "0x10",
   "BufferListOffset": "0x10",
@@ -73,12 +74,12 @@
     "itemList": "0x70"
   },
   "ItemDefinition": {
-    "itemid": "0xa0",
+    "itemid": "0x8",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
   },
- "Decrypt": {
+  "Decrypt": {
     "ClientEntities": {
       "readOffset": "0x18",
       "laneCount": 2,
@@ -106,6 +107,14 @@
         { "op": "add", "imm": 1904918084 },
         { "op": "rol", "imm": 4 },
         { "op": "xor", "imm": "0x5EC0AFBC" }
+      ]
+    },
+    "FovEncrypt": {
+      "laneCount": 1,
+      "program": [
+        { "op": "rol", "imm": 30 },
+        { "op": "sub", "imm": 1278626492 },
+        { "op": "xor", "imm": "0x320F3D0E" }
       ]
     }
   }
