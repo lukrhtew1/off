@@ -108,8 +108,7 @@
       "program": [
         { "op": "add", "imm": -1885583285 },
         { "op": "rol", "imm": 23 },
-        { "op": "xor", "imm": "0xB8E6DFDC" },
-        { "op": "shl", "imm": 3 }
+        { "op": "xor", "imm": "0xB8E6DFDC" }
       ]
     },
     "FovEncrypt": {
