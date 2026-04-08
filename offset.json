@@ -24,7 +24,7 @@
     "PlayerFlags": "0x630",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
-    "clActiveItem": "0x4e8",
+    "clActiveItem": "0x4E8",
     "currentTeam": "0x4b8",
     "eyes": "0x400",
     "inventory": "0x730",
@@ -77,7 +77,7 @@
     "itemList": "0x30"
   },
   "ItemDefinition": {
-    "itemid": "0xd0",
+    "itemid": "0xE8",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
