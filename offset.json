@@ -12,8 +12,8 @@
   },
   "BaseNetworkable_TypeInfo": "0xe4c58e8",
   "ProjectileList": "0xd639de8",
-  "GraphicsFOV": "0xE4E2C88",
-  "FovWrapper": "0x350",
+  "GraphicsFOV": "0xE4C5888",
+  "FovWrapper": "0x320",
   "TODSky_TypeInfo": "0xA62DD0",
   "TODSky_InstancePtr": "0x28",
   "ClientEntities": "0x10",
@@ -116,9 +116,10 @@
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
-        { "op": "rol", "imm": 30 },
-        { "op": "sub", "imm": 1278626492 },
-        { "op": "xor", "imm": "0x320F3D0E" }
+        { "op": "sub", "imm": 614806326 },
+        { "op": "xor", "imm": "0x2156CF5B" },
+        { "op": "sub", "imm": 180878286 },
+        { "op": "rol", "imm": 18 }
       ]
     }
   }
