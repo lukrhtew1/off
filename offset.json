@@ -106,10 +106,11 @@
     "ActiveItem": {
       "laneCount": 2,
       "program": [
-        { "op": "rol", "imm": 5 },
-        { "op": "add", "imm": 1904918084 },
-        { "op": "rol", "imm": 4 },
-        { "op": "xor", "imm": "0x5EC0AFBC" }
+        { "op": "add", "imm": -1885583285 },
+        { "op": "rol", "imm": 23 },
+        { "op": "xor", "imm": "0xB8E6DFDC" },
+        { "op": "shl", "imm": 3 },
+        { "op": "fold_or_hi32", "imm": 0 }
       ]
     },
     "FovEncrypt": {
