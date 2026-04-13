@@ -113,10 +113,10 @@
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
-        { "op": "sub", "imm": 614806326 },
-        { "op": "xor", "imm": "0x2156CF5B" },
-        { "op": "sub", "imm": 180878286 },
-        { "op": "rol", "imm": 18 }
+        { "op": "add", "imm": "0x9860A151" },
+        { "op": "rol", "imm": 9 },
+        { "op": "add", "imm": "0xD1FF23EF" },
+        { "op": "rol", "imm": 24 }
       ]
     }
   }
