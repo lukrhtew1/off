@@ -106,7 +106,7 @@
       "program": [
         { "op": "xor", "imm": "0x606ABD8E" },
         { "op": "add", "imm": "0xE5A5F712" },
-        { "op": "ror", "imm": 1 },
+        { "op": "rol", "imm": 31 },
         { "op": "add", "imm": "0x2CEDCC8E" }
       ]
     },
