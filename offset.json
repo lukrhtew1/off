@@ -15,7 +15,7 @@
   "GraphicsFOV": "0xE4E2C88",
   "FovWrapper": "0xA8",
   "TODSky_TypeInfo": "0xe330f48",
-  "TODSky_InstancePtr": "0x80",
+  "TODSky_InstancePtr": "0x10",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
   "BufferListOffset": "0x18",
@@ -111,13 +111,11 @@
         ]
     },
     "FovEncrypt": {
-      "laneCount": 1,
-      "program": [
-        { "op": "add", "imm": "0x9860A151" },
-        { "op": "rol", "imm": 9 },
-        { "op": "add", "imm": "0xD1FF23EF" },
-        { "op": "rol", "imm": 24 }
-      ]
+        "laneCount": 1,
+        "program": [
+            { "op": "xor", "imm": "0xCC78692E" },
+            { "op": "rol", "imm": 5 }
+        ]
     }
   }
 }
