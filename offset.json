@@ -4,13 +4,13 @@
   "TransformDataOffset": "0x18",
   "BoneList": "0x20",
   "BoneTransform": "0x10",
-  "Il2cppGetHandle": "0xe711ee0",
+  "Il2cppGetHandle": "0xE711EE0",
   "MainCamera_TypeInfo": "0xe3dce78",
   "BasePlayer_TypeInfo": "0xD17C3A0",
   "MainCamera": {
     "Camera": "0xa0"
   },
-  "BaseNetworkable_TypeInfo": "0xe3d0568",
+  "BaseNetworkable_TypeInfo": "0xE3D0568",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xE4E2C88",
   "FovWrapper": "0xA8",
@@ -88,7 +88,7 @@
         "laneCount": 2,
         "program": [
             { "op": "xor", "imm": "0x93748B89" },
-            { "op": "sub", "imm": "0x6934AEA9" },
+            { "op": "add", "imm": "0x96CB9157" },
             { "op": "rol", "imm": 11 }
         ]
     },
