@@ -10,10 +10,10 @@
   "MainCamera": {
     "Camera": "0x10"
   },
-  "BaseNetworkable_TypeInfo": "0xe43c280",
+  "BaseNetworkable_TypeInfo": "0xE43C280",
   "ProjectileList": "0xd639de8",
-  "GraphicsFOV": "0xE4E2C88",
-  "FovWrapper": "0xA8",
+  "GraphicsFOV": "0xE497C68",
+  "FovWrapper": "0xDC",
   "TODSky_TypeInfo": "0xe401ad8",
   "TODSky_InstancePtr": "0x40",
   "ClientEntities": "0x8",
@@ -113,8 +113,9 @@
     "FovEncrypt": {
         "laneCount": 1,
         "program": [
-            { "op": "xor", "imm": "0xCC78692E" },
-            { "op": "rol", "imm": 5 }
+            { "op": "rol", "imm": 7 },
+            { "op": "sub", "imm": "0x633B4963" },
+            { "op": "rol", "imm": 25 }
         ]
     }
   }
