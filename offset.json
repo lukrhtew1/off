@@ -88,9 +88,9 @@
         "laneCount": 2,
         "program": [
             { "op": "rol", "imm": 18 },
-            { "op": "sub", "imm": "0x684E2BD8" },
+            { "op": "add", "imm": "0x97ACC028" },
             { "op": "rol", "imm": 12 },
-            { "op": "add", "imm": "0x12C5B28B" }
+            { "op": "add", "imm": "0x12C55E8B" }
         ]
     },
     "EntityList": {
@@ -98,7 +98,7 @@
         "laneCount": 2,
         "program": [
             { "op": "rol", "imm": 13 },
-            { "op": "add", "imm": "0x151F5A16" },
+            { "op": "add", "imm": "0x151DA616" },
             { "op": "rol", "imm": 16 }
         ]
     },
