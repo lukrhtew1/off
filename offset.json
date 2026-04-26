@@ -74,7 +74,7 @@
     "primaryMagazine": "0x380"
   },
   "ItemContainer": {
-    "itemList": "0x60"
+    "itemList": "0x18"
   },
   "ItemDefinition": {
     "itemid": "0x98",
