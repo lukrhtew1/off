@@ -38,7 +38,7 @@
     "lifeState": "0x278"
   },
   "PlayerModel": {
-    "velocity": "0x210"
+    "velocity": "0x234"
   },
   "PlayerEyes": {
     "viewOffset": "0x40",
@@ -55,23 +55,23 @@
     "condition": "0x1c",
     "amount": "0x28",
     "heldentity": "0x40",
-    "recoilproperties": "0x3a8",
+    "recoilproperties": "0x3b0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
     "RecoilYawMax": "0x1C",
     "RecoilpitchMin": "0x20",
     "RecoilpitchMax": "0x24",
     "oAimconeCurveScale": "0x60",
-    "oAimCone": "0x3b8",
-    "oHipAimCone": "0x3bc",
+    "oAimCone": "0x3c0",
+    "oHipAimCone": "0x3c4",
     "osightAimConeScale": "0x3c4",
-    "oStancePenalty": "0x3d0",
-    "oAimconePenaltyPerShot": "0x3c0",
+    "oStancePenalty": "0x3c8",
+    "oAimconePenaltyPerShot": "0x3c8",
     "maxCondition": "0xec"
   },
   "HeldEntity": {
     "magazine": "0x378",
-    "primaryMagazine": "0x380"
+    "primaryMagazine": "0x388"
   },
   "ItemContainer": {
     "itemList": "0x50"
