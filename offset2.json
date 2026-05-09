@@ -87,8 +87,8 @@
           "readOffset": "0x18",
           "laneCount": 2,
           "program": [
-              { "op": "shl", "imm": 16 },
-              { "op": "add", "imm": "0xD344D977" },
+              { "op": "rol", "imm": 16 },
+              { "op": "sub", "imm": "0x2CC5D189" },
               { "op": "rol", "imm": 12 }
           ]
       },
@@ -96,17 +96,18 @@
           "readOffset": "0x18",
           "laneCount": 2,
           "program": [
-              { "op": "ror", "imm": 9 },
-              { "op": "add", "imm": "0xE13340B1" },
+              { "op": "rol", "imm": 23 },
+              { "op": "sub", "imm": "0x1ECCBF4F" },
               { "op": "rol", "imm": 8 }
           ]
       },
       "ActiveItem": {
           "laneCount": 2,
           "program": [
-              { "op": "rol", "imm": 8 },
-              { "op": "xor", "imm": "0xE745A360" },
-              { "op": "add", "imm": "0xA99B6D53" }
+              { "op": "sub", "imm": "0x2D2836A4" },
+              { "op": "xor", "imm": "0x0D38A8EE" },
+              { "op": "add", "imm": "0x3484F136" },
+              { "op": "xor", "imm": "0xE4CADF06" }
           ]
       },
       "FovEncrypt": {
