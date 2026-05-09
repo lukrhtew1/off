@@ -88,7 +88,7 @@
           "laneCount": 2,
           "program": [
               { "op": "rol", "imm": 16 },
-              { "op": "sub", "imm": "0x2CC5D189" },
+              { "op": "add", "imm": "0xD344D977" },
               { "op": "rol", "imm": 12 }
           ]
       },
