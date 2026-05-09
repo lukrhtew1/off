@@ -18,7 +18,7 @@
   "TODSky_InstancePtr": "0x20",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
-  "BufferListOffset": "0x10",
+  "BufferListOffset": "0x18",
   "BasePlayer": {
     "playerModel": "0x448",
     "PlayerFlags": "0x660",
