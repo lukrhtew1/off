@@ -54,7 +54,7 @@
     "ItemDefinition": "0x90",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x58",
+    "heldentity": "0x80",
     "recoilproperties": "0x3b0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
