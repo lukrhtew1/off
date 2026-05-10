@@ -12,8 +12,8 @@
   },
   "BaseNetworkable_TypeInfo": "0xE5B9DF0",
   "ProjectileList": "0xd639de8",
-  "GraphicsFOV": "0xE519CA8",
-  "FovWrapper": "0xA0",
+  "GraphicsFOV": "0xE578BA8",
+  "FovWrapper": "0x40",
   "TODSky_TypeInfo": "0xE5385F0",
   "TODSky_InstancePtr": "0x60",
   "ClientEntities": "0x20",
@@ -54,7 +54,7 @@
     "ItemDefinition": "0x68",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x80",
+    "heldentity": "0x30",
     "recoilproperties": "0x3b0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
@@ -77,7 +77,7 @@
     "itemList": "0x70"
   },
   "ItemDefinition": {
-    "itemid": "0x10",
+    "itemid": "0x40",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
