@@ -87,27 +87,27 @@
           "readOffset": "0x18",
           "laneCount": 2,
           "program": [
-              { "op": "rol", "imm": 16 },
-              { "op": "add", "imm": "0xD344D977" },
-              { "op": "rol", "imm": 12 }
+              { "op": "rol", "imm": 6 },
+              { "op": "xor", "imm": "0x341495B6" },
+              { "op": "rol", "imm": 17 }
           ]
       },
       "EntityList": {
           "readOffset": "0x18",
           "laneCount": 2,
           "program": [
-              { "op": "rol", "imm": 23 },
-              { "op": "sub", "imm": "0x1ECCBF4F" },
-              { "op": "rol", "imm": 8 }
+              { "op": "add", "imm": "0x26A5B79B" },
+              { "op": "rol", "imm": 13 },
+              { "op": "add", "imm": "0x1B3D2D5E" },
+              { "op": "xor", "imm": "0xA0387451" }
           ]
       },
       "ActiveItem": {
           "laneCount": 2,
           "program": [
-              { "op": "sub", "imm": "0x2D2836A4" },
-              { "op": "xor", "imm": "0x0D38A8EE" },
-              { "op": "add", "imm": "0x3484F136" },
-              { "op": "xor", "imm": "0xE4CADF06" }
+              { "op": "rol", "imm": 10 },
+              { "op": "sub", "imm": "0x09571D2E" },
+              { "op": "xor", "imm": "0xA4A461C1" }
           ]
       },
       "FovEncrypt": {
