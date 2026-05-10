@@ -4,23 +4,23 @@
   "TransformDataOffset": "0x18",
   "BoneList": "0x20",
   "BoneTransform": "0x10",
-  "Il2cppGetHandle": "0xE93E2A0",
+  "Il2cppGetHandle": "0xE90AE60",
   "MainCamera_TypeInfo": "0xE601C80",
   "BasePlayer_TypeInfo": "0xD17C3A0",
   "MainCamera": {
     "Camera": "0x40"
   },
-  "BaseNetworkable_TypeInfo": "0xE5FA1F0",
+  "BaseNetworkable_TypeInfo": "0xE5B9DF0",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xE519CA8",
   "FovWrapper": "0xA0",
   "TODSky_TypeInfo": "0xE5A7350",
   "TODSky_InstancePtr": "0x20",
-  "ClientEntities": "0x8",
+  "ClientEntities": "0x20",
   "EntityList": "0x10",
-  "BufferListOffset": "0x18",
+  "BufferListOffset": "0x10",
   "BasePlayer": {
-    "playerModel": "0x448",
+    "playerModel": "0x2c0",
     "PlayerFlags": "0x660",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
@@ -31,7 +31,7 @@
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "_displayName": "0x368",
+    "_displayName": "0x348",
     "playerInput": "0x4f0",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
@@ -47,11 +47,11 @@
     "body_rotation": "0x50"
   },
   "PlayerInventory": {
-    "containerBelt": "0x58",
-    "containerWear": "0x78"
+    "containerBelt": "0x78",
+    "containerWear": "0x60"
   },
   "Item": {
-    "ItemDefinition": "0x90",
+    "ItemDefinition": "0x68",
     "condition": "0x1c",
     "amount": "0x28",
     "heldentity": "0x80",
@@ -74,10 +74,10 @@
     "primaryMagazine": "0x388"
   },
   "ItemContainer": {
-    "itemList": "0x28"
+    "itemList": "0x70"
   },
   "ItemDefinition": {
-    "itemid": "0x30",
+    "itemid": "0x10",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
