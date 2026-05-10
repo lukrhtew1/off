@@ -5,17 +5,17 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xE90AE60",
-  "MainCamera_TypeInfo": "0xE601C80",
+  "MainCamera_TypeInfo": "0xE5CC948",
   "BasePlayer_TypeInfo": "0xD17C3A0",
   "MainCamera": {
-    "Camera": "0x40"
+    "Camera": "0x90"
   },
   "BaseNetworkable_TypeInfo": "0xE5B9DF0",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xE519CA8",
   "FovWrapper": "0xA0",
-  "TODSky_TypeInfo": "0xE5A7350",
-  "TODSky_InstancePtr": "0x20",
+  "TODSky_TypeInfo": "0xE5385F0",
+  "TODSky_InstancePtr": "0x60",
   "ClientEntities": "0x20",
   "EntityList": "0x10",
   "BufferListOffset": "0x10",
