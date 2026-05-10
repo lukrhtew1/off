@@ -32,7 +32,7 @@
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
     "_displayName": "0x348",
-    "playerInput": "0x4f0",
+    "playerInput": "0x3b0",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
     "lifeState": "0x278"
