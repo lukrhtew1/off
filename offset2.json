@@ -15,8 +15,8 @@
   "TODSky_TypeInfo": "0xE66E828",
   "TODSky_InstancePtr": "0x98",
   "ClientEntities": "0x10",
-  "EntityList": "0x38",
-  "BufferListOffset": "0x10",
+  "EntityList": "0x10",
+  "BufferListOffset": "0x18",
   "BasePlayer": {
     "playerModel": "0x2f0",
     "PlayerFlags": "0x660",
