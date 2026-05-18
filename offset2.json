@@ -4,32 +4,32 @@
   "TransformDataOffset": "0x18",
   "BoneList": "0x20",
   "BoneTransform": "0x10",
-  "Il2cppGetHandle": "0xE90AE60",
-  "MainCamera_TypeInfo": "0xE5CC948",
+  "Il2cppGetHandle": "0xE968770",
+  "MainCamera_TypeInfo": "0xE61C1E0",
   "BasePlayer_TypeInfo": "0xD17C3A0",
-  "MainCamera": {"Camera": "0x90"},
-  "BaseNetworkable_TypeInfo": "0xE5B9DF0",
+  "MainCamera": {"Camera": "0xA0"},
+  "BaseNetworkable_TypeInfo": "0xE61C070",
   "ProjectileList": "0xd639de8",
-  "GraphicsFOV": "0xE578BA8",
-  "FovWrapper": "0x40",
-  "TODSky_TypeInfo": "0xE5385F0",
-  "TODSky_InstancePtr": "0x60",
-  "ClientEntities": "0x20",
+  "GraphicsFOV": "0xE620F70",
+  "FovWrapper": "0x88",
+  "TODSky_TypeInfo": "0xE66E828",
+  "TODSky_InstancePtr": "0x98",
+  "ClientEntities": "0x10",
   "EntityList": "0x10",
   "BufferListOffset": "0x10",
   "BasePlayer": {
-    "playerModel": "0x2c0",
+    "playerModel": "0x2f0",
     "PlayerFlags": "0x660",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
     "clActiveItem": "0x518",
     "currentTeam": "0x4e8",
     "eyes": "0x400",
-    "inventory": "0x730",
+    "inventory": "0x630",
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "_displayName": "0x348",
+    "_displayName": "0x6a0",
     "playerInput": "0x3b0",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
@@ -48,7 +48,7 @@
     "containerWear": "0x60"
   },
   "Item": {
-    "ItemDefinition": "0x68",
+    "ItemDefinition": "0x10",
     "condition": "0x1c",
     "amount": "0x28",
     "heldentity": "0x30",
@@ -70,9 +70,9 @@
     "magazine": "0x378",
     "primaryMagazine": "0x388"
   },
-  "ItemContainer": {"itemList": "0x70"},
+  "ItemContainer": {"itemList": "0x38"},
   "ItemDefinition": {
-    "itemid": "0x10",
+    "itemid": "0x18",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
@@ -107,31 +107,31 @@
   },
   "Decrypt": {
     "ClientEntities": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "rol", "imm": 6 },
-        { "op": "xor", "imm": "0x341495B6" },
-        { "op": "rol", "imm": 17 }
-      ]
+        "readOffset": "0x18",
+        "laneCount": 2,
+        "program": [
+            { "op": "xor", "imm": "0xBA044946" },
+            { "op": "add", "imm": "0x972B285C" },
+            { "op": "rol", "imm": 7 }
+        ]
     },
     "EntityList": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "add", "imm": "0x26A5239B" },
-        { "op": "rol", "imm": 13 },
-        { "op": "add", "imm": "0x1B3D055E" },
-        { "op": "xor", "imm": "0xA0387451" }
-      ]
+        "readOffset": "0x18",
+        "laneCount": 2,
+        "program": [
+            { "op": "sub", "imm": "0x46F9CF4C" },
+            { "op": "xor", "imm": "0x548982D6" },
+            { "op": "rol", "imm": 19 },
+            { "op": "add", "imm": "0x45239B63" }
+        ]
     },
     "ActiveItem": {
-      "laneCount": 2,
-      "program": [
-        { "op": "rol", "imm": 10 },
-        { "op": "sub", "imm": "0x0956512E" },
-        { "op": "xor", "imm": "0xA4A461C1" }
-      ]
+        "laneCount": 2,
+        "program": [
+            { "op": "sub", "imm": "0x40E05C02" },
+            { "op": "xor", "imm": "0xD50ABEC1" },
+            { "op": "rol", "imm": 29 }
+        ]
     },
     "FovEncrypt": {
       "laneCount": 1,
