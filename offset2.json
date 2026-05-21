@@ -1,5 +1,5 @@
 {
-  "TransformDataPtr": "0x38",
+  "TransformDataPtr": "0x40",
   "TransformHighestIndex": "0x40",
   "TransformDataOffset": "0x18",
   "BoneList": "0x20",
@@ -132,7 +132,7 @@
             { "op": "xor", "imm": "0x2FF074AF" },
             { "op": "add", "imm": "0x5B7390F5" }
         ]
-    }
+    },
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
