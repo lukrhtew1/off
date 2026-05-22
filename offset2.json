@@ -127,10 +127,10 @@
     "ActiveItem": {
         "laneCount": 2,
         "program": [
-            { "op": "add", "imm": "0x7E54C1C2" },
-            { "op": "rol", "imm": 10 },
-            { "op": "xor", "imm": "0x2FF074AF" },
-            { "op": "add", "imm": "0x5B7390F5" }
+            { "op": "sub", "imm": "0x10D9C48C" },
+            { "op": "rol", "imm": 7 },
+            { "op": "add", "imm": "0x6426B5F9" },
+            { "op": "rol", "imm": 25 }
         ]
     },
     "FovEncrypt": {
