@@ -48,7 +48,7 @@
     "containerWear": "0x38"
   },
   "Item": {
-    "ItemDefinition": "0xc0",
+    "ItemDefinition": "0x60",
     "condition": "0x1c",
     "amount": "0x28",
     "heldentity": "0x40",
@@ -70,7 +70,7 @@
     "magazine": "0x378",
     "primaryMagazine": "0x388"
   },
-  "ItemContainer": {"itemList": "0x30"},
+  "ItemContainer": {"itemList": "0x20"},
   "ItemDefinition": {
     "itemid": "0xC8",
     "shortname": "0x28",
