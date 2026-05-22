@@ -51,7 +51,7 @@
     "ItemDefinition": "0xc0",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0xB0",
+    "heldentity": "0x48",
     "recoilproperties": "0x3b0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
@@ -80,10 +80,10 @@
   "BaseProjectile": {
     "primaryMagazine": "0x388",
     "projectileVelocityScale": "0x33C",
-    "instaBow_pullback": "0x468",
-    "instaBow_pullbackTime": "0x46c",
-    "superEoka_charge": "0x468",
-    "superEoka_charged": "0x478"
+    "instaBow_pullback": "0x464",
+    "instaBow_pullbackTime": "0x460",
+    "superEoka_charge": "0x460",
+    "superEoka_charged": "0x470"
   },
   "Magazine": {"ammoType": "0x20"},
   "ItemModProjectile": {
