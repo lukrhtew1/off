@@ -95,7 +95,7 @@
     "gravityModifier": "0x38"
   },
   "Thickness": {"projectile": "0x3C"},
-  "CameraView": {"viewMatrix": "0x30C"},
+  "CameraView": {"viewMatrix": "0x2FC"},
   "TODSky": {
     "dayParams": "0x58",
     "nightParams": "0x60",
