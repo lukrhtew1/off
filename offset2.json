@@ -5,31 +5,31 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD120208",
-  "MainCamera_TypeInfo": "0xE256170",
+  "MainCamera_TypeInfo": "0xe275c98",
   "BasePlayer_TypeInfo": "0xD17C3A0",
-  "MainCamera": {"Camera": "0x90"},
-  "BaseNetworkable_TypeInfo": "0xE24C930",
+  "MainCamera": {"Camera": "0x48"},
+  "BaseNetworkable_TypeInfo": "0xe290810",
   "ProjectileList": "0xd639de8",
-  "GraphicsFOV": "0xE620F70",
-  "FovWrapper": "0x88",
-  "TODSky_TypeInfo": "0xE29BA00",
-  "TODSky_InstancePtr": "0x68",
-  "ClientEntities": "0x38",
+  "GraphicsFOV": "0xe1d4628",
+  "FovWrapper": "0xf8",
+  "TODSky_TypeInfo": "0xe2779a0",
+  "TODSky_InstancePtr": "0x50",
+  "ClientEntities": "0x18",
   "EntityList": "0x10",
-  "BufferListOffset": "0x20",
+  "BufferListOffset": "0x18",
   "BasePlayer": {
-    "playerModel": "0x2c8",
+    "playerModel": "0x408",
     "PlayerFlags": "0x658",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
     "clActiveItem": "0x510",
     "currentTeam": "0x4e0",
     "eyes": "0x400",
-    "inventory": "0x630",
+    "inventory": "0x690",
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "_displayName": "0x670",
+    "_displayName": "0x560",
     "playerInput": "0x628",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
@@ -44,14 +44,14 @@
     "bodyRotation": "0x50"
   },
   "PlayerInventory": {
-    "containerBelt": "0x38",
-    "containerWear": "0x58"
+    "containerBelt": "0x60",
+    "containerWear": "0x38"
   },
   "Item": {
-    "ItemDefinition": "0xc0",
+    "ItemDefinition": "0x60",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x48",
+    "heldentity": "0x40",
     "recoilproperties": "0x3a8",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
@@ -72,7 +72,7 @@
   },
   "ItemContainer": {"itemList": "0x30"},
   "ItemDefinition": {
-    "itemid": "0x38",
+    "itemid": "0xC8",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
@@ -110,18 +110,18 @@
         "readOffset": "0x18",
         "laneCount": 2,
         "program": [
-            { "op": "sub", "imm": "0x2DC483DE" },
-            { "op": "rol", "imm": 9 },
-            { "op": "xor", "imm": "0xFC9932F3" }
+            { "op": "add", "imm": "0x4BA08177" },
+            { "op": "rol", "imm": 24 },
+            { "op": "sub", "imm": "0x5DF21DC4" }
         ]
     },
     "EntityList": {
         "readOffset": "0x18",
         "laneCount": 2,
         "program": [
-            { "op": "rol", "imm": 9 },
-            { "op": "xor", "imm": "0x674BD50B" },
-            { "op": "rol", "imm": 12 }
+            { "op": "rol", "imm": 7 },
+            { "op": "xor", "imm": "0x1714CF61" },
+            { "op": "rol", "imm": 4 }
         ]
     },
     "ActiveItem": {
