@@ -80,8 +80,8 @@
   "BaseProjectile": {
     "primaryMagazine": "0x388",
     "projectileVelocityScale": "0x33C",
-    "instaBow_pullback": "0x464",
-    "instaBow_pullbackTime": "0x460",
+    "instaBow_pullback": "0x460",
+    "instaBow_pullbackTime": "0x464",
     "superEoka_charge": "0x460",
     "superEoka_charged": "0x470"
   },
