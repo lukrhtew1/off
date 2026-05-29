@@ -18,19 +18,19 @@
   "EntityList": "0x10",
   "BufferListOffset": "0x18",
   "BasePlayer": {
-    "playerModel": "0x408",
+    "playerModel": "0x2e8",
     "PlayerFlags": "0x658",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
     "clActiveItem": "0x510",
     "currentTeam": "0x4e0",
     "eyes": "0x400",
-    "inventory": "0x690",
+    "inventory": "0x628",
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "_displayName": "0x560",
-    "playerInput": "0x628",
+    "_displayName": "0x540",
+    "playerInput": "0x598",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
     "lifeState": "0x280"
@@ -110,18 +110,20 @@
         "readOffset": "0x18",
         "laneCount": 2,
         "program": [
-            { "op": "add", "imm": "0x4BA08177" },
-            { "op": "rol", "imm": 24 },
-            { "op": "sub", "imm": "0x5DF21DC4" }
+            { "op": "sub", "imm": "0x426A9F84" },
+            { "op": "xor", "imm": "0x1C2E996F" },
+            { "op": "rol", "imm": 5 },
+            { "op": "add", "imm": "0x704CE704" }
         ]
     },
     "EntityList": {
         "readOffset": "0x18",
         "laneCount": 2,
         "program": [
-            { "op": "rol", "imm": 7 },
-            { "op": "xor", "imm": "0x1714CF61" },
-            { "op": "rol", "imm": 4 }
+            { "op": "add", "imm": "0x0C91EC42" },
+            { "op": "rol", "imm": 23 },
+            { "op": "xor", "imm": "0x28385812" },
+            { "op": "rol", "imm": 18 }
         ]
     },
     "ActiveItem": {
