@@ -4,16 +4,16 @@
   "TransformDataOffset": "0x18",
   "BoneList": "0x20",
   "BoneTransform": "0x10",
-  "Il2cppGetHandle": "0xD120208",
-  "MainCamera_TypeInfo": "0xe275c98",
+  "Il2cppGetHandle": "0xD086178",
+  "MainCamera_TypeInfo": "0xE1CB9D0",
   "BasePlayer_TypeInfo": "0xD17C3A0",
-  "MainCamera": {"Camera": "0x48"},
-  "BaseNetworkable_TypeInfo": "0xe290810",
+  "MainCamera": {"Camera": "0xb8"},
+  "BaseNetworkable_TypeInfo": "0xE1598D0",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xe1d4628",
   "FovWrapper": "0xf8",
-  "TODSky_TypeInfo": "0xe2779a0",
-  "TODSky_InstancePtr": "0x50",
+  "TODSky_TypeInfo": "0xE1A2B40",
+  "TODSky_InstancePtr": "0x90",
   "ClientEntities": "0x18",
   "EntityList": "0x10",
   "BufferListOffset": "0x18",
@@ -45,10 +45,10 @@
   },
   "PlayerInventory": {
     "containerBelt": "0x60",
-    "containerWear": "0x38"
+    "containerWear": "0x30"
   },
   "Item": {
-    "ItemDefinition": "0x60",
+    "ItemDefinition": "0xE0",
     "condition": "0x1c",
     "amount": "0x28",
     "heldentity": "0x40",
@@ -70,9 +70,9 @@
     "magazine": "0x378",
     "primaryMagazine": "0x388"
   },
-  "ItemContainer": {"itemList": "0x20"},
+  "ItemContainer": {"itemList": "0x58"},
   "ItemDefinition": {
-    "itemid": "0xC8",
+    "itemid": "0x38",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
