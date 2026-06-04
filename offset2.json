@@ -8,7 +8,7 @@
   "MainCamera_TypeInfo": "0xE1CB9D0",
   "BasePlayer_TypeInfo": "0xD17C3A0",
   "MainCamera": {"Camera": "0xb8"},
-  "BaseNetworkable_TypeInfo": "0xE1598D0",
+  "BaseNetworkable_TypeInfo": "0xE2EBAE0",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xe1d4628",
   "FovWrapper": "0xf8",
