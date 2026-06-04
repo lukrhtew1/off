@@ -12,8 +12,8 @@
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xe1d4628",
   "FovWrapper": "0xf8",
-  "TODSky_TypeInfo": "0xE1A2B40",
-  "TODSky_InstancePtr": "0x90",
+  "TODSky_TypeInfo": "0xE2E1850",
+  "TODSky_InstancePtr": "0x40",
   "ClientEntities": "0x30",
   "EntityList": "0x10",
   "BufferListOffset": "0x10",
@@ -51,7 +51,7 @@
     "ItemDefinition": "0xb0",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x80",
+    "heldentity": "0x90",
     "recoilproperties": "0x3d0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
@@ -128,9 +128,9 @@
     "ActiveItem": {
         "laneCount": 2,
         "program": [
-            { "op": "sub", "imm": "0x5569535C" },
-            { "op": "xor", "imm": "0x09F4F4B8" },
-            { "op": "rol", "imm": 22 }
+            { "op": "sub", "imm": "0x36311C3A" },
+            { "op": "xor", "imm": "0xCB81C65A" },
+            { "op": "sub", "imm": "0x1D8A3653" }
         ]
     },
     "FovEncrypt": {
