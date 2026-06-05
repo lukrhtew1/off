@@ -35,7 +35,7 @@
     "bodyAngles": "0x44",
     "lifeState": "0x290"
   },
-  "PlayerModel": {"velocity": "0x2DC"},
+  "PlayerModel": {"velocity": "0x1F8"},
   "PlayerEyes": {
     "viewOffset": "0x40",
     "bodyRotation__BackingField": "0x50",
@@ -128,9 +128,10 @@
     "ActiveItem": {
         "laneCount": 2,
         "program": [
-            { "op": "sub", "imm": "0x36311C3A" },
-            { "op": "xor", "imm": "0xCB81C65A" },
-            { "op": "sub", "imm": "0x1D8A3653" }
+            { "op": "rol", "imm": 22 },
+            { "op": "add", "imm": "0x4C9E3AA6" },
+            { "op": "xor", "imm": "0x36463381" },
+            { "op": "rol", "imm": 31 }
         ]
     },
     "FovEncrypt": {
