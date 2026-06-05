@@ -5,32 +5,32 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD086178",
-  "MainCamera_TypeInfo": "0xE2E5360",
+  "MainCamera_TypeInfo": "0xE26E648",
   "BasePlayer_TypeInfo": "0xD17C3A0",
-  "MainCamera": {"Camera": "0x68"},
-  "BaseNetworkable_TypeInfo": "0xE2EBAE0",
+  "MainCamera": {"Camera": "0xb0"},
+  "BaseNetworkable_TypeInfo": "0xE279E00",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xe1d4628",
   "FovWrapper": "0xf8",
-  "TODSky_TypeInfo": "0xE2E1850",
+  "TODSky_TypeInfo": "0xe2a8bd8",
   "TODSky_InstancePtr": "0x40",
-  "ClientEntities": "0x30",
+  "ClientEntities": "0x18",
   "EntityList": "0x10",
-  "BufferListOffset": "0x10",
+  "BufferListOffset": "0x20",
   "BasePlayer": {
-    "playerModel": "0x3d0",
+    "playerModel": "0x688",
     "PlayerFlags": "0x670",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
     "clActiveItem": "0x520",
-    "currentTeam": "0x4e0",
+    "currentTeam": "0x4f0",
     "eyes": "0x400",
     "inventory": "0x628",
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "_displayName": "0x450",
-    "playerInput": "0x5e8",
+    "_displayName": "0x698",
+    "playerInput": "0x2f8",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
     "lifeState": "0x290"
@@ -44,14 +44,14 @@
     "bodyRotation": "0x50"
   },
   "PlayerInventory": {
-    "containerBelt": "0x28",
-    "containerWear": "0x58"
+    "containerBelt": "0x38",
+    "containerWear": "0x60"
   },
   "Item": {
-    "ItemDefinition": "0xb0",
+    "ItemDefinition": "0xD8",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x90",
+    "heldentity": "0xC0",
     "recoilproperties": "0x3d0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
@@ -70,9 +70,9 @@
     "magazine": "0x378",
     "primaryMagazine": "0x3a8"
   },
-  "ItemContainer": {"itemList": "0x48"},
+  "ItemContainer": {"itemList": "0x58"},
   "ItemDefinition": {
-    "itemid": "0x88",
+    "itemid": "0x30",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
@@ -110,19 +110,19 @@
         "readOffset": "0x18",
         "laneCount": 2,
         "program": [
-            { "op": "add", "imm": "0x2E5F84A4" },
-            { "op": "xor", "imm": "0xDBA02A69" },
-            { "op": "rol", "imm": 18 },
-            { "op": "sub", "imm": "0x106DAC04" }
+            { "op": "xor", "imm": "0xDDDA8626" },
+            { "op": "add", "imm": "0x61066E28" },
+            { "op": "rol", "imm": 24 },
+            { "op": "xor", "imm": "0xFD5D317A" }
         ]
     },
     "EntityList": {
         "readOffset": "0x18",
         "laneCount": 2,
         "program": [
-            { "op": "rol", "imm": 3 },
-            { "op": "xor", "imm": "0x53CA6A63" },
-            { "op": "rol", "imm": 23 }
+            { "op": "add", "imm": "0x5B1EAADC" },
+            { "op": "rol", "imm": 23 },
+            { "op": "sub", "imm": "0x12FEA22D" }
         ]
     },
     "ActiveItem": {
