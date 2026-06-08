@@ -78,8 +78,8 @@
     "itemType": "0x64"
   },
   "BaseProjectile": {
-    "primaryMagazine": "0x3a8",
-    "projectileVelocityScale": "0x33C",
+    "primaryMagazine": "0x3A8",
+    "projectileVelocityScale": "0x35C",
     "instaBow_pullback": "0x48c",
     "instaBow_pullbackTime": "0x488",
     "superEoka_charge": "0x488",
