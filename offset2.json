@@ -88,7 +88,7 @@
   "Magazine": {"ammoType": "0x20"},
   "ItemModProjectile": {
     "projectileObject": "0x20",
-    "projectileVelocity": "0x40"
+    "projectileVelocity": "0x214"
   },
   "Projectile": {
     "drag": "0x34",
