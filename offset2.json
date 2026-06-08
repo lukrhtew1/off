@@ -35,7 +35,7 @@
     "bodyAngles": "0x44",
     "lifeState": "0x290"
   },
-  "PlayerModel": {"velocity": "0x1F8"},
+  "PlayerModel": {"velocity": "0x314"},
   "PlayerEyes": {
     "viewOffset": "0x40",
     "bodyRotation__BackingField": "0x50",
