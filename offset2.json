@@ -106,8 +106,8 @@
     "nightExposure": "0x50"
   },
   "Decrypt": {
-    "ClientEntities": {"readOffset": "0x18","laneCount": 2,"program": [{ "op": "rol", "imm": 2 },{ "op": "xor", "imm": "0x4442E7EB" },{ "op": "add", "imm": "0x2C8C8EC7" },{ "op": "rol", "imm": 27 }]},
-    "EntityList": {"readOffset": "0x18","laneCount": 2,"program": [{ "op": "add", "imm": "0x6F85EDA3" },{ "op": "rol", "imm": 31 },{ "op": "add", "imm": "0x9AE95557" },{ "op": "rol", "imm": 22 }]},
+    "ClientEntities": {"readOffset": "0x18","laneCount": 2,"program": [{"op": "add","imm": "0x6F85EDA3"},{"op": "rol","imm": 31},{"op": "add","imm": "0x9AE95557"},{"op": "rol","imm": 22}]},
+    "EntityList": {"readOffset": "0x18","laneCount": 2,"program": [{"op": "rol","imm": 2},{"op": "xor","imm": "0x4442E7EB"},{"op": "add","imm": "0x2C8C8EC7"},{"op": "rol","imm": 27}]},
     "ActiveItem": {"laneCount": 2,"program": [{ "op": "rol", "imm": 27 },{ "op": "add", "imm": "0x22D94F74" },{ "op": "xor", "imm": "0xBC9CBF71" }]},
     "FovEncrypt": {
       "laneCount": 1,
