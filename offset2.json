@@ -44,8 +44,8 @@
     "bodyRotation": "0x50"
   },
   "PlayerInventory": {
-    "containerBelt": "0x58",
-    "containerWear": "0x60"
+    "containerBelt": "0x60",
+    "containerWear": "0x30"
   },
   "Item": {
     "ItemDefinition": "0xC0",
@@ -72,7 +72,7 @@
   },
   "ItemContainer": {"itemList": "0x48"},
   "ItemDefinition": {
-    "itemid": "0xa0",
+    "itemid": "0x60",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
