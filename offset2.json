@@ -44,7 +44,7 @@
     "bodyRotation": "0x50"
   },
   "PlayerInventory": {
-    "containerBelt": "0x58",
+    "containerBelt": "0x38",
     "containerWear": "0x78"
   },
   "Item": {
