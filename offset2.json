@@ -107,10 +107,16 @@
   },
   "Decrypt": {
 		"ClientEntities": {
-			"readOffset": "0x18",
-			"laneCount": 2,
-			"program": [{ "op": "add", "imm": "0xF4684F67" }, { "op": "rol", "imm": 24 }, { "op": "add", "imm": "0x726DBC4E" }, { "op": "rol", "imm": 27 }, { "op": "add", "imm": "0x4289C10B" }]
+		    "readOffset": "0x18",
+		    "laneCount": 2,
+		    "program": [
+		        { "op": "sub", "imm": "0xB97B099" },
+		        { "op": "rol", "imm": 24 },
+		        { "op": "add", "imm": "0x726DBC4E" },
+		        { "op": "rol", "imm": 27 }
+		    ]
 		},
+
 		"EntityList": {
 			"readOffset": "0x18",
 			"laneCount": 2,
