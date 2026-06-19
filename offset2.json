@@ -120,10 +120,15 @@
 		        { "op": "xor", "imm": "0xC54D9EAB" }
 		    ]
 		},
-		"ActiveItem": {
-			"laneCount": 2,
-			"program": [{ "op": "add", "imm": "0x24DF4BAC" }, { "op": "xor", "imm": "0x3A71F04A" }, { "op": "rol", "imm": 18 }, { "op": "add", "imm": "0x67154CC" }]
-		},
+	"ActiveItem": {
+	  "laneCount": 2,
+	  "program": [
+	    { "op": "rol", "imm": 2 },
+	    { "op": "add", "imm": "0x342A9D10" },
+	    { "op": "rol", "imm": 22 },
+	    { "op": "xor", "imm": "0x674E6676" }
+	  ]
+	},
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
