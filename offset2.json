@@ -29,7 +29,7 @@
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "_displayName": "0x470",
+    "_displayName": "0x4c8",
     "playerInput": "0x500",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
@@ -72,7 +72,7 @@
   },
   "ItemContainer": {"itemList": "0x50"},
   "ItemDefinition": {
-    "itemid": "0xd8",
+    "itemid": "0xB0",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
