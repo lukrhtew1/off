@@ -72,7 +72,7 @@
   },
   "ItemContainer": {"itemList": "0x20"},
   "ItemDefinition": {
-    "itemid": "0xD8",
+    "itemid": "0x98",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
