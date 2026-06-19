@@ -48,7 +48,7 @@
     "containerWear": "0x58"
   },
   "Item": {
-    "ItemDefinition": "0xD0",
+    "ItemDefinition": "0x38",
     "condition": "0x1c",
     "amount": "0x28",
     "heldentity": "0x40",
