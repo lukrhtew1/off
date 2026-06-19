@@ -12,7 +12,7 @@
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xe2b45c8",
   "FovWrapper": "0x558",
-  "TODSky_TypeInfo": "0xe28eb78",
+  "TODSky_TypeInfo": "0xE32DDC8",
   "TODSky_InstancePtr": "0xA8",
   "ClientEntities": "0x28",
   "EntityList": "0x10",
@@ -112,9 +112,13 @@
 			"program": [{ "op": "rol", "imm": 3 }, { "op": "add", "imm": "0x4324DD3E" }, { "op": "xor", "imm": "0x1C04F961" }, { "op": "sub", "imm": "0x46B2E2C8" }]
 		},
 		"EntityList": {
-			"readOffset": "0x18",
-			"laneCount": 2,
-			"program": [{ "op": "add", "imm": "0xD6A06E7A" }, { "op": "xor", "imm": "0xC54D9EAB" }]
+		    "readOffset": "0x18",
+		    "laneCount": 2,
+		    "program": [
+		        { "op": "add", "imm": "0xD6A06E7A" },
+		        { "op": "rol", "imm": 2 },
+		        { "op": "xor", "imm": "0xC54D9EAB" }
+		    ]
 		},
 		"ActiveItem": {
 			"laneCount": 2,
