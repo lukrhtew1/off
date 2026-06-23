@@ -7,7 +7,10 @@
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0xe37aca0",
   "BasePlayer_TypeInfo": "0xD17C3A0",
-  "MainCamera": {"Camera": "0x90"},
+  "MainCamera": {
+    "Camera": "0x90",
+    "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
+  },
   "BaseNetworkable_TypeInfo": "0xe334210",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xe2b45c8",
@@ -33,7 +36,24 @@
     "playerInput": "0x560",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
-    "lifeState": "0x290"
+    "lifeState": "0x290",
+    "playerMovement": "0x388"
+  },
+  "PlayerMovement": {
+    "spiderField": "0x108"
+  },
+  "NativeCamera": {
+    "nativeCachedPtr": "0x10",
+    "cullMask": "0x42C"
+  },
+  "NoLayers": {
+    "hideMask": "0x669FF100"
+  },
+  "WeaponMods": {
+    "automatic": "0x360",
+    "reloadTime": "0x3A0",
+    "aimSway": "0x3C8",
+    "aimSwaySpeed": "0x3CC"
   },
   "PlayerModel": {"velocity": "0x314"},
   "PlayerEyes": {
@@ -106,25 +126,25 @@
     "nightExposure": "0x50"
   },
   "Decrypt": {
-		"ClientEntities": {
-			"readOffset": "0x18",
-			"laneCount": 2,
-			"program": [{ "op": "rol", "imm": 2 }, { "op": "xor", "imm": "0x111B9118" }, { "op": "add", "imm": "0x79300E2E" }]
-		},
-		"EntityList": {
-			"readOffset": "0x18",
-			"laneCount": 2,
-			"program": [{ "op": "rol", "imm": 6 }, { "op": "xor", "imm": "0xC5D748E1" }, { "op": "add", "imm": "0x48498B34" }]
-		},
-	"ActiveItem": {
-	    "laneCount": 2,
-	    "program": [
-	        { "op": "add", "imm": "0x9420FF13" },
-	        { "op": "rol", "imm": 16 },
-	        { "op": "add", "imm": "0xEDC489FD" },
-	        { "op": "rol", "imm": 6 }
-	    ]
-	},
+    "ClientEntities": {
+      "readOffset": "0x18",
+      "laneCount": 2,
+      "program": [{ "op": "rol", "imm": 2 }, { "op": "xor", "imm": "0x111B9118" }, { "op": "add", "imm": "0x79300E2E" }]
+    },
+    "EntityList": {
+      "readOffset": "0x18",
+      "laneCount": 2,
+      "program": [{ "op": "rol", "imm": 6 }, { "op": "xor", "imm": "0xC5D748E1" }, { "op": "add", "imm": "0x48498B34" }]
+    },
+    "ActiveItem": {
+      "laneCount": 2,
+      "program": [
+        { "op": "add", "imm": "0x9420FF13" },
+        { "op": "rol", "imm": 16 },
+        { "op": "add", "imm": "0xEDC489FD" },
+        { "op": "rol", "imm": 6 }
+      ]
+    },
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
