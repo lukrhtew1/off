@@ -47,7 +47,7 @@
     "cullMask": "0x42C"
   },
   "NoLayers": {
-    "hideMask": "0x669FF100"
+    "hideMask": "0xFFFDEDDD"
   },
   "WeaponMods": {
     "automatic": "0x360",
