@@ -47,8 +47,8 @@
     "spiderField": "0x108",
     "groundAngle": "0x100",
     "groundAngleNew": "0x108",
-    "maxVelocity": "0xC8",
-    "gravityMultiplier": "0xD0"
+    "maxVelocity": "0xC0",
+    "gravityMultiplier": "0x98"
   },
   "NativeCamera": {
     "nativeCachedPtr": "0x10",
