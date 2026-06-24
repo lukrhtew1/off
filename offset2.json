@@ -37,10 +37,18 @@
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
     "lifeState": "0x290",
-    "playerMovement": "0x388"
+    "playerMovement": "0x388",
+    "modelState": "0x398"
+  },
+  "ModelState": {
+    "flags": "0x24"
   },
   "PlayerMovement": {
-    "spiderField": "0x108"
+    "spiderField": "0x108",
+    "groundAngle": "0x100",
+    "groundAngleNew": "0x108",
+    "maxVelocity": "0xC8",
+    "gravityMultiplier": "0xD0"
   },
   "NativeCamera": {
     "nativeCachedPtr": "0x10",
@@ -55,7 +63,9 @@
     "aimSway": "0x3C8",
     "aimSwaySpeed": "0x3CC"
   },
-  "PlayerModel": {"velocity": "0x314"},
+  "PlayerModel": {
+    "velocity": "0x314"
+  },
   "PlayerEyes": {
     "viewOffset": "0x40",
     "bodyRotation__BackingField": "0x50",
@@ -90,7 +100,9 @@
     "magazine": "0x378",
     "primaryMagazine": "0x3a8"
   },
-  "ItemContainer": {"itemList": "0x20"},
+  "ItemContainer": {
+    "itemList": "0x20"
+  },
   "ItemDefinition": {
     "itemid": "0x98",
     "shortname": "0x28",
@@ -105,7 +117,9 @@
     "superEoka_charge": "0x488",
     "superEoka_charged": "0x498"
   },
-  "Magazine": {"ammoType": "0x20"},
+  "Magazine": {
+    "ammoType": "0x20"
+  },
   "ItemModProjectile": {
     "projectileObject": "0x20",
     "projectileVelocity": "0x40"
@@ -114,8 +128,12 @@
     "drag": "0x34",
     "gravityModifier": "0x38"
   },
-  "Thickness": {"projectile": "0x3C"},
-  "CameraView": {"viewMatrix": "0x2FC"},
+  "Thickness": {
+    "projectile": "0x3C"
+  },
+  "CameraView": {
+    "viewMatrix": "0x2FC"
+  },
   "TODSky": {
     "dayParams": "0x58",
     "nightParams": "0x60",
@@ -129,12 +147,20 @@
     "ClientEntities": {
       "readOffset": "0x18",
       "laneCount": 2,
-      "program": [{ "op": "rol", "imm": 2 }, { "op": "xor", "imm": "0x111B9118" }, { "op": "add", "imm": "0x79300E2E" }]
+      "program": [
+        { "op": "rol", "imm": 2 },
+        { "op": "xor", "imm": "0x111B9118" },
+        { "op": "add", "imm": "0x79300E2E" }
+      ]
     },
     "EntityList": {
       "readOffset": "0x18",
       "laneCount": 2,
-      "program": [{ "op": "rol", "imm": 6 }, { "op": "xor", "imm": "0xC5D748E1" }, { "op": "add", "imm": "0x48498B34" }]
+      "program": [
+        { "op": "rol", "imm": 6 },
+        { "op": "xor", "imm": "0xC5D748E1" },
+        { "op": "add", "imm": "0x48498B34" }
+      ]
     },
     "ActiveItem": {
       "laneCount": 2,
