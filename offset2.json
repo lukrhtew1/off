@@ -5,35 +5,35 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0xe37aca0",
+  "MainCamera_TypeInfo": "0xFB96E38",
   "BasePlayer_TypeInfo": "0xD17C3A0",
   "MainCamera": {
-    "Camera": "0x90",
+    "Camera": "0x38",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
-  "BaseNetworkable_TypeInfo": "0xe334210",
+  "BaseNetworkable_TypeInfo": "0xfbf9638",
   "ProjectileList": "0xd639de8",
   "GraphicsFOV": "0xe2b45c8",
   "FovWrapper": "0x558",
-  "TODSky_TypeInfo": "0xe3593d0",
+  "TODSky_TypeInfo": "0xFC5A070",
   "TODSky_InstancePtr": "0x98",
-  "ClientEntities": "0x20",
+  "ClientEntities": "0x8",
   "EntityList": "0x10",
   "BufferListOffset": "0x18",
   "BasePlayer": {
-    "playerModel": "0x678",
-    "PlayerFlags": "0x670",
+    "playerModel": "0x300",
+    "PlayerFlags": "0x6B8",
     "prefabName": "0x30",
     "BodyAngles": "0x44",
-    "clActiveItem": "0x520",
-    "currentTeam": "0x4f0",
+    "clActiveItem": "0x568",
+    "currentTeam": "0x538",
     "eyes": "0x4d0",
-    "inventory": "0x3a8",
+    "inventory": "0x688",
     "IsVisible": "0x25C",
     "IsAnimatorVisible": "0x171",
     "IsShadowVisible": "0x172",
-    "_displayName": "0x488",
-    "playerInput": "0x560",
+    "_displayName": "0x320",
+    "playerInput": "0x3E0",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
     "lifeState": "0x290",
@@ -47,21 +47,21 @@
     "spiderField": "0x108",
     "groundAngle": "0x100",
     "groundAngleNew": "0x108",
-    "maxVelocity": "0xC0",
-    "gravityMultiplier": "0x98"
+    "maxVelocity": "0x214",
+    "gravityMultiplier": "0xA8"
   },
   "NativeCamera": {
     "nativeCachedPtr": "0x10",
-    "cullMask": "0x42C"
+    "cullMask": "0x43C"
   },
   "NoLayers": {
     "hideMask": "0x2EE08001"
   },
   "WeaponMods": {
-    "automatic": "0x360",
+    "automatic": "0x380",
     "reloadTime": "0x3A0",
-    "aimSway": "0x3C8",
-    "aimSwaySpeed": "0x3CC"
+    "aimSway": "0x3E8",
+    "aimSwaySpeed": "0x3EC"
   },
   "PlayerModel": {
     "velocity": "0x314"
@@ -74,8 +74,8 @@
     "bodyRotation": "0x50"
   },
   "PlayerInventory": {
-    "containerBelt": "0x60",
-    "containerWear": "0x58"
+    "containerBelt": "0x88",
+    "containerWear": "0x28"
   },
   "Item": {
     "ItemDefinition": "0x38",
@@ -89,11 +89,11 @@
     "RecoilpitchMin": "0x20",
     "RecoilpitchMax": "0x24",
     "oAimconeCurveScale": "0x60",
-    "oAimCone": "0x3e0",
-    "oHipAimCone": "0x3e4",
-    "osightAimConeScale": "0x3c4",
-    "oStancePenalty": "0x3f8",
-    "oAimconePenaltyPerShot": "0x3e8",
+    "oAimCone": "0x400",
+    "oHipAimCone": "0x404",
+    "osightAimConeScale": "0x45C",
+    "oStancePenalty": "0x418",
+    "oAimconePenaltyPerShot": "0x408",
     "maxCondition": "0xec"
   },
   "HeldEntity": {
@@ -101,7 +101,7 @@
     "primaryMagazine": "0x3a8"
   },
   "ItemContainer": {
-    "itemList": "0x20"
+    "itemList": "0x40"
   },
   "ItemDefinition": {
     "itemid": "0x98",
@@ -110,8 +110,8 @@
     "itemType": "0x64"
   },
   "BaseProjectile": {
-    "primaryMagazine": "0x3A8",
-    "projectileVelocityScale": "0x35C",
+    "primaryMagazine": "0x3C8",
+    "projectileVelocityScale": "0x37C",
     "instaBow_pullback": "0x488",
     "instaBow_pullbackTime": "0x48c",
     "superEoka_charge": "0x488",
@@ -144,33 +144,20 @@
     "nightExposure": "0x50"
   },
   "Decrypt": {
-    "ClientEntities": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "rol", "imm": 2 },
-        { "op": "xor", "imm": "0x111B9118" },
-        { "op": "add", "imm": "0x79300E2E" }
-      ]
-    },
-    "EntityList": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "rol", "imm": 6 },
-        { "op": "xor", "imm": "0xC5D748E1" },
-        { "op": "add", "imm": "0x48498B34" }
-      ]
-    },
-    "ActiveItem": {
-      "laneCount": 2,
-      "program": [
-        { "op": "add", "imm": "0x9420FF13" },
-        { "op": "rol", "imm": 16 },
-        { "op": "add", "imm": "0xEDC489FD" },
-        { "op": "rol", "imm": 6 }
-      ]
-    },
+		"ClientEntities": {
+			"readOffset": "0x18",
+			"laneCount": 2,
+			"program": [{ "op": "rol", "imm": 19 }, { "op": "add", "imm": "0xB618C435" }, { "op": "rol", "imm": 11 }]
+		},
+		"EntityList": {
+			"readOffset": "0x18",
+			"laneCount": 2,
+			"program": [{ "op": "add", "imm": "0x1B948F29" }, { "op": "rol", "imm": 8 }, { "op": "add", "imm": "0x334D16A" }, { "op": "rol", "imm": 29 }]
+		},
+		"ActiveItem": {
+			"laneCount": 2,
+			"program": [{ "op": "rol", "imm": 31 }, { "op": "add", "imm": "0xAFB2C991" }, { "op": "rol", "imm": 27 }, { "op": "add", "imm": "0x4889CA0B" }]
+		},
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
