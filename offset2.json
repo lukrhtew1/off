@@ -36,7 +36,7 @@
     "playerInput": "0x3E0",
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
-    "lifeState": "0x290",
+    "lifeState": "0x298",
     "playerMovement": "0x388",
     "modelState": "0x398"
   },
