@@ -81,7 +81,7 @@
     "ItemDefinition": "0x18",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x40",
+    "heldentity": "0x78",
     "recoilproperties": "0x3d0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
@@ -154,10 +154,14 @@
 			"laneCount": 2,
 			"program": [{ "op": "add", "imm": "0x1B948F29" }, { "op": "rol", "imm": 8 }, { "op": "add", "imm": "0x334D16A" }, { "op": "rol", "imm": 29 }]
 		},
-		"ActiveItem": {
-			"laneCount": 2,
-			"program": [{ "op": "rol", "imm": 31 }, { "op": "add", "imm": "0xAFB2C991" }, { "op": "rol", "imm": 27 }, { "op": "add", "imm": "0x4889CA0B" }]
-		},
+	"ActiveItem": {
+	    "laneCount": 2,
+	    "program": [
+	        { "op": "rol", "imm": 31 },
+	        { "op": "add", "imm": "0xAFB2C991" },
+	        { "op": "rol", "imm": 27 }
+	    ]
+	},
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
