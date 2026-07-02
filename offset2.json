@@ -81,7 +81,7 @@
     "ItemDefinition": "0x18",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x78",
+    "heldentity": "0x40",
     "recoilproperties": "0x3d0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
