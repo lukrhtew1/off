@@ -147,21 +147,17 @@
 		"ClientEntities": {
 			"readOffset": "0x18",
 			"laneCount": 2,
-			"program": [{ "op": "rol", "imm": 19 }, { "op": "add", "imm": "0xB618C435" }, { "op": "rol", "imm": 11 }]
+			"program": [{ "op": "rol", "imm": 16 }, { "op": "xor", "imm": "0xFE89EFE3" }, { "op": "sub", "imm": "0x7C71A258" }]
 		},
 		"EntityList": {
 			"readOffset": "0x18",
 			"laneCount": 2,
-			"program": [{ "op": "add", "imm": "0x1B948F29" }, { "op": "rol", "imm": 8 }, { "op": "add", "imm": "0x334D16A" }, { "op": "rol", "imm": 29 }]
+			"program": [{ "op": "add", "imm": "0xEBB43A5A" }, { "op": "rol", "imm": 23 }, { "op": "add", "imm": "0x4A9A11E7" }, { "op": "rol", "imm": 28 }]
 		},
-	"ActiveItem": {
-	    "laneCount": 2,
-	    "program": [
-	        { "op": "rol", "imm": 31 },
-	        { "op": "add", "imm": "0xAFB2C991" },
-	        { "op": "rol", "imm": 27 }
-	    ]
-	},
+		"ActiveItem": {
+			"laneCount": 2,
+			"program": [{ "op": "xor", "imm": "0x408D5609" }, { "op": "add", "imm": "0xDD13A6BF" }, { "op": "rol", "imm": 6 }]
+		},
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
