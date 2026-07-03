@@ -81,7 +81,7 @@
     "ItemDefinition": "0xa0",
     "condition": "0x1c",
     "amount": "0x28",
-    "heldentity": "0x40",
+    "heldentity": "0x48",
     "recoilproperties": "0x3d0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
@@ -104,7 +104,7 @@
     "itemList": "0x18"
   },
   "ItemDefinition": {
-    "itemid": "0xb8",
+    "itemid": "0x60",
     "shortname": "0x28",
     "displayName": "0x40",
     "itemType": "0x64"
