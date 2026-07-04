@@ -96,6 +96,7 @@
     "amount": "0xE0",
     "heldentity": "0x48",
     "newrecoilproperties": "0x80",
+    "recoilproperties": "0x3F0",
     "RecoilYawMin": "0x18",
     "RecoilYawMax": "0x1C",
     "RecoilpitchMin": "0x20",
@@ -125,7 +126,6 @@
   },
   "BaseProjectile": {
     "primaryMagazine": "0x3C8",
-    "recoil": "0x3F0",
     "projectileVelocityScale": "0x37C",
     "instaBow_pullback": "0x488",
     "instaBow_pullbackTime": "0x48C",
