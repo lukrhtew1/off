@@ -126,6 +126,7 @@
   },
   "BaseProjectile": {
     "primaryMagazine": "0x3C8",
+    "recoil": "0x3F0",
     "projectileVelocityScale": "0x37C",
     "instaBow_pullback": "0x488",
     "instaBow_pullbackTime": "0x48C",
