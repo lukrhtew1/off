@@ -95,7 +95,6 @@
     "condition": "0x1C",
     "amount": "0xE0",
     "heldentity": "0x48",
-    "recoilproperties": "0x3D0",
     "newrecoilproperties": "0x80",
     "RecoilYawMin": "0x18",
     "RecoilYawMax": "0x1C",
