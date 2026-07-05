@@ -42,7 +42,7 @@
     "modelState": "0x490"
   },
   "ModelState": {
-    "flags": "0x40"
+    "flags": "0x20"
   },
   "PlayerMovement": {
     "spiderField": "0x108",
