@@ -81,7 +81,7 @@
     "containerWear": "0x78"
   },
   "BaseViewModel": {
-    "activeModels": "0x48",
+    "activeModels": "0x28",
     "animationEvent": "0xd0",
     "model": "0xb0",
     "lower": "0xe0",
