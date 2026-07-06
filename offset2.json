@@ -93,7 +93,7 @@
   },
   "Item": {
     "ItemDefinition": "0x80",
-    "uid": "0x60",
+    "uid": "0xC8",
     "condition": "0x1C",
     "amount": "0xE0",
     "heldentity": "0x48",
