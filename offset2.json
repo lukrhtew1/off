@@ -38,7 +38,7 @@
     "bodyRotation": "0x34",
     "bodyAngles": "0x44",
     "lifeState": "0x298",
-    "playerMovement": "0x788",
+    "playerMovement": "0x300",
     "modelState": "0x490"
   },
   "ModelState": {
