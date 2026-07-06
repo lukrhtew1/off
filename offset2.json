@@ -82,10 +82,10 @@
   },
   "BaseViewModel": {
     "activeModels": "0x48",
-    "animationEvent": "0xA8",
-    "model": "0xB0",
-    "lower": "0xC0",
-    "ironSights": "0xE0",
+    "animationEvent": "0xd0",
+    "model": "0xb0",
+    "lower": "0xe0",
+    "ironSights": "0x90",
     "useViewModelCamera": "0x40"
   },
   "AnimationEvents": {
