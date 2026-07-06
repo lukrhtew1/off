@@ -113,7 +113,7 @@
   },
   "HeldEntity": {
     "ownerItemUID": "0x2D0",
-    "viewModel": "0x240",
+    "viewModel": "0x1f0",
     "magazine": "0x378",
     "primaryMagazine": "0x3A8"
   },
