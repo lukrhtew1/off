@@ -96,7 +96,7 @@
     "uid": "0xC8",
     "condition": "0x1C",
     "amount": "0xE0",
-    "heldentity": "0x48",
+    "heldentity": "0x98",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x3F0",
     "RecoilYawMin": "0x18",
