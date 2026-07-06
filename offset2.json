@@ -67,7 +67,7 @@
     "aimSwaySpeed": "0x3EC"
   },
   "PlayerModel": {
-    "velocity": "0x314"
+    "velocity": "0x310"
   },
   "PlayerEyes": {
     "viewOffset": "0x40",
@@ -77,8 +77,8 @@
     "bodyRotation": "0x50"
   },
   "PlayerInventory": {
-    "containerBelt": "0x60",
-    "containerWear": "0x28"
+    "containerBelt": "0x28",
+    "containerWear": "0x78"
   },
   "BaseViewModel": {
     "activeModels": "0x48",
@@ -92,7 +92,7 @@
     "targetEntity": "0x28"
   },
   "Item": {
-    "ItemDefinition": "0xA0",
+    "ItemDefinition": "0x80",
     "uid": "0x60",
     "condition": "0x1C",
     "amount": "0xE0",
@@ -161,26 +161,16 @@
     "nightExposure": "0x50"
   },
   "Decrypt": {
-    "ClientEntities": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "rol", "imm": 22 },
-        { "op": "sub", "imm": "0x512FB7E6" },
-        { "op": "xor", "imm": "0x3C25B628" },
-        { "op": "add", "imm": "0x606330A1" }
-      ]
-    },
-    "EntityList": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "rol", "imm": 18 },
-        { "op": "xor", "imm": "0xE54E9BFF" },
-        { "op": "rol", "imm": 8 },
-        { "op": "xor", "imm": "0xCECB4770" }
-      ]
-    },
+			"ClientEntities": {
+				"readOffset": "0x18",
+				"laneCount": 2,
+				"program": [{ "op": "rol", "imm": 11 }, { "op": "xor", "imm": "0xBCDFA6C7" }, { "op": "add", "imm": "0x1A88518" }]
+			},
+			"EntityList": {
+				"readOffset": "0x18",
+				"laneCount": 2,
+				"program": [{ "op": "add", "imm": "0x4016C175" }, { "op": "rol", "imm": 29 }, { "op": "add", "imm": "0x7D75A2B0" }, { "op": "xor", "imm": "0x97FF1778" }]
+			},
     "ActiveItem": {
       "readOffset": "0x0",
       "laneCount": 2,
