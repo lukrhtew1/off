@@ -78,7 +78,7 @@
   },
   "PlayerInventory": {
     "containerBelt": "0x28",
-    "containerWear": "0x78"
+    "containerWear": "0x30"
   },
   "BaseViewModel": {
     "activeModels": "0x28",
