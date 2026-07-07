@@ -118,7 +118,7 @@
     "primaryMagazine": "0x3A8"
   },
   "ItemContainer": {
-    "itemList": "0x28"
+    "itemList": "0x40"
   },
   "ItemDefinition": {
     "itemid": "0x20",
