@@ -81,10 +81,10 @@
     "containerWear": "0x30"
   },
   "BaseViewModel": {
-    "activeModels": "0x28",
-    "animationEvent": "0xd0",
+    "activeModels": "0x90",
+    "animationEvent": "0xB0",
     "model": "0xb0",
-    "lower": "0xe0",
+    "lower": "0x98",
     "ironSights": "0x90",
     "useViewModelCamera": "0x40"
   },
