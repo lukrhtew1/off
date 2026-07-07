@@ -17,7 +17,7 @@
   "GraphicsFOV": "0xE2B45C8",
   "FovWrapper": "0x558",
   "TODSky_TypeInfo": "0xfc6ef38",
-  "TODSky_InstancePtr": "0x28",
+  "TODSky_InstancePtr": "0x10",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
   "BufferListOffset": "0x18",
