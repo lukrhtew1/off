@@ -84,7 +84,7 @@
     "activeModels": "0x40",
     "animationEvent": "0xD8",
     "model": "0xb0",
-    "lower": "0x98",
+    "lower": "0xb8",
     "ironSights": "0xF0",
     "useViewModelCamera": "0x40"
   },
@@ -96,7 +96,7 @@
     "uid": "0xa0",
     "condition": "0x1C",
     "amount": "0xE0",
-    "heldentity": "0x60",
+    "heldentity": "0x38",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x3F0",
     "RecoilYawMin": "0x18",
