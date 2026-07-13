@@ -55,7 +55,7 @@
   },
   "NativeCamera": {
     "nativeCachedPtr": "0x10",
-    "cullMask": "0x43C"
+    "cullMask": "0x42c"
   },
   "NoLayers": {
     "hideMask": "0x2EE08001"
