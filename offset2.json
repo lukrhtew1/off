@@ -92,7 +92,7 @@
     "targetEntity": "0x28"
   },
   "Item": {
-    "ItemDefinition": "0xa8",
+    "ItemDefinition": "0xb0",
     "uid": "0xa0",
     "condition": "0x1C",
     "amount": "0xE0",
@@ -171,11 +171,15 @@
 				"laneCount": 2,
 				"program": [{ "op": "rol", "imm": 6 }, { "op": "add", "imm": "0xC52F0932" }, { "op": "rol", "imm": 22 }]
 			}
-		"ActiveItem": {
-			"readOffset": "0x0",
-			"laneCount": 2,
-			"program": [{ "op": "xor", "imm": "0x320F4C7D" }, { "op": "rol", "imm": 31 }, { "op": "add", "imm": "0x62E951E6" }]
-		},
+	"ActiveItem": {
+	    "readOffset": "0x0",
+	    "laneCount": 2,
+	    "program": [
+	        { "op": "add", "imm": "0x5A0D1F9B" },
+	        { "op": "rol", "imm": 25 },
+	        { "op": "xor", "imm": "0xAFFC2B31" }
+	    ]
+	},
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
