@@ -7,7 +7,7 @@
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0xfbe49a0",
   "BasePlayer_TypeInfo": "0xFCDD188",
-  "BaseViewModel_TypeInfo": "0xFC13950",
+  "BaseViewModel_TypeInfo": "0xFC8D8A0",
   "MainCamera": {
     "Camera": "0x38",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
