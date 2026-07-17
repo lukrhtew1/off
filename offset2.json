@@ -17,10 +17,10 @@
   "GraphicsFOV": "0xE2B45C8",
   "FovWrapper": "0x558",
   "TODSky_TypeInfo": "0xfd7bd18",
-  "TODSky_InstancePtr": "0x8",
+  "TODSky_InstancePtr": "0x20",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
-  "BufferListOffset": "0x20",
+  "BufferListOffset": "0x18",
   "BasePlayer": {
     "playerModel": "0x6f0",
     "PlayerFlags": "0x6B8",
