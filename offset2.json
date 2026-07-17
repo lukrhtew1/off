@@ -85,7 +85,7 @@
 
   "BaseViewModel": {
     "activeModels": "0x40",
-    "animationEvent": "0xD8"
+    "animationEvent": "0xE0"
   },
 
   "AnimationEvents": {
