@@ -9,7 +9,7 @@
   "BasePlayer_TypeInfo": "0xFCDD188",
   "BaseViewModel_TypeInfo": "0xFD2F718",
   "BaseNetworkable_TypeInfo": "0xfcd2240",
-  "ProjectileList": "0xD639DE8",
+  "ProjectileList": "0xFC5DD10",
   "GraphicsFOV": "0xE2B45C8",
   "FovWrapper": "0x558",
   "TODSky_TypeInfo": "0xfd7bd18",
@@ -23,6 +23,9 @@
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
+  "BaseEntity": { "model": "0x1A8" },
+  "Model": { "boneTransforms": "0x50" },
+
   "BasePlayer": {
     "playerModel": "0x6f0",
     "PlayerFlags": "0x6B8",
@@ -35,12 +38,11 @@
     "playerInput": "0x3a8",
     "lifeState": "0x298",
     "playerMovement": "0x4e0",
-    "modelState": "0x490"
+    "modelState": "0x490",
+    "lastSentTickTime": "0x678"
   },
 
-  "ModelState": {
-    "flags": "0x20"
-  },
+  "ModelState": { "flags": "0x20" },
 
   "PlayerMovement": {
     "spiderField": "0x108",
@@ -52,45 +54,30 @@
     "gravityMultiplier": "0xA8"
   },
 
-  "NativeCamera": {
-    "nativeCachedPtr": "0x10",
-    "cullMask": "0x42c"
-  },
-
-  "NoLayers": {
-    "hideMask": "0x2EE08001"
-  },
+  "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x42c" },
+  "NoLayers": { "hideMask": "0x2EE08001" },
 
   "WeaponMods": {
     "automatic": "0x380",
     "reloadTime": "0x3A0",
     "aimSway": "0x3E8",
-    "aimSwaySpeed": "0x3EC"
+    "aimSwaySpeed": "0x3EC",
+    "deployDelay": "0x2D8",
+    "repeatDelay": "0x2DC",
+    "animationDelay": "0x2E0"
   },
 
-  "PlayerModel": {
-    "velocity": "0x310"
+  "AttackEntity": {
+    "deployDelay": "0x2D8",
+    "repeatDelay": "0x2DC",
+    "animationDelay": "0x2E0"
   },
 
-  "PlayerEyes": {
-    "viewOffset": "0x40",
-    "eye_rotation": "0x6C",
-    "body_rotation": "0x50"
-  },
-
-  "PlayerInventory": {
-    "containerBelt": "0x58",
-    "containerWear": "0x30"
-  },
-
-  "BaseViewModel": {
-    "activeModels": "0x90",
-    "animationEvent": "0xE0"
-  },
-
-  "AnimationEvents": {
-    "targetEntity": "0x28"
-  },
+  "PlayerModel": { "velocity": "0x310" },
+  "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
+  "PlayerInventory": { "containerBelt": "0x58", "containerWear": "0x30" },
+  "BaseViewModel": { "activeModels": "0x90", "animationEvent": "0xE0" },
+  "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
     "ItemDefinition": "0x70",
@@ -117,21 +104,17 @@
     "primaryMagazine": "0x3A8"
   },
 
-  "ItemContainer": {
-    "itemList": "0x58"
-  },
-
-  "ItemDefinition": {
-    "itemid": "0x20",
-    "shortname": "0x28",
-    "displayName": "0x40"
-  },
+  "ItemContainer": { "itemList": "0x58" },
+  "ItemDefinition": { "itemid": "0x20", "shortname": "0x28", "displayName": "0x40" },
 
   "BaseProjectile": {
     "automatic": "0x380",
     "reloadTime": "0x3A0",
     "aimSway": "0x3E8",
     "aimSwaySpeed": "0x3EC",
+    "deployDelay": "0x2D8",
+    "repeatDelay": "0x2DC",
+    "animationDelay": "0x2E0",
     "primaryMagazine": "0x3C8",
     "projectileVelocityScale": "0x37C",
     "instaBow_pullback": "0x488",
@@ -140,28 +123,36 @@
     "superEoka_charged": "0x498"
   },
 
-  "Magazine": {
-    "ammoType": "0x20"
-  },
-
-  "ItemModProjectile": {
-    "projectileObject": "0x20",
-    "projectileVelocity": "0x40"
-  },
+  "Magazine": { "ammoType": "0x20", "contents": "0x1C" },
+  "ItemModProjectile": { "projectileObject": "0x20", "projectileVelocity": "0x40" },
 
   "Projectile": {
+    "initialVelocity": "0x28",
     "drag": "0x34",
     "gravityModifier": "0x38",
-    "thickness": "0x3C"
+    "thickness": "0x3C",
+    "sourceWeapon": "0x108",
+    "sourceProjectile": "0x110",
+    "owner": "0x120",
+    "currentVelocity": "0x15C",
+    "currentPosition": "0x168",
+    "traveledTime": "0x174",
+    "traveledDistance": "0x178",
+    "previousPosition": "0x180",
+    "sentRay": "0x1C0"
   },
 
-  "Thickness": {
-    "projectile": "0x3C"
+  "Thickness": { "projectile": "0x3C" },
+  "HitboxSystem": { "hitboxList": "0x28" },
+  "Hitbox": { "bone": "0x10", "type": "0x18", "localTransform": "0x1C" },
+
+  "MedicalTool": {
+    "healDurationSelf": "0x370",
+    "healDurationOther": "0x374",
+    "healDurationWounded": "0x378"
   },
 
-  "CameraView": {
-    "viewMatrix": "0x2FC"
-  },
+  "CameraView": { "viewMatrix": "0x2FC" },
 
   "TODSky": {
     "dayParams": "0x58",
@@ -169,8 +160,13 @@
     "dayGradient": "0x28",
     "dayAmbient": "0x54",
     "nightAmbient": "0x5C",
-    "nightExposure": "0x50"
+    "nightExposure": "0x50",
+    "stars": "0x78",
+    "clouds": "0x80"
   },
+
+  "TODCloudsParameters": { "opacity": "0x14", "coverage": "0x18", "brightness": "0x30" },
+  "TODStarsParameters": { "size": "0x10", "brightness": "0x14" },
 
   "Decrypt": {
     "ClientEntities": {
