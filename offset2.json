@@ -105,7 +105,19 @@
   },
 
   "ItemContainer": { "itemList": "0x58" },
-  "ItemDefinition": { "itemid": "0x20", "shortname": "0x28", "displayName": "0x40" },
+
+  "ItemDefinition": {
+    "itemid": "0x20",
+    "shortname": "0x28",
+    "displayName": "0x40",
+    "itemMods": "0x188"
+  },
+
+  "CompoundBowWeapon": {
+    "stringHoldDurationMax": "0x4C0",
+    "stringBonusVelocity": "0x4CC",
+    "currentHoldTime": "0x514"
+  },
 
   "BaseProjectile": {
     "automatic": "0x380",
