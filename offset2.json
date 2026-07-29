@@ -10,6 +10,7 @@
   "BaseViewModel_TypeInfo": "0xFD2F718",
   "BaseNetworkable_TypeInfo": "0xfcd2240",
   "ProjectileList": "0xFC5DD10",
+  "ItemIconStatic_TypeInfo": "0xFD533B8",
   "GraphicsFOV": "0xE2B45C8",
   "FovWrapper": "0x558",
   "TODSky_TypeInfo": "0xfd7bd18",
@@ -25,6 +26,18 @@
 
   "BaseEntity": { "model": "0x1A8" },
   "Model": { "boneTransforms": "0x50" },
+
+  "BaseNetworkable": {
+    "prefabID": "0x54"
+  },
+
+  "WorldItem": {
+    "item": "0x1F8"
+  },
+
+  "PlayerInput": {
+    "viewAngles": "0x44"
+  },
 
   "BasePlayer": {
     "playerModel": "0x6f0",
@@ -161,7 +174,17 @@
   "MedicalTool": {
     "healDurationSelf": "0x370",
     "healDurationOther": "0x374",
-    "healDurationWounded": "0x378"
+    "healDurationWounded": "0x378",
+    "healEndTime": "0x390",
+    "canRevive": "0x381"
+  },
+
+  "RemoteInvoke": {
+    "launchProjectileRVA": "0x4124700",
+    "convarServerNested_TypeInfo": "0xFCCE530",
+    "Action_TypeInfo": "0xFD7EDE8",
+    "fakeActionOffset": "0x580",
+    "fakeActionSize": "0x80"
   },
 
   "CameraView": { "viewMatrix": "0x2FC" },
