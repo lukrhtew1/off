@@ -7,17 +7,17 @@
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0xfc29470",
   "BasePlayer_TypeInfo": "0xfcdbaf0",
-  "BaseViewModel_TypeInfo": "0xFD2F718",
+  "BaseViewModel_TypeInfo": "0xFC05F70",
   "BaseNetworkable_TypeInfo": "0xfbf37a0",
   "ProjectileList": "0xFBDB350",
-  "ItemIconStatic_TypeInfo": "0xFD533B8",
+  "ItemIconStatic_TypeInfo": "0xFC0CFA0",
   "GraphicsFOV": "0xE2B45C8",
   "FovWrapper": "0x558",
   "TODSky_TypeInfo": "0xfc45770",
   "TODSky_InstancePtr": "0x20",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
-  "BufferListOffset": "0x10",
+  "BufferListOffset": "0x20",
 
   "MainCamera": {
     "Camera": "0x10",
@@ -51,11 +51,11 @@
     "playerInput": "0x728",
     "lifeState": "0x298",
     "playerMovement": "0x6f8",
-    "modelState": "0x490",
+    "modelState": "0x478",
     "lastSentTickTime": "0x678"
   },
 
-  "ModelState": { "flags": "0x20" },
+  "ModelState": { "flags": "0x24" },
 
   "PlayerMovement": {
     "spiderField": "0x108",
@@ -67,12 +67,12 @@
     "gravityMultiplier": "0xA8"
   },
 
-  "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x42c" },
+  "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x43C" },
   "NoLayers": { "hideMask": "0x2EE08001" },
 
   "WeaponMods": {
     "automatic": "0x380",
-    "reloadTime": "0x3c0",
+    "reloadTime": "0x3C0",
     "aimSway": "0x3E8",
     "aimSwaySpeed": "0x3EC",
     "deployDelay": "0x2D8",
@@ -86,17 +86,17 @@
     "animationDelay": "0x2E0"
   },
 
-  "PlayerModel": { "velocity": "0x310" },
-  "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
+  "PlayerModel": { "velocity": "0x31C" },
+  "PlayerEyes": { "viewOffset": "0xA0", "eye_rotation": "0x6C", "body_rotation": "0x50" },
   "PlayerInventory": { "containerBelt": "0x28", "containerWear": "0x58" },
-  "BaseViewModel": { "activeModels": "0x90", "animationEvent": "0xE0" },
+  "BaseViewModel": { "activeModels": "0x78", "animationEvent": "0xD8" },
   "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
     "ItemDefinition": "0xb8",
     "uid": "0x20",
-    "condition": "0x1C",
-    "amount": "0xE0",
+    "condition": "0x94",
+    "amount": "0x2C",
     "heldentity": "0x40",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x3F0",
@@ -112,7 +112,7 @@
 
   "HeldEntity": {
     "ownerItemUID": "0x2D0",
-    "viewModel": "0x1f0",
+    "viewModel": "0x2C8",
     "magazine": "0x378",
     "primaryMagazine": "0x3A8"
   },
@@ -163,7 +163,7 @@
     "currentPosition": "0x168",
     "traveledTime": "0x174",
     "traveledDistance": "0x178",
-    "previousPosition": "0x180",
+    "previousPosition": "0x18C",
     "sentRay": "0x1C0"
   },
 
