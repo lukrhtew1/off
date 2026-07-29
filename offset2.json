@@ -178,14 +178,14 @@
     "healEndTime": "0x390",
     "canRevive": "0x381"
   },
-
-  "RemoteInvoke": {
-    "launchProjectileRVA": "0x4124700",
-    "convarServerNested_TypeInfo": "0xFCCE530",
-    "Action_TypeInfo": "0xFD7EDE8",
-    "fakeActionOffset": "0x580",
-    "fakeActionSize": "0x80"
-  },
+	
+	"RemoteInvoke": {
+	  "launchProjectileRVA": "0x5E55AC0",
+	  "convarServerNested_TypeInfo": "0xFBBC038",
+	  "Action_TypeInfo": "0xFC22F78",
+	  "fakeActionOffset": "0x580",
+	  "fakeActionSize": "0x80"
+	},
 
   "CameraView": { "viewMatrix": "0x2FC" },
 
