@@ -205,9 +205,14 @@
 
   "Decrypt": {
 			"ClientEntities": {
-				"readOffset": "0x18",
-				"laneCount": 2,
-				"program": [{ "op": "sub", "imm": "0x5ADF7A4E" }, { "op": "xor", "imm": "0xD5554086" }, { "op": "sub", "imm": "0x33B0F636" }]
+			  "readOffset": "0x18",
+			  "laneCount": 2,
+			  "program": [
+			    { "op": "sub", "imm": "0x5ADF7A4E" },
+			    { "op": "xor", "imm": "0xD5554086" },
+			    { "op": "rol", "imm": 3 },
+			    { "op": "sub", "imm": "0x33B0F636" }
+			  ]
 			},
 			"EntityList": {
 				"readOffset": "0x18",
