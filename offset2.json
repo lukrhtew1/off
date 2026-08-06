@@ -7,13 +7,13 @@
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0xfc29470",
   "BasePlayer_TypeInfo": "0xfcdbaf0",
-  "BaseViewModel_TypeInfo": "0xFC05F70",
-  "BaseNetworkable_TypeInfo": "0xfbf37a0",
+  "BaseViewModel_TypeInfo": "0x10836BE0",
+  "BaseNetworkable_TypeInfo": "0x10732C38",
   "ProjectileList": "0xFBDB350",
   "ItemIconStatic_TypeInfo": "0xFC0CFA0",
   "GraphicsFOV": "0xE2B45C8",
   "FovWrapper": "0x558",
-  "TODSky_TypeInfo": "0xFC45770",
+  "TODSky_TypeInfo": "0x10786658",
   "TODSky_InstancePtr": "0x30",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
@@ -24,7 +24,7 @@
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
-  "BaseEntity": { "model": "0x1A8" },
+  "BaseEntity": { "model": "0x1B8" },
   "Model": { "boneTransforms": "0x50" },
 
   "BaseNetworkable": {
@@ -32,7 +32,7 @@
   },
 
   "WorldItem": {
-    "item": "0x1F8"
+    "item": "0x208"
   },
 
   "PlayerInput": {
@@ -40,17 +40,17 @@
   },
 
   "BasePlayer": {
-    "playerModel": "0x3f0",
-    "PlayerFlags": "0x6B8",
+    "playerModel": "0x4A8",
+    "PlayerFlags": "0x6D0",
     "BodyAngles": "0x44",
-    "clActiveItem": "0x568",
-    "currentTeam": "0x538",
+    "clActiveItem": "0x580",
+    "currentTeam": "0x550",
     "eyes": "0x3E8",
-    "inventory": "0x2F0",
-    "_displayName": "0x4a8",
-    "playerInput": "0x728",
+    "inventory": "0x540",
+    "_displayName": "0x510",
+    "playerInput": "0x520",
     "lifeState": "0x298",
-    "playerMovement": "0x6f8",
+    "playerMovement": "0x738",
     "modelState": "0x478",
     "lastSentTickTime": "0x678"
   },
@@ -59,45 +59,45 @@
 
   "PlayerMovement": {
     "spiderField": "0x108",
-    "groundAngle": "0x100",
-    "groundAngleNew": "0x108",
-    "maxVelocity": "0x214",
+    "groundAngle": "0x108",
+    "groundAngleNew": "0x110",
+    "maxVelocity": "0x21C",
     "targetMovement": "0x3c",
     "flying": "0x204",
-    "gravityMultiplier": "0xA8"
+    "gravityMultiplier": "0xB0"
   },
 
   "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x43C" },
   "NoLayers": { "hideMask": "0x2EE08001" },
 
   "WeaponMods": {
-    "automatic": "0x380",
-    "reloadTime": "0x3C0",
-    "aimSway": "0x3E8",
-    "aimSwaySpeed": "0x3EC",
-    "deployDelay": "0x2D8",
-    "repeatDelay": "0x2DC",
-    "animationDelay": "0x2E0"
+    "automatic": "0x390",
+    "reloadTime": "0x3D0",
+    "aimSway": "0x3F8",
+    "aimSwaySpeed": "0x3FC",
+    "deployDelay": "0x2E8",
+    "repeatDelay": "0x2EC",
+    "animationDelay": "0x2F0"
   },
 
   "AttackEntity": {
-    "deployDelay": "0x2D8",
-    "repeatDelay": "0x2DC",
-    "animationDelay": "0x2E0"
+    "deployDelay": "0x2E8",
+    "repeatDelay": "0x2EC",
+    "animationDelay": "0x2F0"
   },
 
   "PlayerModel": { "velocity": "0x31C" },
-  "PlayerEyes": { "viewOffset": "0xA0", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x28", "containerWear": "0x58" },
-  "BaseViewModel": { "activeModels": "0x78", "animationEvent": "0xD8" },
+  "PlayerEyes": { "viewOffset": "0x24", "eye_rotation": "0x6C", "body_rotation": "0x50" },
+  "PlayerInventory": { "containerBelt": "0x60", "containerWear": "0x28" },
+  "BaseViewModel": { "activeModels": "0x58", "animationEvent": "0xB0" },
   "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
-    "ItemDefinition": "0xb8",
-    "uid": "0x20",
+    "ItemDefinition": "0xC8",
+    "uid": "0x90",
     "condition": "0x94",
     "amount": "0x2C",
-    "heldentity": "0x40",
+    "heldentity": "0x60",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x3F0",
     "RecoilYawMin": "0x18",
@@ -112,12 +112,12 @@
 
   "HeldEntity": {
     "ownerItemUID": "0x2D0",
-    "viewModel": "0x2C8",
+    "viewModel": "0x2D8",
     "magazine": "0x378",
-    "primaryMagazine": "0x3A8"
+    "primaryMagazine": "0x3D8"
   },
 
-  "ItemContainer": { "itemList": "0x48" },
+  "ItemContainer": { "itemList": "0x20" },
 
   "ItemDefinition": {
     "itemid": "0x20",
@@ -127,21 +127,21 @@
   },
 
   "CompoundBowWeapon": {
-    "stringHoldDurationMax": "0x4C0",
-    "stringBonusVelocity": "0x4CC",
+    "stringHoldDurationMax": "0x4D0",
+    "stringBonusVelocity": "0x4D4",
     "currentHoldTime": "0x514"
   },
 
   "BaseProjectile": {
-    "automatic": "0x380",
-    "reloadTime": "0x3A0",
-    "aimSway": "0x3E8",
-    "aimSwaySpeed": "0x3EC",
+    "automatic": "0x390",
+    "reloadTime": "0x3D0",
+    "aimSway": "0x3F8",
+    "aimSwaySpeed": "0x3FC",
     "deployDelay": "0x2D8",
     "repeatDelay": "0x2DC",
     "animationDelay": "0x2E0",
-    "primaryMagazine": "0x3C8",
-    "projectileVelocityScale": "0x37C",
+    "primaryMagazine": "0x3D8",
+    "projectileVelocityScale": "0x38C",
     "instaBow_pullback": "0x4a8",
     "instaBow_pullbackTime": "0x4ac",
     "superEoka_charge": "0x4a8",
@@ -162,7 +162,7 @@
     "currentVelocity": "0x15C",
     "currentPosition": "0x168",
     "traveledTime": "0x174",
-    "traveledDistance": "0x178",
+    "traveledDistance": "0x174",
     "previousPosition": "0x18C",
     "sentRay": "0x1C0"
   },
