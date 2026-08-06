@@ -20,7 +20,7 @@
   "BufferListOffset": "0x20",
 
   "MainCamera": {
-    "Camera": "0x8",
+    "Camera": "0x28",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
