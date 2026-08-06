@@ -5,7 +5,7 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0xfc29470",
+  "MainCamera_TypeInfo": "0x107cb798",
   "BasePlayer_TypeInfo": "0xfcdbaf0",
   "BaseViewModel_TypeInfo": "0x10836BE0",
   "BaseNetworkable_TypeInfo": "0x10732C38",
@@ -20,7 +20,7 @@
   "BufferListOffset": "0x20",
 
   "MainCamera": {
-    "Camera": "0x10",
+    "Camera": "0x8",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
