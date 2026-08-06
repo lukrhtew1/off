@@ -9,9 +9,9 @@
   "BasePlayer_TypeInfo": "0xfcdbaf0",
   "BaseViewModel_TypeInfo": "0x10836BE0",
   "BaseNetworkable_TypeInfo": "0x10732C38",
-  "ProjectileList": "0xFBDB350",
+  "ProjectileList": "0x107A07F0",
   "ItemIconStatic_TypeInfo": "0xFC0CFA0",
-  "GraphicsFOV": "0xE2B45C8",
+  "GraphicsFOV": "0x107ABAA0",
   "FovWrapper": "0x558",
   "TODSky_TypeInfo": "0x10786658",
   "TODSky_InstancePtr": "0x30",
@@ -181,8 +181,8 @@
 	
 	"RemoteInvoke": {
 	  "launchProjectileRVA": "0x5E55AC0",
-	  "convarServerNested_TypeInfo": "0xFBBC038",
-	  "Action_TypeInfo": "0xFC22F78",
+	  "convarServerNested_TypeInfo": "0x107DFD88",
+	  "Action_TypeInfo": "0x10810630",
 	  "fakeActionOffset": "0x580",
 	  "fakeActionSize": "0x80"
 	},
