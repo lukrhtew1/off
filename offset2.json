@@ -214,11 +214,15 @@
 				"laneCount": 2,
 				"program": [{ "op": "xor", "imm": "0x64642BED" }, { "op": "rol", "imm": 5 }, { "op": "xor", "imm": "0x69C10039" }]
 			},
-		"ActiveItem": {
-			"readOffset": "0x0",
-			"laneCount": 2,
-			"program": [{ "op": "add", "imm": "0xB1BE1C1" }, { "op": "add", "imm": "0x1ECE697" }, { "op": "xor", "imm": "0x3AF97668" }]
-		},
+	"ActiveItem": {
+	  "readOffset": "0x0",
+	  "laneCount": 2,
+	  "program": [
+	    { "op": "rol", "imm": 27 },
+	    { "op": "add", "imm": "0x1ECE697" },
+	    { "op": "xor", "imm": "0x3AF97668" }
+	  ]
+	},
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
