@@ -204,16 +204,24 @@
   "TODStarsParameters": { "size": "0x10", "brightness": "0x14" },
 
   "Decrypt": {
-			"ClientEntities": {
-				"readOffset": "0x18",
-				"laneCount": 2,
-				"program": [{ "op": "rol", "imm": 31 }, { "op": "add", "imm": "0x8F7F58E3" }, { "op": "rol", "imm": 31 }, { "op": "xor", "imm": "0x64DE867F" }]
-			},
-			"EntityList": {
-				"readOffset": "0x18",
-				"laneCount": 2,
-				"program": [{ "op": "add", "imm": "0x374D4FA" }, { "op": "rol", "imm": 27 }, { "op": "add", "imm": "0xF181C80B" }, { "op": "sub", "imm": "0x10D77418" }]
-			},
+		"ClientEntities": {
+		  "readOffset": "0x18",
+		  "laneCount": 2,
+		  "program": [
+		    { "op": "add", "imm": "0x8F7F58E3" },
+		    { "op": "xor", "imm": "0x64DE867F" }
+		  ]
+		},
+		"EntityList": {
+		  "readOffset": "0x18",
+		  "laneCount": 2,
+		  "program": [
+		    { "op": "add", "imm": "0x374D4FA" },
+		    { "op": "rol", "imm": 27 },
+		    { "op": "xor", "imm": "0x5DD1D7B5" },
+		    { "op": "sub", "imm": "0x10D77418" }
+		  ]
+		},
 		"ActiveItem": {
 			"readOffset": "0x0",
 			"laneCount": 2,
