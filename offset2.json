@@ -180,9 +180,9 @@
   },
 	
 	"RemoteInvoke": {
-	  "launchProjectileRVA": "0x5E55AC0",
-	  "convarServerNested_TypeInfo": "0x107DFD88",
-	  "Action_TypeInfo": "0x10810630",
+	  "launchProjectileRVA": "0x62604B0",
+	  "convarServerNested_TypeInfo": "0x107D4E28",
+	  "Action_TypeInfo": "0x107423B0",
 	  "fakeActionOffset": "0x580",
 	  "fakeActionSize": "0x80"
 	},
