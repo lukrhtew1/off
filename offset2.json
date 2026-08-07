@@ -17,7 +17,7 @@
   "TODSky_InstancePtr": "0x10",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
-  "BufferListOffset": "0x10",
+  "BufferListOffset": "0x20",
 
   "MainCamera": {
     "Camera": "0x38",
@@ -59,12 +59,12 @@
 
   "PlayerMovement": {
     "spiderField": "0x108",
-    "groundAngle": "0x100",
-    "groundAngleNew": "0x108",
-    "maxVelocity": "0x214",
+    "groundAngle": "0x108",
+    "groundAngleNew": "0x110",
+    "maxVelocity": "0x100",
     "targetMovement": "0x30",
-    "flying": "0x204",
-    "gravityMultiplier": "0xa8"
+    "flying": "0x20C",
+    "gravityMultiplier": "0xB0"
   },
 
   "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x43C" },
@@ -96,7 +96,7 @@
     "ItemDefinition": "0xd0",
     "uid": "0x88",
     "condition": "0x28",
-    "amount": "0x68",
+    "amount": "0x1C",
     "heldentity": "0x98",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x400",
