@@ -208,7 +208,9 @@
 		  "readOffset": "0x18",
 		  "laneCount": 2,
 		  "program": [
+		    { "op": "rol", "imm": 31 },
 		    { "op": "add", "imm": "0x8F7F58E3" },
+		    { "op": "rol", "imm": 31 },
 		    { "op": "xor", "imm": "0x64DE867F" }
 		  ]
 		},
