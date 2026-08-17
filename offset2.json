@@ -9,7 +9,7 @@
   "BasePlayer_TypeInfo": "0x107cfd70",
   "BaseViewModel_TypeInfo": "0x10811258",
   "BaseNetworkable_TypeInfo": "0x10897EE8",
-  "ProjectileList": "0x1084E110",        //missed
+  "ProjectileList": "0x1084E110",        
   "ItemIconStatic_TypeInfo": "0x1080B178",
   "GraphicsFOV": "0x107ABAA0",
   "FovWrapper": "0x558",
