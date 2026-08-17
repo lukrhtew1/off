@@ -5,15 +5,15 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0x107948d0",
-  "BasePlayer_TypeInfo": "0xfcdbaf0",
-  "BaseViewModel_TypeInfo": "0x10830210",
-  "BaseNetworkable_TypeInfo": "0x1074E028",
-  "ProjectileList": "0x1084E110",
-  "ItemIconStatic_TypeInfo": "0xFC0CFA0",
+  "MainCamera_TypeInfo": "0x1083f688",
+  "BasePlayer_TypeInfo": "0x107cfd70",
+  "BaseViewModel_TypeInfo": "0x10811258",
+  "BaseNetworkable_TypeInfo": "0x10897EE8",
+  "ProjectileList": "0x1084E110",        //missed
+  "ItemIconStatic_TypeInfo": "0x1080B178",
   "GraphicsFOV": "0x107ABAA0",
   "FovWrapper": "0x558",
-  "TODSky_TypeInfo": "0x10854760",
+  "TODSky_TypeInfo": "0x108b07d8",
   "TODSky_InstancePtr": "0x28",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
@@ -40,25 +40,25 @@
   },
 
   "BasePlayer": {
-    "playerModel": "0x340",
+    "playerModel": "0x3e8",
     "PlayerFlags": "0x6d0",
     "BodyAngles": "0x44",
     "clActiveItem": "0x580",
     "currentTeam": "0x550",
     "eyes": "0x3E8",
     "inventory": "0x540",
-    "_displayName": "0x390",
-    "playerInput": "0x3b8",
+    "_displayName": "0x528",
+    "playerInput": "0x6a0",
     "lifeState": "0x2a8",
-    "playerMovement": "0x520",
-    "modelState": "0x478",
-    "lastSentTickTime": "0x678"
+    "playerMovement": "0x4f0",
+    "modelState": "0x738",
+    "lastSentTickTime": "0x330"
   },
 
   "ModelState": { "flags": "0x24" },
 
-  "PlayerMovement": {
-    "spiderField": "0x108",
+  "PlayerMovement": {    
+    "spiderField": "0x108",   
     "groundAngle": "0x108",
     "groundAngleNew": "0x110",
     "maxVelocity": "0x100",
@@ -87,16 +87,16 @@
   },
 
   "PlayerModel": { "velocity": "0x31C" },
-  "PlayerEyes": { "viewOffset": "0x24", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x38", "containerWear": "0x78" },
+  "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
+  "PlayerInventory": { "containerBelt": "0x78", "containerWear": "0x58" },
   "BaseViewModel": { "activeModels": "0x98", "animationEvent": "0x108" },
   "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
-    "ItemDefinition": "0xd0",
-    "uid": "0x88",
-    "condition": "0x28",
-    "amount": "0x1C",
+    "ItemDefinition": "0xc8",
+    "uid": "0x48",
+    "condition": "0x1c",
+    "amount": "0xd8",
     "heldentity": "0x98",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x400",
@@ -156,8 +156,8 @@
     "drag": "0x34",
     "gravityModifier": "0x38",
     "thickness": "0x3C",
-    "sourceWeapon": "0x120",
-    "sourceProjectile": "0x1e8",
+    "sourceWeapon": "0x110",
+    "sourceProjectile": "0x120",
     "owner": "0x110",
     "currentVelocity": "0x15C",
     "currentPosition": "0x168",
@@ -180,9 +180,9 @@
   },
 	
 	"RemoteInvoke": {
-	  "launchProjectileRVA": "0x62604B0",
-	  "convarServerNested_TypeInfo": "0x107D4E28",
-	  "Action_TypeInfo": "0x107423B0",
+	  "launchProjectileRVA": "0x20409a0",
+	  "convarServerNested_TypeInfo": "0x107fb990",
+	  "Action_TypeInfo": "0x108dabb8",
 	  "fakeActionOffset": "0x580",
 	  "fakeActionSize": "0x80"
 	},
@@ -193,8 +193,8 @@
     "dayParams": "0x58",
     "nightParams": "0x60",
     "dayGradient": "0x28",
-    "dayAmbient": "0x54",
-    "nightAmbient": "0x5C",
+    "dayAmbient": "0x40",
+    "nightAmbient": "0x48",
     "nightExposure": "0x50",
     "stars": "0x78",
     "clouds": "0x80"
@@ -227,7 +227,7 @@
 		"ActiveItem": {
 			"readOffset": "0x0",
 			"laneCount": 2,
-			"program": [{ "op": "xor", "imm": "0xC7F486D7" }, { "op": "add", "imm": "0x21AB371" }, { "op": "rol", "imm": 11 }, { "op": "add", "imm": "0x70077F50" }]
+			"program": [{ "op": "xor", "imm": "0x4A187FCE" }, { "op": "add", "imm": "0x21AB371" }, { "op": "rol", "imm": 30 }, { "op": "add", "imm": "0x30A95362" }]
 		},
     "FovEncrypt": {
       "laneCount": 1,
