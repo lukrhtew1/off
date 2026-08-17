@@ -17,10 +17,10 @@
   "TODSky_InstancePtr": "0x28",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
-  "BufferListOffset": "0x20",
+  "BufferListOffset": "0x18",
 
   "MainCamera": {
-    "Camera": "0x38",
+    "Camera": "0x10",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
@@ -208,26 +208,31 @@
 		  "readOffset": "0x18",
 		  "laneCount": 2,
 		  "program": [
-		    { "op": "rol", "imm": 31 },
-		    { "op": "add", "imm": "0x8F7F58E3" },
-		    { "op": "rol", "imm": 31 },
-		    { "op": "xor", "imm": "0x64DE867F" }
+		    { "op": "xor", "imm": "0x4D94B188" },
+		    { "op": "add", "imm": "0x452E8A8E" },
+		    { "op": "xor", "imm": "0x45CAF40B" },
+		    { "op": "sub", "imm": "0x064D03BD" }
 		  ]
 		},
 		"EntityList": {
 		  "readOffset": "0x18",
 		  "laneCount": 2,
 		  "program": [
-		    { "op": "add", "imm": "0x374D4FA" },
-		    { "op": "rol", "imm": 27 },
-		    { "op": "xor", "imm": "0x5DD1D7B5" },
-		    { "op": "sub", "imm": "0x10D77418" }
+		    { "op": "xor", "imm": "0xE3A0F8FB" },
+		    { "op": "rol", "imm": 3 },
+		    { "op": "add", "imm": "0x26BE655B" },
+		    { "op": "rol", "imm": 30 }
 		  ]
 		},
 		"ActiveItem": {
-			"readOffset": "0x0",
-			"laneCount": 2,
-			"program": [{ "op": "xor", "imm": "0x4A187FCE" }, { "op": "add", "imm": "0x21AB371" }, { "op": "rol", "imm": 30 }, { "op": "add", "imm": "0x30A95362" }]
+		  "readOffset": "0x0",
+		  "laneCount": 2,
+		  "program": [
+		    { "op": "rol", "imm": 30 },
+		    { "op": "xor", "imm": "0x4A187FCE" },
+		    { "op": "rol", "imm": 1 },
+		    { "op": "add", "imm": "0x30A95362" }
+		  ]
 		},
     "FovEncrypt": {
       "laneCount": 1,
