@@ -17,7 +17,7 @@
   "TODSky_InstancePtr": "0x28",
   "ClientEntities": "0x8",
   "EntityList": "0x10",
-  "BufferListOffset": "0x18",
+  "BufferListOffset": "0x10",
 
   "MainCamera": {
     "Camera": "0x10",
