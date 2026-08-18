@@ -8,7 +8,7 @@
   "MainCamera_TypeInfo": "0x1167ef00",
   "BasePlayer_TypeInfo": "0x107cfd70",
   "BaseViewModel_TypeInfo": "0x11742730",
-  "BaseNetworkable_TypeInfo": "0x10897EE8",
+  "BaseNetworkable_TypeInfo": "0x1164CC90",
   "ProjectileList": "0x1084E110",        
   "ItemIconStatic_TypeInfo": "0x1080B178",
   "GraphicsFOV": "0x107ABAA0",
@@ -205,25 +205,23 @@
 
   "Decrypt": {
 		"ClientEntities": {
-		  "readOffset": "0x18",
-		  "laneCount": 2,
-		  "program": [
-		    { "op": "xor", "imm": "0x4D94B188" },
-		    { "op": "add", "imm": "0x452E8A8E" },
-		    { "op": "xor", "imm": "0x45CAF40B" },
-		    { "op": "sub", "imm": "0x064D03BD" }
-		  ]
-		},
-		"EntityList": {
-		  "readOffset": "0x18",
-		  "laneCount": 2,
-		  "program": [
-		    { "op": "xor", "imm": "0xE3A0F8FB" },
-		    { "op": "rol", "imm": 3 },
-		    { "op": "add", "imm": "0x26BE655B" },
-		    { "op": "rol", "imm": 30 }
-		  ]
-		},
+		    "readOffset": "0x18",
+		    "laneCount": 2,
+		    "program": [
+		      { "op": "rol", "imm": 27 },
+		      { "op": "xor", "imm": "0xD12F9B81" },
+		      { "op": "rol", "imm": 5 }
+		    ]
+		  },
+		  "EntityList": {
+		    "readOffset": "0x18",
+		    "laneCount": 2,
+		    "program": [
+		      { "op": "rol", "imm": 15 },
+		      { "op": "xor", "imm": "0xE2181B93" },
+		      { "op": "rol", "imm": 8 }
+		    ]
+		  },
 		"ActiveItem": {
 		  "readOffset": "0x0",
 		  "laneCount": 2,
