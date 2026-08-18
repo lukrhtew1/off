@@ -5,11 +5,11 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0x1167ef00",
+  "MainCamera_TypeInfo": "0x1167EF00",
   "BasePlayer_TypeInfo": "0x107cfd70",
   "BaseViewModel_TypeInfo": "0x11742730",
   "BaseNetworkable_TypeInfo": "0x1164CC90",
-  "ProjectileList": "0x1084E110",        
+  "ProjectileList": "0x116C70F8",        
   "ItemIconStatic_TypeInfo": "0x1080B178",
   "GraphicsFOV": "0x107ABAA0",
   "FovWrapper": "0x558",
@@ -20,7 +20,7 @@
   "BufferListOffset": "0x10",
 
   "MainCamera": {
-    "Camera": "0x88",
+    "Camera": "0x38",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
