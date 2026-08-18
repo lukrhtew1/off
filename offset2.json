@@ -222,16 +222,15 @@
 		      { "op": "rol", "imm": 8 }
 		    ]
 		  },
-		"ActiveItem": {
-		  "readOffset": "0x0",
-		  "laneCount": 2,
-		  "program": [
-		    { "op": "rol", "imm": 30 },
-		    { "op": "xor", "imm": "0x4A187FCE" },
-		    { "op": "rol", "imm": 1 },
-		    { "op": "add", "imm": "0x30A95362" }
-		  ]
-		},
+	  "ActiveItem": {
+	    "readOffset": "0x0",
+	    "laneCount": 2,
+	    "program": [
+	      { "op": "rol", "imm": 9 },
+	      { "op": "xor", "imm": "0x1BD156A0" },
+	      { "op": "rol", "imm": 20 }
+	    ]
+	  },
     "FovEncrypt": {
       "laneCount": 1,
       "program": [
