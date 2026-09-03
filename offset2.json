@@ -224,14 +224,13 @@
 	    ]
 	  },
 	"ActiveItem": {
-	  "readOffset": "0x0",
-	  "laneCount": 2,
-	  "program": [
-	    { "op": "rol", "imm": 30 },
-	    { "op": "xor", "imm": "0x4A187FCE" },
-	    { "op": "rol", "imm": 1 },
-	    { "op": "add", "imm": "0x30A95362" }
-	  ]
+	"readOffset": "0x0",
+	"laneCount": 2,
+	"program": [
+	{ "op": "ror", "imm": 1 },
+	{ "op": "add", "imm": "0x1F2ABE36" },
+	{ "op": "xor", "imm": "0x3788ADB3" }
+	]
 	},
     "FovEncrypt": {
       "laneCount": 1,
