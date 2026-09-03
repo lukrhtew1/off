@@ -64,7 +64,7 @@
     "maxVelocity": "0x21C",
     "targetMovement": "0x44",
     "flying": "0x20C",
-    "gravityMultiplier": "0xa8"
+    "gravityMultiplier": "0xb0"
   },
 
   "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x43C" },
