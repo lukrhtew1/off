@@ -98,7 +98,7 @@
   "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
-    "ItemDefinition": "0x70",
+    "ItemDefinition": "0x60",
     "uid": "0x80",
     "condition": "0x98",
     "amount": "0xB0",
