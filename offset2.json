@@ -99,10 +99,10 @@
 
   "Item": {
     "ItemDefinition": "0x60",
-    "uid": "0x80",
+    "uid": "0x88",
     "condition": "0x98",
     "amount": "0xB0",
-    "heldentity": "0x20",
+    "heldentity": "0x78",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x408",
     "RecoilYawMin": "0x18",
