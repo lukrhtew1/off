@@ -223,7 +223,7 @@
 		  "laneCount": 2,
 		  "program": [
 		    { "op": "add", "imm": "0x30F40426" },
-		    { "op": "ror", "imm": 13 },
+		    { "op": "rol", "imm": 19 },
 		    { "op": "xor", "imm": "0x41C539DD" },
 		    { "op": "rol", "imm": 1 }
 		  ]
