@@ -5,23 +5,23 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0x10c62b28",
+  "MainCamera_TypeInfo": "0x109b7980",
   "BasePlayer_TypeInfo": "0x107cfd70",
-  "BaseViewModel_TypeInfo": "0x10c027e8",
-  "BaseNetworkable_TypeInfo": "0x10BE8EC8",
+  "BaseViewModel_TypeInfo": "0x109586f8",
+  "BaseNetworkable_TypeInfo": "0x10959AB0",
   "LocalPlayer_TypeInfo": "0x10C519C8",
   "ProjectileList": "0x118ACA90",        
   "ItemIconStatic_TypeInfo": "0x1192EC30",
-  "GraphicsFOV": "0x10cb36f8",
+  "GraphicsFOV": "0x10a2e368",
   "FovWrapper": "0x4C",
-  "TODSky_TypeInfo": "0x10c593a8",
+  "TODSky_TypeInfo": "0x10a089b8",
   "TODSky_InstancePtr": "0x68",
   "ClientEntities": "0x20",
   "EntityList": "0x18",
   "BufferListOffset": "0x20",
 
   "MainCamera": {
-    "Camera": "0x28",
+    "Camera": "0xb0",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
@@ -52,10 +52,10 @@
     "currentTeam": "0x558",
     "eyes": "0x3C0",
     "inventory": "0x540",
-    "_displayName": "0x520",
-    "playerInput": "0x6f0",
+    "_displayName": "0x4c8",
+    "playerInput": "0x6a0",
     "lifeState": "0x2a8",
-    "playerMovement": "0x348",
+    "playerMovement": "0x518",
     "modelState": "0x510",
     "lastSentTickTime": "0x698"
   },
@@ -93,16 +93,16 @@
 
   "PlayerModel": { "velocity": "0x31C" },
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x28", "containerWear": "0x78" },
-  "BaseViewModel": { "activeModels": "0x200", "animationEvent": "0xb8" },
+  "PlayerInventory": { "containerBelt": "0x60", "containerWear": "0x58" },
+  "BaseViewModel": { "activeModels": "0x168", "animationEvent": "0xa0" },
   "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
-    "ItemDefinition": "0x60",
-    "uid": "0x88",
+    "ItemDefinition": "0x40",
+    "uid": "0xa8",
     "condition": "0x98",
     "amount": "0xB0",
-    "heldentity": "0x78",
+    "heldentity": "0x70",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x408",
     "RecoilYawMin": "0x18",
@@ -117,12 +117,12 @@
 
   "HeldEntity": {
     "ownerItemUID": "0x2e0",
-    "viewModel": "0x250",
+    "viewModel": "0x200",
     "magazine": "0x378",
     "primaryMagazine": "0x3D8"
   },
 
-  "ItemContainer": { "itemList": "0x38" },
+  "ItemContainer": { "itemList": "0x48" },
 
   "ItemDefinition": {
     "itemid": "0x20",
