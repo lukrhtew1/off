@@ -209,7 +209,7 @@
   "TODStarsParameters": { "size": "0x10", "brightness": "0x14" },
 
   "Decrypt": {
-	  "ClientEntities": {
+	 "ClientEntities": {
 	    "readOffset": "0x18",
 	    "laneCount": 2,
 	    "program": [
@@ -225,17 +225,18 @@
 	      { "op": "add", "imm": "0x30F40426" },
 	      { "op": "ror", "imm": 13 },
 	      { "op": "xor", "imm": "0x41C539DD" },
-	      { "op": "shr", "imm": 31 }
+	      { "op": "shr", "imm": 31 },
+	      { "op": "shl", "imm": 1 },
+	      { "op": "or" }
 	    ]
 	  },
 	  "ActiveItem": {
 	    "readOffset": "0x0",
 	    "laneCount": 2,
 	    "program": [
-	      { "op": "rol", "imm": 17 },
-	      { "op": "xor", "imm": "0x24E8F4CF" },
-	      { "op": "rol", "imm": 20 },
-	      { "op": "sub", "imm": "0x214D6E5A" }
+	      { "op": "xor", "imm": "0xCDC978CC" },
+	      { "op": "sub", "imm": "0x51E49689" },
+	      { "op": "xor", "imm": "0xAA663687" }
 	    ]
 	  },
     "FovEncrypt": {
