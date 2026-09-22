@@ -6,11 +6,11 @@
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0x10aee0a0",
-  "BasePlayer_TypeInfo": "0x107cfd70",
+  "BasePlayer_TypeInfo": "0x10B18E40",
   "BaseViewModel_TypeInfo": "0x10b0d4f8",
   "BaseNetworkable_TypeInfo": "0x10B48130",
   "LocalPlayer_TypeInfo": "0x10BAE2B8",
-  "ProjectileList": "0x118ACA90",        
+  "ProjectileList": "0x10B836E8",        
   "ItemIconStatic_TypeInfo": "0x1192EC30",
   "GraphicsFOV": "0x10bd9bd0",
   "FovWrapper": "0x4C",
@@ -50,25 +50,25 @@
     "BodyAngles": "0x44",
     "clActiveItem": "0x588",
     "currentTeam": "0x558",
-    "eyes": "0x3C0",
-    "inventory": "0x540",
+    "eyes": "0x6E8",
+    "inventory": "0x678",
     "_displayName": "0x4a0",
     "playerInput": "0x530",
     "lifeState": "0x2a8",
     "playerMovement": "0x7d8",
-    "modelState": "0x510",
+    "modelState": "0x338",
     "lastSentTickTime": "0x698"
   },
 
-  "ModelState": { "flags": "0x3C" },
+  "ModelState": { "flags": "0x68" },
 
   "PlayerMovement": {    
     "spiderField": "0x110",   
     "groundAngle": "0x108",
     "groundAngleNew": "0x110",
-    "maxVelocity": "0x21C",
+    "maxVelocity": "0x100",
     "targetMovement": "0x44",
-    "flying": "0x20C",
+    "flying": "0x214",
     "gravityMultiplier": "0xb0"
   },
 
@@ -76,10 +76,10 @@
   "NoLayers": { "hideMask": "0x2ee08001" },
 
   "WeaponMods": {
-    "automatic": "0x390",
-    "reloadTime": "0x3D0",
-    "aimSway": "0x3F8",
-    "aimSwaySpeed": "0x3FC",
+    "automatic": "0x398",
+    "reloadTime": "0x3d8",
+    "aimSway": "0x400",
+    "aimSwaySpeed": "0x404",
     "deployDelay": "0x2E8",
     "repeatDelay": "0x2EC",
     "animationDelay": "0x2F0"
@@ -101,8 +101,8 @@
     "ItemDefinition": "0x48",
     "uid": "0xb8",
     "condition": "0x98",
-    "amount": "0xB0",
-    "heldentity": "0x70",
+    "amount": "0x2C",
+    "heldentity": "0x68",
     "newrecoilproperties": "0x80",
     "recoilproperties": "0x408",
     "RecoilYawMin": "0x18",
@@ -132,8 +132,8 @@
   },
 
   "CompoundBowWeapon": {
-    "stringHoldDurationMax": "0x4E8",
-    "stringBonusVelocity": "0x4D4",
+    "stringHoldDurationMax": "0x4e8",
+    "stringBonusVelocity": "0x4F4",
     "currentHoldTime": "0x514"
   },
 
@@ -150,7 +150,7 @@
     "instaBow_pullback": "0x4a8",
     "instaBow_pullbackTime": "0x4ac",
     "superEoka_charge": "0x4c0",
-    "superEoka_charged": "0x4b8"
+    "superEoka_charged": "0x4d0"
   },
 
   "Magazine": { "ammoType": "0x20", "contents": "0x1C" },
@@ -162,13 +162,13 @@
     "gravityModifier": "0x38",
     "thickness": "0x3C",
     "sourceWeapon": "0x110",
-    "sourceProjectile": "0x120",
-    "owner": "0x110",
-    "currentVelocity": "0x15C",
-    "currentPosition": "0x168",
-    "traveledTime": "0x174",
-    "traveledDistance": "0x174",
-    "previousPosition": "0x180",
+    "sourceProjectile": "0x118",
+    "owner": "0x1F0",
+    "currentVelocity": "0x164",
+    "currentPosition": "0x170",
+    "traveledTime": "0x180",
+    "traveledDistance": "0x17c",
+    "previousPosition": "0x194",
     "sentRay": "0x1C0"
   },
 
