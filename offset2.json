@@ -209,25 +209,26 @@
   "TODStarsParameters": { "size": "0x10", "brightness": "0x14" },
 
   "Decrypt": {
-		"ClientEntities": {
-		  "readOffset": "0x18",
-		  "laneCount": 2,
-		  "program": [
-		    { "op": "sub", "imm": "0x7226E3E6" },
-		    { "op": "xor", "imm": "0x2BB75F5E" },
-		    { "op": "rol", "imm": 25 }
-		  ]
-		},
-		"EntityList": {
-		  "readOffset": "0x18",
-		  "laneCount": 2,
-		  "program": [
-		    { "op": "add", "imm": "0x30F40426" },
-		    { "op": "rol", "imm": 19 },
-		    { "op": "xor", "imm": "0x41C539DD" },
-		    { "op": "rol", "imm": 1 }
-		  ]
-		},
+	  "ClientEntities": {
+	    "readOffset": "0x18",
+	    "laneCount": 2,
+	    "program": [
+	      { "op": "add", "imm": "0x5B90BDF1" },
+	      { "op": "rol", "imm": 13 },
+	      { "op": "sub", "imm": "0x7805A5CB" },
+	      { "op": "rol", "imm": 10 }
+	    ]
+	  },
+	  "EntityList": {
+	    "readOffset": "0x18",
+	    "laneCount": 2,
+	    "program": [
+	      { "op": "sub", "imm": "0x0CD8F15A" },
+	      { "op": "ror", "imm": 15 },
+	      { "op": "add", "imm": "0x2CA1F449" },
+	      { "op": "ror", "imm": 19 }
+	    ]
+	  },
 	  "ActiveItem": {
 	    "readOffset": "0x0",
 	    "laneCount": 2,
