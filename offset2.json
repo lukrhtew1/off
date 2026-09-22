@@ -5,23 +5,23 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0x109b7980",
+  "MainCamera_TypeInfo": "0x10aee0a0",
   "BasePlayer_TypeInfo": "0x107cfd70",
-  "BaseViewModel_TypeInfo": "0x109586f8",
-  "BaseNetworkable_TypeInfo": "0x10959AB0",
+  "BaseViewModel_TypeInfo": "0x10b0d4f8",
+  "BaseNetworkable_TypeInfo": "0x10B48130",
   "LocalPlayer_TypeInfo": "0x10957BE0",
   "ProjectileList": "0x118ACA90",        
   "ItemIconStatic_TypeInfo": "0x1192EC30",
-  "GraphicsFOV": "0x10a2e368",
+  "GraphicsFOV": "0x10bd9bd0",
   "FovWrapper": "0x4C",
-  "TODSky_TypeInfo": "0x10a089b8",
-  "TODSky_InstancePtr": "0x68",
-  "ClientEntities": "0x8",
+  "TODSky_TypeInfo": "0x10c046d0",
+  "TODSky_InstancePtr": "0x98",
+  "ClientEntities": "0x38",
   "EntityList": "0x18",
-  "BufferListOffset": "0x20",
+  "BufferListOffset": "0x18",
 
   "MainCamera": {
-    "Camera": "0xb0",
+    "Camera": "0xc0",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
@@ -45,17 +45,17 @@
   },
 
   "BasePlayer": {
-    "playerModel": "0x2f0",
+    "playerModel": "0x350",
     "PlayerFlags": "0x6d8",
     "BodyAngles": "0x44",
     "clActiveItem": "0x588",
     "currentTeam": "0x558",
     "eyes": "0x3C0",
     "inventory": "0x540",
-    "_displayName": "0x4c8",
-    "playerInput": "0x6a0",
+    "_displayName": "0x4a0",
+    "playerInput": "0x530",
     "lifeState": "0x2a8",
-    "playerMovement": "0x518",
+    "playerMovement": "0x7d8",
     "modelState": "0x510",
     "lastSentTickTime": "0x698"
   },
@@ -93,13 +93,13 @@
 
   "PlayerModel": { "velocity": "0x31C" },
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x60", "containerWear": "0x58" },
-  "BaseViewModel": { "activeModels": "0x168", "animationEvent": "0xa0" },
+  "PlayerInventory": { "containerBelt": "0x28", "containerWear": "0x58" },
+  "BaseViewModel": { "activeModels": "0x130", "animationEvent": "0xa0" },
   "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
-    "ItemDefinition": "0x40",
-    "uid": "0xa8",
+    "ItemDefinition": "0x48",
+    "uid": "0xb8",
     "condition": "0x98",
     "amount": "0xB0",
     "heldentity": "0x70",
@@ -122,7 +122,7 @@
     "primaryMagazine": "0x3D8"
   },
 
-  "ItemContainer": { "itemList": "0x48" },
+  "ItemContainer": { "itemList": "0x78" },
 
   "ItemDefinition": {
     "itemid": "0x20",
