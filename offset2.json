@@ -209,16 +209,15 @@
   "TODStarsParameters": { "size": "0x10", "brightness": "0x14" },
 
   "Decrypt": {
-	  "ClientEntities": {
-	    "readOffset": "0x18",
-	    "laneCount": 2,
-	    "program": [
-	      { "op": "add", "imm": "0x5B90BDF1" },
-	      { "op": "rol", "imm": 13 },
-	      { "op": "add", "imm": "0x87F6F395" },
-	      { "op": "rol", "imm": 10 }
-	    ]
-	  },
+		"ClientEntities": {
+		  "readOffset": "0x18",
+		  "laneCount": 2,
+		  "program": [
+		    { "op": "xor", "imm": "0x1ED63991" },
+		    { "op": "rol", "imm": 11 },
+		    { "op": "xor", "imm": "0x2519E30D" }
+		  ]
+		},
 	  "EntityList": {
 	    "readOffset": "0x18",
 	    "laneCount": 2,
