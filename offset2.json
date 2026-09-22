@@ -63,11 +63,11 @@
   "ModelState": { "flags": "0x68" },
 
   "PlayerMovement": {    
-    "spiderField": "0x110",   
+    "spiderField": "0x108",   
     "groundAngle": "0x108",
     "groundAngleNew": "0x110",
     "maxVelocity": "0x100",
-    "targetMovement": "0x44",
+    "targetMovement": "0x30",
     "flying": "0x214",
     "gravityMultiplier": "0xb0"
   },
