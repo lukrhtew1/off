@@ -1,1 +1,98 @@
+{
+  "Globals": {
+    "GWorld": "0x0D0CB998",
+    "GNames": "0x0CE6CA30",
+    "GObjects": "0x0CF3F260",
+    "NumElements": "0x0CF3F274"
+  },
 
+  "UObject": {
+    "NameIndex": "0x18",
+    "ClassPrivate": "0x10",
+    "SuperStruct": "0x40"
+  },
+
+  "UWorld": {
+    "PersistentLevel": "0x30",
+    "GameInstance": "0x228",
+    "GameState": "0x1B0",
+    "PlayerArray": "0x2D0",
+    "Actors": "0xA0",
+    "LocalPlayers": "0x38",
+    "PlayerController": "0x30"
+  },
+
+  "Controller": {
+    "Pawn": "0x360",
+    "PlayerState": "0x2C0",
+    "CameraManager": "0x370",
+    "ControlRotation": "0x330"
+  },
+
+  "Camera": {
+    "Cache": "0x1560",
+    "LastCache": "0x1E40",
+    "PovLocation": "0x10",
+    "PovRotation": "0x28",
+    "PovFov": "0x40"
+  },
+
+  "Actor": {
+    "RootComponent": "0x1C0",
+    "Instigator": "0x1A8",
+    "PlayerState": "0x2D8",
+    "PawnController": "0x2E8",
+    "Mesh": "0x390",
+    "ComponentToWorld": "0x210",
+    "RelativeLocation": "0x168",
+    "BoneArray": "0xA18"
+  },
+
+  "PlayerState": {
+    "Name": "0x350",
+    "PawnPrivate": "0x330",
+    "FactionComponent": "0x4F0",
+    "FactionTag": "0x110",
+    "SquadComponent": "0x4F8",
+    "SquadId": "0x140"
+  },
+
+  "Vitality": {
+    "Component": "0x738",
+    "MaxHealth": "0x134",
+    "CurrentHealth": "0x174",
+    "HealthObject": "0x140",
+    "HealthControl": "0x0",
+    "AttributeValue": "0x30",
+    "AttributeValidity": "0x0",
+    "AttributeControl": "0x0",
+    "VitalityState": "0x7F4",
+    "VitalityTag": "0x7FC",
+    "VitalityFlagA": "0x812",
+    "VitalityFlagB": "0x813",
+    "RepBase": "0x174",
+    "RepDecay": "0x178",
+    "RepOverheal": "0x17C",
+    "PsVitalityTagA": "0x5C4",
+    "PsVitalityTagB": "0x5F4"
+  },
+
+  "Bone": {
+    "PoseA": "0x610",
+    "PoseB": "0x620",
+    "Editable": "0x630",
+    "ReadIndex": "0x634",
+    "CachedPose": "0xA18",
+    "CachedAlt": "0xA08"
+  },
+
+  "WorldEsp": {
+    "DroppedItemTag": "0x33C",
+    "VehicleConfig": "0xA28",
+    "VehicleVariant": "0x3A8",
+    "VariantTag": "0x34",
+    "VehicleTags": "0x900",
+    "ConfigIdentityTag": "0xB0",
+    "RotaryVehicleTag": "0xBB0"
+  }
+}
