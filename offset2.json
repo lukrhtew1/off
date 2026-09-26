@@ -64,12 +64,12 @@
 
   "PlayerMovement": {    
     "spiderField": "0x108",   
-    "groundAngle": "0x108",
-    "groundAngleNew": "0x110",
-    "maxVelocity": "0x100",
+    "groundAngle": "0x100",
+    "groundAngleNew": "0x108",
+    "maxVelocity": "0x214",
     "targetMovement": "0x30",
-    "flying": "0x214",
-    "gravityMultiplier": "0xb0"
+    "flying": "0x204",
+    "gravityMultiplier": "0xa8"
   },
 
   "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x43C" },
