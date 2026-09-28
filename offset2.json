@@ -72,7 +72,7 @@
     "gravityMultiplier": "0xa8"
   },
 
-  "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x43C" },
+  "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x42C" },
   "NoLayers": { "hideMask": "0x2ee08001" },
 
   "WeaponMods": {
