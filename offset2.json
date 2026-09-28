@@ -119,7 +119,7 @@
     "ownerItemUID": "0x2e0",
     "viewModel": "0x250",
     "magazine": "0x378",
-    "primaryMagazine": "0x3D8"
+    "primaryMagazine": "0x3e0"
   },
 
   "ItemContainer": { "itemList": "0x40" },
@@ -145,12 +145,12 @@
     "deployDelay": "0x2e8",
     "repeatDelay": "0x2ec",
     "animationDelay": "0x2f0",
-    "primaryMagazine": "0x3E0",
+    "primaryMagazine": "0x3e0",
     "projectileVelocityScale": "0x394",
     "instaBow_pullback": "0x4a8",
     "instaBow_pullbackTime": "0x4ac",
     "superEoka_charge": "0x4c0",
-    "superEoka_charged": "0x4d0"
+    "superEoka_charged": "0x4b8"
   },
 
   "Magazine": { "ammoType": "0x20", "contents": "0x1C" },
@@ -161,15 +161,15 @@
     "drag": "0x34",
     "gravityModifier": "0x38",
     "thickness": "0x3C",
-    "sourceWeapon": "0x110",
-    "sourceProjectile": "0x118",
-    "owner": "0x1F0",
+    "sourceWeapon": "0x128",
+    "sourceProjectile": "0x1f0",
+    "owner": "0x120",
     "currentVelocity": "0x164",
     "currentPosition": "0x170",
     "traveledTime": "0x180",
     "traveledDistance": "0x17c",
-    "previousPosition": "0x194",
-    "sentRay": "0x1C0"
+    "previousPosition": "0x188",
+    "sentRay": "0x1c8"
   },
 
   "Thickness": { "projectile": "0x3C" },
