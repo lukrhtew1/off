@@ -6,7 +6,7 @@
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0x10bf2548",
-  "BasePlayer_TypeInfo": "0x10B18E40",
+  "BasePlayer_TypeInfo": "0x10BE9128",
   "BaseViewModel_TypeInfo": "0x10b9d9d0",
   "BaseNetworkable_TypeInfo": "0x10BE9150",
   "LocalPlayer_TypeInfo": "0x10BBA078",
@@ -66,8 +66,8 @@
     "spiderField": "0x108",   
     "groundAngle": "0x108",
     "groundAngleNew": "0x110",
-    "maxVelocity": "0x214",
-    "targetMovement": "0x30",
+    "maxVelocity": "0x21C",
+    "targetMovement": "0x44",
     "flying": "0x20C",
     "gravityMultiplier": "0xa8"
   },
@@ -181,13 +181,13 @@
     "healDurationOther": "0x384",
     "healDurationWounded": "0x388",
     "healEndTime": "0x390",
-    "canRevive": "0x381"
+    "canRevive": "0x391"
   },
 	
 	"RemoteInvoke": {
 	  "launchProjectileRVA": "0x5a26ee0",
 	  "convarServerNested_TypeInfo": "0x119525c0",
-	  "Action_TypeInfo": "0x118e9550",
+	  "Action_TypeInfo": "0x10BB1020",
 	  "fakeActionOffset": "0x580",
 	  "fakeActionSize": "0x80"
 	},
