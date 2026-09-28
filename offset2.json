@@ -99,7 +99,7 @@
 
   "Item": {
     "ItemDefinition": "0xB8",
-    "uid": "0xB8",
+    "uid": "0x88",
     "condition": "0x98",
     "amount": "0x2C",
     "heldentity": "0x68",
