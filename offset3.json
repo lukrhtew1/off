@@ -1,9 +1,9 @@
 {
   "Globals": {
-    "GWorld": "0x0D0CB998",
-    "GNames": "0x0CE6CA30",
-    "GObjects": "0x0CF3F260",
-    "NumElements": "0x0CF3F274"
+    "GWorld": "0x0D0E2E98",
+    "GNames": "0x0CE83F40",
+    "GObjects": "0x0CF56760",
+    "NumElements": "0x0CF56774"
   },
 
   "UObject": {
