@@ -51,9 +51,9 @@
   "PlayerState": {
     "Name": "0x350",
     "PawnPrivate": "0x330",
-    "FactionComponent": "0x4F0",
+    "FactionComponent": "0x548",
     "FactionTag": "0x110",
-    "SquadComponent": "0x4F8",
+    "SquadComponent": "0x550",
     "SquadId": "0x140"
   },
 
@@ -73,8 +73,8 @@
     "RepBase": "0x174",
     "RepDecay": "0x178",
     "RepOverheal": "0x17C",
-    "PsVitalityTagA": "0x5C4",
-    "PsVitalityTagB": "0x5F4"
+    "PsVitalityTagA": "0x61C",
+    "PsVitalityTagB": "0x628"
   },
 
   "Bone": {
@@ -137,7 +137,7 @@
     "Inventory": "0x748",
     "ItemA": "0x8C8",
     "ItemB": "0xA78",
-    "ProjectileProxy": "0x508",
+    "ProjectileProxy": "0x560",
     "Behavior": "0x770"
   },
 
