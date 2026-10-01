@@ -9,7 +9,7 @@
   "BasePlayer_TypeInfo": "0x111E7638",
   "BaseViewModel_TypeInfo": "0x10b9d9d0",
   "BaseNetworkable_TypeInfo": "0x111CD580",
-  "LocalPlayer_TypeInfo": "0x10BBA078",
+  "LocalPlayer_TypeInfo": "0x112C82D8",
   "ProjectileList": "0x10bbd5b0",        
   "ItemIconStatic_TypeInfo": "0x10c1a9d0",
   "GraphicsFOV": "0x10BF2568",
@@ -37,7 +37,7 @@
   },
 
   "LocalPlayer": {
-	"_entity": "0x100"
+	"_entity": "0x248"
   },
 
   "PlayerInput": {
@@ -53,9 +53,9 @@
     "eyes": "0x3F0",
     "inventory": "0x308",
     "_displayName": "0x4C8",
-    "playerInput": "0x6E8",
+    "playerInput": "0x6e8",
     "lifeState": "0x2B0",
-    "playerMovement": "0x5A0",
+    "playerMovement": "0x5a0",
     "modelState": "0x3A0",
     "lastSentTickTime": "0x698"
   },
@@ -93,7 +93,7 @@
 
   "PlayerModel": { "velocity": "0x31C" },
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x38", "containerWear": "0x58" },
+  "PlayerInventory": { "containerBelt": "0x58", "containerWear": "0x78" },
   "BaseViewModel": { "activeModels": "0x1d8", "animationEvent": "0xa8" },
   "AnimationEvents": { "targetEntity": "0x28" },
 
@@ -168,7 +168,7 @@
     "currentPosition": "0x170",
     "traveledTime": "0x180",
     "traveledDistance": "0x17c",
-    "previousPosition": "0x188",
+    "previousPosition": "0x194",
     "sentRay": "0x1c8"
   },
 
