@@ -5,23 +5,23 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0x1124ECB0",
+  "MainCamera_TypeInfo": "0x111BE978",
   "BasePlayer_TypeInfo": "0x111E7638",
   "BaseViewModel_TypeInfo": "0x11254080",
-  "BaseNetworkable_TypeInfo": "0x111CD580",
+  "BaseNetworkable_TypeInfo": "0x11183048",
   "LocalPlayer_TypeInfo": "0x112C82D8",
   "ProjectileList": "0x10bbd5b0",        
   "ItemIconStatic_TypeInfo": "0x10c1a9d0",
   "GraphicsFOV": "0x10BF2568",
   "FovWrapper": "0x370",
-  "TODSky_TypeInfo": "0x10bacc40",
+  "TODSky_TypeInfo": "0x1116FB38",
   "TODSky_InstancePtr": "0x50",
-  "ClientEntities": "0x8",
+  "ClientEntities": "0x18",
   "EntityList": "0x18",
-  "BufferListOffset": "0x18",
+  "BufferListOffset": "0x20",
 
   "MainCamera": {
-    "Camera": "0xA8",
+    "Camera": "0x88",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
@@ -45,17 +45,17 @@
   },
 
   "BasePlayer": {
-    "playerModel": "0x4F8",
+    "playerModel": "0x710",
     "PlayerFlags": "0x6E0",
     "BodyAngles": "0x44",
     "clActiveItem": "0x588",
     "currentTeam": "0x558",
     "eyes": "0x3F0",
     "inventory": "0x308",
-    "_displayName": "0x2F8",
-    "playerInput": "0x340",
+    "_displayName": "0x7F0",
+    "playerInput": "0x620",
     "lifeState": "0x2B0",
-    "playerMovement": "0x5a0",
+    "playerMovement": "0x548",
     "modelState": "0x3A0",
     "lastSentTickTime": "0x698"
   },
@@ -118,11 +118,11 @@
   "HeldEntity": {
     "ownerItemUID": "0x2e0",
     "viewModel": "0x250",
-    "magazine": "0x378",
-    "primaryMagazine": "0x3e0"
+    "magazine": "0x3E8",
+    "primaryMagazine": "0x3E8"
   },
 
-  "ItemContainer": { "itemList": "0x40" },
+  "ItemContainer": { "itemList": "0x18" },
 
   "ItemDefinition": {
     "itemid": "0x20",
