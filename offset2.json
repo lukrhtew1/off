@@ -16,7 +16,7 @@
   "FovWrapper": "0x370",
   "TODSky_TypeInfo": "0x10bacc40",
   "TODSky_InstancePtr": "0x50",
-  "ClientEntities": "0x18",
+  "ClientEntities": "0x8",
   "EntityList": "0x18",
   "BufferListOffset": "0x18",
 
@@ -210,16 +210,16 @@
 
   "Decrypt": {
 	  
-    "ClientEntities": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "sub", "imm": "0x385C2A" },
-        { "op": "shl", "imm": 9 },
-        { "op": "xor", "imm": "0x19300200" },
-        { "op": "sub", "imm": "0x34709200" }
-      ]
-    },
+	  "ClientEntities": {
+	    "readOffset": "0x18",
+	    "laneCount": 2,
+	    "program": [
+	      { "op": "sub", "imm": "0x5FEACC2A" },
+	      { "op": "xor", "imm": "0x460C9801" },
+	      { "op": "sub", "imm": "0x6561DDC9" },
+	      { "op": "rol", "imm": 9 }
+	    ]
+	  },
 	  
     "EntityList": {
       "readOffset": "0x18",
