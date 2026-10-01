@@ -7,7 +7,7 @@
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0x1124ECB0",
   "BasePlayer_TypeInfo": "0x111E7638",
-  "BaseViewModel_TypeInfo": "0x10b9d9d0",
+  "BaseViewModel_TypeInfo": "0x11254080",
   "BaseNetworkable_TypeInfo": "0x111CD580",
   "LocalPlayer_TypeInfo": "0x112C82D8",
   "ProjectileList": "0x10bbd5b0",        
@@ -94,7 +94,7 @@
   "PlayerModel": { "velocity": "0x31C" },
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
   "PlayerInventory": { "containerBelt": "0x58", "containerWear": "0x78" },
-  "BaseViewModel": { "activeModels": "0x1d8", "animationEvent": "0xa8" },
+  "BaseViewModel": { "activeModels": "0x1E0", "animationEvent": "0xa8" },
   "AnimationEvents": { "targetEntity": "0x28" },
 
   "Item": {
