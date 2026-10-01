@@ -210,26 +210,24 @@
 
   "Decrypt": {
 	  
-	  "ClientEntities": {
-	    "readOffset": "0x18",
-	    "laneCount": 2,
-	    "program": [
-	      { "op": "sub", "imm": "0x5FEACC2A" },
-	      { "op": "xor", "imm": "0x460C9801" },
-	      { "op": "sub", "imm": "0x6561DDC9" },
-	      { "op": "rol", "imm": 9 }
-	    ]
-	  },
-	  
-    "EntityList": {
-      "readOffset": "0x18",
-      "laneCount": 2,
-      "program": [
-        { "op": "sub", "imm": "0x1AFD03B6" },
-        { "op": "xor", "imm": "0xE3DDC870" },
-        { "op": "add", "imm": "0x6285007" }
-      ]
-    },
+  "ClientEntities": {
+    "readOffset": "0x18",
+    "laneCount": 2,
+    "program": [
+      { "op": "xor", "imm": "0x1D967507" },
+      { "op": "rol", "imm": 8 },
+      { "op": "sub", "imm": "0x42DC34A6" }
+    ]
+  },
+  "EntityList": {
+    "readOffset": "0x18",
+    "laneCount": 2,
+    "program": [
+      { "op": "add", "imm": "0x43A97588" },
+      { "op": "rol", "imm": 11 },
+      { "op": "xor", "imm": "0xEDBCB0B2" }
+    ]
+  },
 
 "LocalPlayer": {
     "readOffset": "0x18",
