@@ -37,7 +37,7 @@
   },
 
   "LocalPlayer": {
-	"_entity": "0x248"
+	"_entity": "0x270"
   },
 
   "PlayerInput": {
@@ -230,6 +230,17 @@
         { "op": "add", "imm": "0x6285007" }
       ]
     },
+
+"LocalPlayer": {
+    "readOffset": "0x18",
+    "laneCount": 2,
+    "program": [
+      { "op": "sub", "imm": "0x5FEACC2A" },
+      { "op": "xor", "imm": "0x460C9801" },
+      { "op": "add", "imm": "0x9A9E2237" },
+      { "op": "rol", "imm": 9 }
+    ]
+  },
 
   "ActiveItem": {
     "readOffset": "0x0",
