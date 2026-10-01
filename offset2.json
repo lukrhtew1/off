@@ -5,8 +5,8 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0x10bf2548",
-  "BasePlayer_TypeInfo": "0x10BE9128",
+  "MainCamera_TypeInfo": "0x1124ECB0",
+  "BasePlayer_TypeInfo": "0x111E7638",
   "BaseViewModel_TypeInfo": "0x10b9d9d0",
   "BaseNetworkable_TypeInfo": "0x111CD580",
   "LocalPlayer_TypeInfo": "0x10BBA078",
@@ -21,11 +21,11 @@
   "BufferListOffset": "0x18",
 
   "MainCamera": {
-    "Camera": "0x8",
+    "Camera": "0xA8",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
-  "BaseEntity": { "model": "0x1B8" },
+  "BaseEntity": { "model": "0x1C0" },
   "Model": { "boneTransforms": "0x50" },
 
   "BaseNetworkable": {
@@ -46,15 +46,15 @@
 
   "BasePlayer": {
     "playerModel": "0x4F8",
-    "PlayerFlags": "0x6d8",
+    "PlayerFlags": "0x6E0",
     "BodyAngles": "0x44",
     "clActiveItem": "0x588",
     "currentTeam": "0x558",
-    "eyes": "0x6E8",
-    "inventory": "0x5A8",
+    "eyes": "0x3F0",
+    "inventory": "0x308",
     "_displayName": "0x4C8",
     "playerInput": "0x6E8",
-    "lifeState": "0x2A8",
+    "lifeState": "0x2B0",
     "playerMovement": "0x5A0",
     "modelState": "0x3A0",
     "lastSentTickTime": "0x698"
@@ -76,19 +76,19 @@
   "NoLayers": { "hideMask": "0x2ee08001" },
 
   "WeaponMods": {
-    "automatic": "0x398",
-    "reloadTime": "0x3d8",
-    "aimSway": "0x400",
-    "aimSwaySpeed": "0x404",
-    "deployDelay": "0x2E8",
-    "repeatDelay": "0x2EC",
-    "animationDelay": "0x2F0"
+    "automatic": "0x3A0",
+    "reloadTime": "0x3E0",
+    "aimSway": "0x408",
+    "aimSwaySpeed": "0x40C",
+    "deployDelay": "0x2F0",
+    "repeatDelay": "0x2F4",
+    "animationDelay": "0x2F8"
   },
 
   "AttackEntity": {
-    "deployDelay": "0x2E8",
-    "repeatDelay": "0x2EC",
-    "animationDelay": "0x2F0"
+    "deployDelay": "0x2F0",
+    "repeatDelay": "0x2F4",
+    "animationDelay": "0x2F8"
   },
 
   "PlayerModel": { "velocity": "0x31C" },
@@ -104,15 +104,15 @@
     "amount": "0x2C",
     "heldentity": "0x68",
     "newrecoilproperties": "0x80",
-    "recoilproperties": "0x408",
+    "recoilproperties": "0x410",
     "RecoilYawMin": "0x18",
     "RecoilYawMax": "0x1C",
     "RecoilpitchMin": "0x20",
     "RecoilpitchMax": "0x24",
     "oAimconeCurveScale": "0x60",
-    "oAimCone": "0x418",
-    "oHipAimCone": "0x41C",
-    "oAimconePenaltyPerShot": "0x420"
+    "oAimCone": "0x420",
+    "oHipAimCone": "0x424",
+    "oAimconePenaltyPerShot": "0x428"
   },
 
   "HeldEntity": {
@@ -142,11 +142,11 @@
     "reloadTime": "0x3D8",
     "aimSway": "0x400",
     "aimSwaySpeed": "0x404",
-    "deployDelay": "0x2e8",
-    "repeatDelay": "0x2ec",
-    "animationDelay": "0x2f0",
-    "primaryMagazine": "0x3e0",
-    "projectileVelocityScale": "0x394",
+    "deployDelay": "0x2F0",
+    "repeatDelay": "0x2F4",
+    "animationDelay": "0x2F8",
+    "primaryMagazine": "0x3E8",
+    "projectileVelocityScale": "0x39C",
     "instaBow_pullback": "0x4a8",
     "instaBow_pullbackTime": "0x4ac",
     "superEoka_charge": "0x4c0",
