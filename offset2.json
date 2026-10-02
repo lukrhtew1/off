@@ -214,18 +214,18 @@
     "readOffset": "0x18",
     "laneCount": 2,
     "program": [
-      { "op": "xor", "imm": "0x1D967507" },
-      { "op": "rol", "imm": 8 },
-      { "op": "sub", "imm": "0x42DC34A6" }
+      { "op": "rol", "imm": 29 },
+      { "op": "xor", "imm": "0x52079D6B" },
+      { "op": "sub", "imm": "0x67894B2" }
     ]
   },
   "EntityList": {
     "readOffset": "0x18",
     "laneCount": 2,
     "program": [
-      { "op": "add", "imm": "0x43A97588" },
-      { "op": "rol", "imm": 11 },
-      { "op": "xor", "imm": "0xEDBCB0B2" }
+      { "op": "rol", "imm": 8 },
+      { "op": "xor", "imm": "0x86EB57BF" },
+      { "op": "rol", "imm": 21 }
     ]
   },
 	  
