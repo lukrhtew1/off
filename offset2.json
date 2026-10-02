@@ -6,10 +6,10 @@
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0x1118a008",
-  "BasePlayer_TypeInfo": "0x1117EE48",
+  "BasePlayer_TypeInfo": "0x111918A0",
   "BaseViewModel_TypeInfo": "0x11128ac8",
   "BaseNetworkable_TypeInfo": "0x111a9f78",
-  "LocalPlayer_TypeInfo": "0x11193A08",
+  "LocalPlayer_TypeInfo": "0x111CE9F8",
   "ProjectileList": "0x10bbd5b0",        
   "ItemIconStatic_TypeInfo": "0x10c1a9d0",
   "GraphicsFOV": "0x10BF2568",
@@ -37,7 +37,7 @@
   },
 
   "LocalPlayer": {
-	"_entity": "0x2F0"
+	"_entity": "0xB0"
   },
 
   "PlayerInput": {
@@ -229,15 +229,15 @@
     ]
   },
 	  
-	"LocalPlayer": {
-	  "readOffset": "0x18",
-	  "laneCount": 2,
-	  "program": [
-	    { "op": "rol", "imm": 29 },
-	    { "op": "xor", "imm": "0x52079D6B" },
-	    { "op": "sub", "imm": "0x67894B2" }
-	  ]
-	},
+  "LocalPlayer": {
+    "readOffset": "0x18",
+    "laneCount": 2,
+    "program": [
+      { "op": "rol", "imm": 29 },
+      { "op": "xor", "imm": "0x52079D6B" },
+      { "op": "sub", "imm": "0x67894B2" }
+    ]
+  },
 
   "ActiveItem": {
     "readOffset": "0x0",
