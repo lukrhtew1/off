@@ -229,15 +229,15 @@
     ]
   },
 	  
-  "LocalPlayer": {
-    "readOffset": "0x18",
-    "laneCount": 2,
-    "program": [
-      { "op": "rol", "imm": 29 },
-      { "op": "xor", "imm": "0x52079D6B" },
-      { "op": "sub", "imm": "0x067894B2" }
-    ]
-  },
+	"LocalPlayer": {
+	  "readOffset": "0x18",
+	  "laneCount": 2,
+	  "program": [
+	    { "op": "rol", "imm": 29 },
+	    { "op": "xor", "imm": "0x52079D6B" },
+	    { "op": "sub", "imm": "0x67894B2" }
+	  ]
+	},
 
   "ActiveItem": {
     "readOffset": "0x0",
