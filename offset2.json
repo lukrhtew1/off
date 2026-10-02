@@ -48,7 +48,7 @@
     "playerModel": "0x620",
     "PlayerFlags": "0x6E0",
     "BodyAngles": "0x44",
-    "clActiveItem": "0x588",
+    "clActiveItem": "0x590",
     "currentTeam": "0x558",
     "eyes": "0x3F0",
     "inventory": "0x308",
@@ -116,7 +116,7 @@
   },
 
   "HeldEntity": {
-    "ownerItemUID": "0x2e0",
+    "ownerItemUID": "0x2E0",
     "viewModel": "0x2e0",
     "magazine": "0x3E8",
     "primaryMagazine": "0x3E8"
