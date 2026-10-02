@@ -9,14 +9,14 @@
   "BasePlayer_TypeInfo": "0x1117EE48",
   "BaseViewModel_TypeInfo": "0x11128ac8",
   "BaseNetworkable_TypeInfo": "0x111a9f78",
-  "LocalPlayer_TypeInfo": "0x11285FD0",
+  "LocalPlayer_TypeInfo": "0x11193A08",
   "ProjectileList": "0x10bbd5b0",        
   "ItemIconStatic_TypeInfo": "0x10c1a9d0",
   "GraphicsFOV": "0x10BF2568",
   "FovWrapper": "0x370",
   "TODSky_TypeInfo": "0x111d2ea8",
   "TODSky_InstancePtr": "0x50",
-  "ClientEntities": "0x18",
+  "ClientEntities": "0x30",
   "EntityList": "0x18",
   "BufferListOffset": "0x10",
 
@@ -37,7 +37,7 @@
   },
 
   "LocalPlayer": {
-	"_entity": "0x2F8"
+	"_entity": "0x2F0"
   },
 
   "PlayerInput": {
@@ -233,9 +233,9 @@
     "readOffset": "0x18",
     "laneCount": 2,
     "program": [
-      { "op": "xor", "imm": "0x1D967507" },
-      { "op": "rol", "imm": 8 },
-      { "op": "sub", "imm": "0x42DC34A6" }
+      { "op": "rol", "imm": 29 },
+      { "op": "xor", "imm": "0x52079D6B" },
+      { "op": "sub", "imm": "0x067894B2" }
     ]
   },
 
