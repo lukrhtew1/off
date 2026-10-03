@@ -55,8 +55,8 @@
     "_displayName": "0x488",
     "playerInput": "0x4B8",
     "lifeState": "0x2B0",
-    "playerMovement": "0x548",
-    "modelState": "0x6f0",
+    "playerMovement": "0x608",
+    "modelState": "0x340",
     "lastSentTickTime": "0x698"
   },
 
@@ -94,7 +94,7 @@
   "PlayerModel": { "velocity": "0x4ac" },
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
   "PlayerInventory": { "containerBelt": "0x78", "containerWear": "0x58" },
-  "BaseViewModel": { "activeModels": "0x188", "animationEvent": "0xC0" },
+  "BaseViewModel": { "activeModels": "0xD8", "animationEvent": "0xC0" },
   "AnimationEvents": { "targetEntity": "0x20" },
 
   "Item": {
@@ -117,7 +117,7 @@
 
   "HeldEntity": {
     "ownerItemUID": "0x2E0",
-    "viewModel": "0x2e0",
+    "viewModel": "0x258",
     "magazine": "0x3E8",
     "primaryMagazine": "0x3E8"
   },
