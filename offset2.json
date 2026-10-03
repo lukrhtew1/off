@@ -6,10 +6,10 @@
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0x110E1178",
-  "BasePlayer_TypeInfo": "0x111918A0",
+  "BasePlayer_TypeInfo": "0x110E6AE8",
   "BaseViewModel_TypeInfo": "0x11128ac8",
   "BaseNetworkable_TypeInfo": "0x111038C0",
-  "LocalPlayer_TypeInfo": "0x10BAE2B8",
+  "LocalPlayer_TypeInfo": "0x1109E0D0",
   "ProjectileList": "0x10bbd5b0",        
   "ItemIconStatic_TypeInfo": "0x10c1a9d0",
   "GraphicsFOV": "0x110E4428",
@@ -37,7 +37,7 @@
   },
 
   "LocalPlayer": {
-	"_entity": "0xB0"
+	"_entity": "0x140"
   },
 
   "PlayerInput": {
@@ -45,15 +45,15 @@
   },
 
   "BasePlayer": {
-    "playerModel": "0x620",
+    "playerModel": "0x7E8",
     "PlayerFlags": "0x6E0",
     "BodyAngles": "0x44",
     "clActiveItem": "0x590",
     "currentTeam": "0x558",
     "eyes": "0x3F0",
-    "inventory": "0x308",
-    "_displayName": "0x738",
-    "playerInput": "0x3c0",
+    "inventory": "0x518",
+    "_displayName": "0x488",
+    "playerInput": "0x4B8",
     "lifeState": "0x2B0",
     "playerMovement": "0x548",
     "modelState": "0x6f0",
@@ -93,7 +93,7 @@
 
   "PlayerModel": { "velocity": "0x4ac" },
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x38", "containerWear": "0x78" },
+  "PlayerInventory": { "containerBelt": "0x78", "containerWear": "0x58" },
   "BaseViewModel": { "activeModels": "0x188", "animationEvent": "0xC0" },
   "AnimationEvents": { "targetEntity": "0x20" },
 
@@ -122,7 +122,7 @@
     "primaryMagazine": "0x3E8"
   },
 
-  "ItemContainer": { "itemList": "0x20" },
+  "ItemContainer": { "itemList": "0x68" },
 
   "ItemDefinition": {
     "itemid": "0x20",
