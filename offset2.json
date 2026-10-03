@@ -63,13 +63,13 @@
   "ModelState": { "flags": "0x14" },
 
   "PlayerMovement": {    
-    "spiderField": "0x108",   
+    "spiderField": "0x110",   
     "groundAngle": "0x108",
     "groundAngleNew": "0x110",
     "maxVelocity": "0x21C",
-    "targetMovement": "0x44",
+    "targetMovement": "0x30",
     "flying": "0x20C",
-    "gravityMultiplier": "0xa8"
+    "gravityMultiplier": "0xb0"
   },
 
   "NativeCamera": { "nativeCachedPtr": "0x10", "cullMask": "0x42C" },
@@ -93,7 +93,7 @@
 
   "PlayerModel": { "velocity": "0x4ac" },
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x78", "containerWear": "0x58" },
+  "PlayerInventory": { "containerBelt": "0x58", "containerWear": "0x60" },
   "BaseViewModel": { "activeModels": "0xD8", "animationEvent": "0xC0" },
   "AnimationEvents": { "targetEntity": "0x20" },
 
@@ -122,7 +122,7 @@
     "primaryMagazine": "0x3E8"
   },
 
-  "ItemContainer": { "itemList": "0x68" },
+  "ItemContainer": { "itemList": "0x10" },
 
   "ItemDefinition": {
     "itemid": "0x20",
@@ -138,15 +138,15 @@
   },
 
   "BaseProjectile": {
-    "automatic": "0x398",
-    "reloadTime": "0x3D8",
-    "aimSway": "0x400",
-    "aimSwaySpeed": "0x404",
-    "deployDelay": "0x2F0",
-    "repeatDelay": "0x2F4",
-    "animationDelay": "0x2F8",
-    "primaryMagazine": "0x3E8",
-    "projectileVelocityScale": "0x39C",
+    "automatic": "0x3a0",
+    "reloadTime": "0x3e0",
+    "aimSway": "0x408",
+    "aimSwaySpeed": "0x40c",
+    "deployDelay": "0x2f0",
+    "repeatDelay": "0x2f4",
+    "animationDelay": "0x2f8",
+    "primaryMagazine": "0x3e8",
+    "projectileVelocityScale": "0x39c",
     "instaBow_pullback": "0x4a8",
     "instaBow_pullbackTime": "0x4ac",
     "superEoka_charge": "0x4c0",
