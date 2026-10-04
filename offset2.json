@@ -215,7 +215,7 @@
       "program": [
         { "op": "rol", "imm": 4 },
         { "op": "add", "imm": "0x7C1CDD1D" },
-        { "op": "ror", "imm": 5 }
+        { "op": "rol", "imm": 27 }
       ]
     },
     "EntityList": {
@@ -224,7 +224,7 @@
       "program": [
         { "op": "sub", "imm": "0x5EA72894" },
         { "op": "xor", "imm": "0xC8B59642" },
-        { "op": "ror", "imm": 4 },
+        { "op": "rol", "imm": 28 },
         { "op": "add", "imm": "0x560FCEE8" }
       ]
     },
