@@ -234,7 +234,7 @@
       "program": [
         { "op": "rol", "imm": 4 },
         { "op": "add", "imm": "0x7C1CDD1D" },
-        { "op": "ror", "imm": 5 }
+        { "op": "rol", "imm": 27 }
       ]
     },
     "ActiveItem": {
