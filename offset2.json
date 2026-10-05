@@ -91,7 +91,36 @@
     "animationDelay": "0x2F8"
   },
 
-  "PlayerModel": { "velocity": "0x4ac" },
+  "PlayerModel": {
+    "velocity": "0x4ac",
+    "_multiMesh": "0x380"
+  },
+
+  "SkinnedMultiMesh": {
+    "renderers": "0x40",
+    "listItems": "0x10",
+    "listSize": "0x18",
+    "listFirst": "0x20"
+  },
+
+  "Renderer": {
+    "nativeCachedPtr": "0x10",
+    "materials": "0x140"
+  },
+
+  "ChamsMaterials": {
+    "red_glow_light": 87530,
+    "green_glow": 121190,
+    "red_glow": 121448,
+    "manpad_crt": 502412,
+    "glow_green": 276518,
+    "glow_red": 594272,
+    "wire_mesh": 1072300,
+    "ah_crt": 730322,
+    "tesla_glow": 1301308,
+    "disco_glow": 1145592
+  },
+
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
   "PlayerInventory": { "containerBelt": "0x78", "containerWear": "0x58" },
   "BaseViewModel": { "activeModels": "0xD8", "animationEvent": "0xC0" },
