@@ -241,7 +241,7 @@
       "readOffset": "0x0",
       "laneCount": 2,
       "program": [
-        { "op": "ror", "imm": 11 },
+        { "op": "rol", "imm": 21 },
         { "op": "sub", "imm": "0x3668A27B" },
         { "op": "xor", "imm": "0x25B3E47B" },
         { "op": "sub", "imm": "0x74898498" }
