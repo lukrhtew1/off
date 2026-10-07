@@ -146,7 +146,7 @@
 
   "HeldEntity": {
     "ownerItemUID": "0x2E8",
-    "viewModel": "0x258",
+    "viewModel": "0x2E0",
     "magazine": "0x3E8",
     "primaryMagazine": "0x3E8"
   },
