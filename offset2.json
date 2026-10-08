@@ -9,7 +9,7 @@
   "BasePlayer_TypeInfo": "0x110E6AE8",
   "BaseViewModel_TypeInfo": "0x1119f520",
   "BaseNetworkable_TypeInfo": "0x111c18a0",
-  "LocalPlayer_TypeInfo": "0x111C6F40",
+  "LocalPlayer_TypeInfo": "0x111D6FC8",
   "ProjectileList": "0x11211988",
   "ItemIconStatic_TypeInfo": "0x10c1a9d0",
   "GraphicsFOV": "0x110E4428",
@@ -37,7 +37,7 @@
   },
 
   "LocalPlayer": {
-    "_entity": "0x38"
+    "_entity": "0x28"
   },
 
   "PlayerInput": {
