@@ -286,6 +286,7 @@
         { "op": "add", "imm": "0x466EA300" }
       ]
     },
+    
     "Inventory": {
       "readOffset": "0x18",
       "laneCount": 2,
