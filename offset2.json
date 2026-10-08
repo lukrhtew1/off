@@ -16,7 +16,7 @@
   "FovWrapper": "0x3a4",
   "TODSky_TypeInfo": "0x1121d8d0",
   "TODSky_InstancePtr": "0x38",
-  "ClientEntities": "0x30",
+  "ClientEntities": "0x18",
   "EntityList": "0x18",
   "BufferListOffset": "0x18",
 
