@@ -247,14 +247,14 @@
         { "op": "rol", "imm": 8 }
       ]
     },
-    "EntityList": {
+   "EntityList": {
       "readOffset": "0x18",
       "laneCount": 2,
       "program": [
         { "op": "rol", "imm": 24 },
         { "op": "xor", "imm": "0x7D26BA97" },
         { "op": "add", "imm": "0xCBBCEEAE" },
-        { "op": "rol", "imm": 30 }
+        { "op": "rol", "imm": 2 }
       ]
     },
     "LocalPlayer": {
