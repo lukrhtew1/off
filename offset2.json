@@ -51,7 +51,7 @@
     "clActiveItem": "0x590",
     "currentTeam": "0x300",
     "eyes": "0x620",
-    "inventory": "0x518",
+    "inventory": "0x738",
     "_displayName": "0x568",
     "playerInput": "0x2E8",
     "lifeState": "0x2B0",
@@ -287,16 +287,14 @@
         { "op": "ror", "imm": 1 },
         { "op": "add", "imm": "0x466EA300" }
       ]
-    },
-    
+    }, 
     "Inventory": {
       "readOffset": "0x18",
       "laneCount": 2,
       "program": [
-        { "op": "ror", "imm": 9 },
-        { "op": "xor", "imm": "0x01F73D79" },
-        { "op": "add", "imm": "0x18AB70E6" },
-        { "op": "xor", "imm": "0x368FF21A" }
+        { "op": "rol", "imm": 24 },
+        { "op": "add", "imm": "0x1C5CAF19" },
+        { "op": "rol", "imm": 14 }
       ]
     },
     "FovEncrypt": {
