@@ -228,8 +228,8 @@
     "dayParams": "0x58",
     "nightParams": "0x60",
     "dayGradient": "0x28",
-    "dayAmbient": "0x40",
-    "nightAmbient": "0x48",
+    "dayAmbient": "0x58",
+    "nightAmbient": "0x54",
     "nightExposure": "0x50",
     "stars": "0x78",
     "clouds": "0x80"
