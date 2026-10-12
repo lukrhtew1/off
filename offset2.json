@@ -53,7 +53,7 @@
     "eyes": "0x620",
     "inventory": "0x738",
     "_displayName": "0x2E8",
-    "playerInput": "0x2E8",
+    "playerInput": "0x400",
     "lifeState": "0x2B0",
     "playerMovement": "0x328",
     "modelState": "0x318",
