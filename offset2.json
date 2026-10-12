@@ -15,7 +15,7 @@
   "GraphicsFOV": "0x110E4428",
   "FovWrapper": "0x3a4",
   "TODSky_TypeInfo": "0x111C5920",
-  "TODSky_InstancePtr": "0x98",
+  "TODSky_InstancePtr": "0xA0",
   "ClientEntities": "0x30",
   "EntityList": "0x18",
   "BufferListOffset": "0x10",
@@ -123,7 +123,7 @@
 
   
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x38", "containerWear": "0x60" },
+  "PlayerInventory": { "containerBelt": "0x60", "containerWear": "0x78" },
   "BaseViewModel": { "activeModels": "0x110", "animationEvent": "0xC0" },
   "AnimationEvents": { "targetEntity": "0x20" },
 
@@ -271,9 +271,9 @@
       "readOffset": "0x0",
       "laneCount": 2,
       "program": [
-        { "op": "rol", "imm": 24 },
-        { "op": "add", "imm": "0xC7B8E0DB" },
-        { "op": "rol", "imm": 22 }
+        { "op": "xor", "imm": "0x7E2722A2" },
+        { "op": "rol", "imm": 19 },
+        { "op": "xor", "imm": "0x7220FA08" }
       ]
     },
     "Eyes": {
