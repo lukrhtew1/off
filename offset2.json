@@ -5,7 +5,7 @@
   "BoneList": "0x20",
   "BoneTransform": "0x10",
   "Il2cppGetHandle": "0xD0D76CC",
-  "MainCamera_TypeInfo": "0x1119D9F8",
+  "MainCamera_TypeInfo": "0x1119d9f8",
   "BasePlayer_TypeInfo": "0x110E6AE8",
   "BaseViewModel_TypeInfo": "0x11152248",
   "BaseNetworkable_TypeInfo": "0x11209710",
@@ -21,7 +21,7 @@
   "BufferListOffset": "0x20",
 
   "MainCamera": {
-    "Camera": "0xB8",
+    "Camera": "0x48",
     "StaticCameras": ["0x90", "0x98", "0x58", "0xB0", "0xB8", "0x60"]
   },
 
@@ -129,7 +129,7 @@
 
   "Item": {
     "ItemDefinition": "0x58",
-    "uid": "0xA8",
+    "uid": "0x38",
     "condition": "0x7C",
     "amount": "0x80",
     "heldentity": "0xA8",
