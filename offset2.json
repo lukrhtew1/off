@@ -273,9 +273,10 @@
       "readOffset": "0x0",
       "laneCount": 2,
       "program": [
-        { "op": "xor", "imm": "0x7E2722A2" },
-        { "op": "rol", "imm": 19 },
-        { "op": "xor", "imm": "0x7220FA08" }
+        { "op": "rol", "imm": 1 },
+        { "op": "add", "imm": "0x7F2356A9" },
+        { "op": "rol", "imm": 9 },
+        { "op": "xor", "imm": "0x7E2591AB" }
       ]
     },
     "Eyes": {
