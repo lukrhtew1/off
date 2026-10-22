@@ -16,7 +16,7 @@
   "FovWrapper": "0x3a4",
   "TODSky_TypeInfo": "0x11235250",
   "TODSky_InstancePtr": "0x78",
-  "ClientEntities": "0x18",
+  "ClientEntities": "0x28",
   "EntityList": "0x18",
   "BufferListOffset": "0x20",
 
@@ -244,7 +244,7 @@
       "laneCount": 2,
       "program": [
         { "op": "sub", "imm": "0x49F666DD" },
-        { "op": "xor", "imm": "0x0023FE10" },
+        { "op": "xor", "imm": "0x0165993A" },
         { "op": "rol", "imm": 12 },
         { "op": "xor", "imm": "0x06EA51C6" }
       ]
@@ -263,7 +263,7 @@
       "laneCount": 2,
       "program": [
         { "op": "sub", "imm": "0x49F666DD" },
-        { "op": "xor", "imm": "0x0023FE10" },
+        { "op": "xor", "imm": "0x0165993A" },
         { "op": "rol", "imm": 12 },
         { "op": "xor", "imm": "0x06EA51C6" }
       ]
