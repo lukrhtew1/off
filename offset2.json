@@ -52,7 +52,7 @@
     "currentTeam": "0x368",
     "eyes": "0x620",
     "inventory": "0x5E0",
-    "_displayName": "0x3C8",
+    "_displayName": "0x6F8",
     "playerInput": "0x440",
     "lifeState": "0x2B0",
     "playerMovement": "0x550",
@@ -123,7 +123,7 @@
 
   
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x78", "containerWear": "0x58" },
+  "PlayerInventory": { "containerBelt": "0x38", "containerWear": "0x58" },
   "BaseViewModel": { "activeModels": "0x98", "animationEvent": "0xC0" },
   "AnimationEvents": { "targetEntity": "0x20" },
 
@@ -272,10 +272,10 @@
       "readOffset": "0x0",
       "laneCount": 2,
       "program": [
-        { "op": "rol", "imm": 1 },
-        { "op": "add", "imm": "0x7F2356A9" },
-        { "op": "rol", "imm": 9 },
-        { "op": "xor", "imm": "0x7E2591AB" }
+        { "op": "rol", "imm": 2 },
+        { "op": "xor", "imm": "0xEC201AFB" },
+        { "op": "add", "imm": "0x3D62F8BA" },
+        { "op": "rol", "imm": 16 }
       ]
     },
     "Eyes": {
