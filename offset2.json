@@ -123,13 +123,13 @@
 
   
   "PlayerEyes": { "viewOffset": "0x40", "eye_rotation": "0x6C", "body_rotation": "0x50" },
-  "PlayerInventory": { "containerBelt": "0x10", "containerWear": "0xB8" },
+  "PlayerInventory": { "containerBelt": "0x60", "containerWear": "0xB8" },
   "BaseViewModel": { "activeModels": "0x248", "animationEvent": "0xC0" },
   "AnimationEvents": { "targetEntity": "0x20" },
 
   "Item": {
     "ItemDefinition": "0x50",
-    "uid": "0x58",
+    "uid": "0x50",
     "condition": "0x7C",
     "amount": "0x80",
     "heldentity": "0x20",
@@ -152,7 +152,7 @@
     "primaryMagazine": "0x3E8"
   },
 
-  "ItemContainer": { "itemList": "0x28" },
+  "ItemContainer": { "itemList": "0x30" },
 
   "ItemDefinition": {
     "itemid": "0x20",
