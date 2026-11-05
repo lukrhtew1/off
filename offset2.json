@@ -53,9 +53,9 @@
     "eyes": "0x620",
     "inventory": "0x5E0",
     "_displayName": "0x308",
-    "playerInput": "0x440",
-    "lifeState": "0x2B0",
-    "playerMovement": "0x550",
+    "playerInput": "0x4E0",
+    "lifeState": "0x2C0",
+    "playerMovement": "0x518",
     "modelState": "0x318",
     "lastSentTickTime": "0x450"
   },
@@ -273,10 +273,9 @@
       "readOffset": "0x0",
       "laneCount": 2,
       "program": [
-        { "op": "rol", "imm": 2 },
-        { "op": "xor", "imm": "0xEC201AFB" },
-        { "op": "add", "imm": "0x3D62F8BA" },
-        { "op": "rol", "imm": 16 }
+        { "op": "rol", "imm": 5 },
+        { "op": "xor", "imm": "0xEC26A5DB" },
+        { "op": "rol", "imm": 15 }
       ]
     },
     "Eyes": {
