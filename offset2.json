@@ -16,9 +16,9 @@
   "FovWrapper": "0x3a4",
   "TODSky_TypeInfo": "0xF1B4790",
   "TODSky_InstancePtr": "0x10",
-  "ClientEntities": "0x28",
+  "ClientEntities": "0x20",
   "EntityList": "0x18",
-  "BufferListOffset": "0x20",
+  "BufferListOffset": "0x18",
 
   "MainCamera": {
     "Camera": "0xB0",
