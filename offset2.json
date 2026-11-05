@@ -243,29 +243,30 @@
       "readOffset": "0x18",
       "laneCount": 2,
       "program": [
-        { "op": "sub", "imm": "0x49F666DD" },
-        { "op": "xor", "imm": "0x0165993A" },
-        { "op": "rol", "imm": 12 },
-        { "op": "xor", "imm": "0x06EA51C6" }
+        { "op": "sub", "imm": "0x7BD330B0" },
+        { "op": "xor", "imm": "0x4627DFE2" },
+        { "op": "add", "imm": "0xED051152" },
+        { "op": "rol", "imm": 3 }
       ]
     },
     "EntityList": {
       "readOffset": "0x18",
       "laneCount": 2,
       "program": [
-        { "op": "add", "imm": "0x606A395C" },
-        { "op": "rol", "imm": 17 },
-        { "op": "sub", "imm": "0x380CDD1C" }
+        { "op": "xor", "imm": "0x847A09F1" },
+        { "op": "rol", "imm": 27 },
+        { "op": "xor", "imm": "0x54295B5C" },
+        { "op": "add", "imm": "0x7010689F" }
       ]
     },
     "LocalPlayer": {
       "readOffset": "0x18",
       "laneCount": 2,
       "program": [
-        { "op": "sub", "imm": "0x49F666DD" },
-        { "op": "xor", "imm": "0x0165993A" },
-        { "op": "rol", "imm": 12 },
-        { "op": "xor", "imm": "0x06EA51C6" }
+        { "op": "sub", "imm": "0x7BD330B0" },
+        { "op": "xor", "imm": "0x4627DFE2" },
+        { "op": "add", "imm": "0xED051152" },
+        { "op": "rol", "imm": 3 }
       ]
     },
     "ActiveItem": {
