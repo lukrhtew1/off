@@ -134,22 +134,22 @@
     "amount": "0x80",
     "heldentity": "0x20",
     "newrecoilproperties": "0x80",
-    "recoilproperties": "0x410",
+    "recoilproperties": "0x420",
     "RecoilYawMin": "0x18",
     "RecoilYawMax": "0x1C",
     "RecoilpitchMin": "0x20",
     "RecoilpitchMax": "0x24",
     "oAimconeCurveScale": "0x60",
-    "oAimCone": "0x420",
-    "oHipAimCone": "0x424",
-    "oAimconePenaltyPerShot": "0x428"
+    "oAimCone": "0x430",
+    "oHipAimCone": "0x434",
+    "oAimconePenaltyPerShot": "0x438"
   },
 
   "HeldEntity": {
     "ownerItemUID": "0x2E8",
     "viewModel": "0x268",
     "magazine": "0x3E8",
-    "primaryMagazine": "0x3E8"
+    "primaryMagazine": "0x3f8"
   },
 
   "ItemContainer": { "itemList": "0x30" },
