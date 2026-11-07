@@ -4,7 +4,7 @@
   "TransformDataOffset": "0x18",
   "BoneList": "0x20",
   "BoneTransform": "0x10",
-  "Il2cppGetHandle": "0x793BD0",
+  "Il2cppGetHandle": "0xD0D76CC",
   "MainCamera_TypeInfo": "0xF0C83A0",
   "BasePlayer_TypeInfo": "0xF116310",
   "BaseViewModel_TypeInfo": "0xF165040",
