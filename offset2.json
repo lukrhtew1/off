@@ -56,7 +56,7 @@
     "playerInput": "0x678",
     "lifeState": "0x2C0",
     "playerMovement": "0x590",
-    "modelState": "0x5e0",
+    "modelState": "0x4C0",
     "lastSentTickTime": "0x450"
   },
 
