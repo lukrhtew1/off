@@ -124,7 +124,7 @@
 
   "PlayerEyes": { "viewOffset": "0x58", "eye_rotation": "0x6C", "body_rotation": "0x1C" },
   "PlayerInventory": { "containerBelt": "0x60", "containerWear": "0x70" },
-  "BaseViewModel": { "activeModels": "0x268", "animationEvent": "0xC0" },
+  "BaseViewModel": { "activeModels": "0xD0", "animationEvent": "0xC0" },
   "AnimationEvents": { "targetEntity": "0x20" },
 
   "Item": {
