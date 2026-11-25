@@ -300,5 +300,11 @@
   "unity.rend_custom_props": "0x130",
   "unity.rend_materials": "0x140",
   "unity.rend_mat_size": "0x150",
-  "unity.rend_mat_capacity": "0x158"
+  "unity.rend_mat_capacity": "0x158",
+  "bmodel.party_access": "0x448",
+  "enum_item.id": "0x10",
+  "cs_string.length": "0x10",
+  "cs_string.chars": "0x14",
+  "party_access.parties": "0x18",
+  "parties.by_entity": "0x18"
 }
