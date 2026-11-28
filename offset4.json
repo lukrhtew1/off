@@ -1,6 +1,6 @@
 {
   "_note": "Rob Run offsets. Keys are struct.field. Hex or decimal. Unknown keys ignored; missing keys keep the built-in default.",
-  "_count": 307,
+  "_count": 310,
   "game.updaters": "0x20",
   "game.game_model": "0xD8",
   "gmodel.battle_model": "0x10",
@@ -36,6 +36,7 @@
   "character.customization_model": "0x230",
   "character.customization_version": "0x238",
   "character.look_direction": "0x70",
+  "character.shot_args": "0xF8",
   "character.fire_model": "0xC0",
   "character.move_input": "0xA8",
   "character.velocity": "0xB8",
@@ -308,5 +309,7 @@
   "party_access.parties": "0x18",
   "parties.by_entity": "0x18",
   "shot_interp.look_direction": "0x1C",
-  "shot_interp.shot_look_offset": "0x38"
+  "shot_interp.shot_look_offset": "0x38",
+  "shot_args.position": "0x10",
+  "shot_args.direction": "0x18"
 }
